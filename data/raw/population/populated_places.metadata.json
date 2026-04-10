@@ -1,0 +1,10 @@
+{
+  "csv_output": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/raw/population/populated_places.csv",
+  "min_population": 50000.0,
+  "note": "Population fields are used as a lightweight proxy for GPW/WorldPop raster demand.",
+  "num_places": 4215,
+  "population_sum": 2315824390.0,
+  "raw_output": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/raw/population/ne_10m_populated_places.geojson",
+  "source": "Natural Earth 10m populated places GeoJSON",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places.geojson"
+}

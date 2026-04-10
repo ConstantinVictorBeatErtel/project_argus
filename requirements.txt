@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+pyarrow
+PyYAML
+pulp
+skyfield
+h5py
+pytest
+certifi

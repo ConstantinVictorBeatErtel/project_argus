@@ -1,0 +1,536 @@
+{
+  "candidate_sites": [
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -54.0,
+      "longitude_deg": -78.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00000"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 54.0,
+      "longitude_deg": 102.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00001"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 0.0,
+      "longitude_deg": 12.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00002"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 36.0,
+      "longitude_deg": -78.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00003"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -30.0,
+      "longitude_deg": 138.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00004"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 18.0,
+      "longitude_deg": -162.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00005"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 54.0,
+      "longitude_deg": 0.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00006"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 6.0,
+      "longitude_deg": 66.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00007"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -6.0,
+      "longitude_deg": -42.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00008"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 66.0,
+      "longitude_deg": -150.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00009"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 18.0,
+      "longitude_deg": 144.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00010"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -30.0,
+      "longitude_deg": 42.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00011"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 18.0,
+      "longitude_deg": -120.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00012"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 6.0,
+      "longitude_deg": 108.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00013"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -30.0,
+      "longitude_deg": -12.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00014"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -12.0,
+      "longitude_deg": -78.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00015"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 30.0,
+      "longitude_deg": 36.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00016"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 18.0,
+      "longitude_deg": -18.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00017"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 48.0,
+      "longitude_deg": 156.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00018"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 66.0,
+      "longitude_deg": -60.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00019"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 36.0,
+      "longitude_deg": 72.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00020"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -36.0,
+      "longitude_deg": -48.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00021"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 72.0,
+      "longitude_deg": 54.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00022"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 18.0,
+      "longitude_deg": -54.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00023"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 6.0,
+      "longitude_deg": 174.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00024"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 42.0,
+      "longitude_deg": -132.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00025"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 30.0,
+      "longitude_deg": 120.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00026"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -18.0,
+      "longitude_deg": 114.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00027"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 0.0,
+      "longitude_deg": 42.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00028"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 42.0,
+      "longitude_deg": -168.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00029"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 30.0,
+      "longitude_deg": 6.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00030"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -6.0,
+      "longitude_deg": -12.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00031"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 12.0,
+      "longitude_deg": -78.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00032"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 72.0,
+      "longitude_deg": 138.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00033"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 54.0,
+      "longitude_deg": -102.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00034"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -42.0,
+      "longitude_deg": 114.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00035"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -24.0,
+      "longitude_deg": 12.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00036"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 24.0,
+      "longitude_deg": 96.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00037"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -12.0,
+      "longitude_deg": 150.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00038"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 30.0,
+      "longitude_deg": -102.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00039"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 30.0,
+      "longitude_deg": 168.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00040"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 48.0,
+      "longitude_deg": 48.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00041"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -54.0,
+      "longitude_deg": -36.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00042"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 42.0,
+      "longitude_deg": -54.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00043"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 0.0,
+      "longitude_deg": -60.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00044"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": -30.0,
+      "longitude_deg": -72.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00045"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 12.0,
+      "longitude_deg": -36.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00046"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 12.0,
+      "longitude_deg": 126.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00047"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 36.0,
+      "longitude_deg": -18.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00048"
+    },
+    {
+      "altitude_m": 0.0,
+      "backhaul_feasible": true,
+      "latitude_deg": 6.0,
+      "longitude_deg": 84.0,
+      "regulatory_allowed": true,
+      "site_id": "grid-00049"
+    }
+  ],
+  "epochs_utc": [
+    "2026-04-09T00:00:00Z",
+    "2026-04-09T00:05:00Z",
+    "2026-04-09T00:10:00Z",
+    "2026-04-09T00:15:00Z",
+    "2026-04-09T00:20:00Z",
+    "2026-04-09T00:25:00Z",
+    "2026-04-09T00:30:00Z",
+    "2026-04-09T00:35:00Z",
+    "2026-04-09T00:40:00Z",
+    "2026-04-09T00:45:00Z",
+    "2026-04-09T00:50:00Z",
+    "2026-04-09T00:55:00Z",
+    "2026-04-09T01:00:00Z",
+    "2026-04-09T01:05:00Z",
+    "2026-04-09T01:10:00Z",
+    "2026-04-09T01:15:00Z",
+    "2026-04-09T01:20:00Z",
+    "2026-04-09T01:25:00Z",
+    "2026-04-09T01:30:00Z",
+    "2026-04-09T01:35:00Z",
+    "2026-04-09T01:40:00Z",
+    "2026-04-09T01:45:00Z",
+    "2026-04-09T01:50:00Z",
+    "2026-04-09T01:55:00Z",
+    "2026-04-09T02:00:00Z",
+    "2026-04-09T02:05:00Z",
+    "2026-04-09T02:10:00Z",
+    "2026-04-09T02:15:00Z",
+    "2026-04-09T02:20:00Z",
+    "2026-04-09T02:25:00Z",
+    "2026-04-09T02:30:00Z",
+    "2026-04-09T02:35:00Z",
+    "2026-04-09T02:40:00Z",
+    "2026-04-09T02:45:00Z",
+    "2026-04-09T02:50:00Z",
+    "2026-04-09T02:55:00Z",
+    "2026-04-09T03:00:00Z",
+    "2026-04-09T03:05:00Z",
+    "2026-04-09T03:10:00Z",
+    "2026-04-09T03:15:00Z",
+    "2026-04-09T03:20:00Z",
+    "2026-04-09T03:25:00Z",
+    "2026-04-09T03:30:00Z",
+    "2026-04-09T03:35:00Z",
+    "2026-04-09T03:40:00Z",
+    "2026-04-09T03:45:00Z",
+    "2026-04-09T03:50:00Z",
+    "2026-04-09T03:55:00Z"
+  ],
+  "matrix_layout": "CSR rows=satellite_time columns=sites",
+  "min_elevation_deg": 25.0,
+  "num_satellites": 20,
+  "num_sites": 50,
+  "num_times": 48,
+  "row_order": "row = satellite_index * num_times + time_index",
+  "satellite_ids": [
+    "STARLINK-1008",
+    "STARLINK-1012",
+    "STARLINK-1017",
+    "STARLINK-1019",
+    "STARLINK-1020",
+    "STARLINK-1036",
+    "STARLINK-1039",
+    "STARLINK-1042",
+    "STARLINK-1043",
+    "STARLINK-1046",
+    "STARLINK-1047",
+    "STARLINK-1048",
+    "STARLINK-1063",
+    "STARLINK-1067",
+    "STARLINK-1068",
+    "STARLINK-1114",
+    "STARLINK-1123",
+    "STARLINK-1094",
+    "STARLINK-1122",
+    "STARLINK-1080"
+  ],
+  "site_ids": [
+    "grid-00000",
+    "grid-00001",
+    "grid-00002",
+    "grid-00003",
+    "grid-00004",
+    "grid-00005",
+    "grid-00006",
+    "grid-00007",
+    "grid-00008",
+    "grid-00009",
+    "grid-00010",
+    "grid-00011",
+    "grid-00012",
+    "grid-00013",
+    "grid-00014",
+    "grid-00015",
+    "grid-00016",
+    "grid-00017",
+    "grid-00018",
+    "grid-00019",
+    "grid-00020",
+    "grid-00021",
+    "grid-00022",
+    "grid-00023",
+    "grid-00024",
+    "grid-00025",
+    "grid-00026",
+    "grid-00027",
+    "grid-00028",
+    "grid-00029",
+    "grid-00030",
+    "grid-00031",
+    "grid-00032",
+    "grid-00033",
+    "grid-00034",
+    "grid-00035",
+    "grid-00036",
+    "grid-00037",
+    "grid-00038",
+    "grid-00039",
+    "grid-00040",
+    "grid-00041",
+    "grid-00042",
+    "grid-00043",
+    "grid-00044",
+    "grid-00045",
+    "grid-00046",
+    "grid-00047",
+    "grid-00048",
+    "grid-00049"
+  ],
+  "source": "tle_sgp4",
+  "units": "binary visibility"
+}

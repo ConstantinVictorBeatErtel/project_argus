@@ -1,0 +1,673 @@
+{
+  "assignments": [
+    {
+      "demand_weight": 1.5781695725851212,
+      "satellite_time_row": 13,
+      "service_cost": 0.0018875631529917441,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 1.0531317619601668,
+      "satellite_time_row": 33,
+      "service_cost": 0.002918237117611628,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 2.187169182052472,
+      "satellite_time_row": 60,
+      "service_cost": 0.0018067705658053738,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 0.8437917063843033,
+      "satellite_time_row": 80,
+      "service_cost": 0.002587513325570281,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 0.6991392878138676,
+      "satellite_time_row": 101,
+      "service_cost": 0.002901244364190172,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 0.794633631967173,
+      "satellite_time_row": 102,
+      "service_cost": 0.002057687967240636,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 4.4206473728948765,
+      "satellite_time_row": 123,
+      "service_cost": 0.0021724933425130563,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 1.2354947156138039,
+      "satellite_time_row": 141,
+      "service_cost": 0.002741508003018417,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 4.123449754302934,
+      "satellite_time_row": 142,
+      "service_cost": 0.0026747748248421165,
+      "site_index": 133
+    },
+    {
+      "demand_weight": 3.31481609741016,
+      "satellite_time_row": 143,
+      "service_cost": 0.002165957856050681,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 3.7262214847537476,
+      "satellite_time_row": 145,
+      "service_cost": 0.0012742898670755692,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 1.6243504878469452,
+      "satellite_time_row": 162,
+      "service_cost": 0.0014224432028260865,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 5.026623331839069,
+      "satellite_time_row": 163,
+      "service_cost": 0.0014054278507629268,
+      "site_index": 133
+    },
+    {
+      "demand_weight": 1.6327720340083942,
+      "satellite_time_row": 175,
+      "service_cost": 0.0017982411054975574,
+      "site_index": 160
+    },
+    {
+      "demand_weight": 8.273997298628672,
+      "satellite_time_row": 177,
+      "service_cost": 0.0016489513227381312,
+      "site_index": 23
+    },
+    {
+      "demand_weight": 1.679615667812366,
+      "satellite_time_row": 202,
+      "service_cost": 0.0029209534336261138,
+      "site_index": 133
+    },
+    {
+      "demand_weight": 4.3836088809082945,
+      "satellite_time_row": 206,
+      "service_cost": 0.0016053396088949999,
+      "site_index": 51
+    },
+    {
+      "demand_weight": 2.3513980989406384,
+      "satellite_time_row": 221,
+      "service_cost": 0.001638320086956207,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 0.8709994842584228,
+      "satellite_time_row": 243,
+      "service_cost": 0.0024455130298997965,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 0.8652873565029114,
+      "satellite_time_row": 262,
+      "service_cost": 0.0019736902411683376,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 1.0086445506868962,
+      "satellite_time_row": 281,
+      "service_cost": 0.002641024262436374,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 2.2489164457011244,
+      "satellite_time_row": 283,
+      "service_cost": 0.0022485389933934938,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 5.562504000671026,
+      "satellite_time_row": 290,
+      "service_cost": 0.0026546078784224704,
+      "site_index": 133
+    },
+    {
+      "demand_weight": 3.768920990430609,
+      "satellite_time_row": 291,
+      "service_cost": 0.002332897076184848,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 1.1674715898249872,
+      "satellite_time_row": 293,
+      "service_cost": 0.0032299069972350674,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 7.808715069401251,
+      "satellite_time_row": 294,
+      "service_cost": 0.0030786510308517543,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 3.8983077093146923,
+      "satellite_time_row": 309,
+      "service_cost": 0.0017988019997128106,
+      "site_index": 49
+    },
+    {
+      "demand_weight": 1.7053136489807497,
+      "satellite_time_row": 313,
+      "service_cost": 0.0021406681436621773,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 1.3784444271842136,
+      "satellite_time_row": 329,
+      "service_cost": 0.0017872638661879296,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 5.413678177091514,
+      "satellite_time_row": 341,
+      "service_cost": 0.0019045168168707943,
+      "site_index": 134
+    },
+    {
+      "demand_weight": 1.0776293598607476,
+      "satellite_time_row": 345,
+      "service_cost": 0.0022111270438490527,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 3.778711650376286,
+      "satellite_time_row": 346,
+      "service_cost": 0.0016330094061558873,
+      "site_index": 49
+    },
+    {
+      "demand_weight": 16.457691236358773,
+      "satellite_time_row": 360,
+      "service_cost": 0.001629699214124743,
+      "site_index": 47
+    },
+    {
+      "demand_weight": 7.539202420760746,
+      "satellite_time_row": 378,
+      "service_cost": 0.002078512717366084,
+      "site_index": 128
+    },
+    {
+      "demand_weight": 1.4524259556267523,
+      "satellite_time_row": 387,
+      "service_cost": 0.002456372389808106,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 3.173280207632722,
+      "satellite_time_row": 391,
+      "service_cost": 0.0020215973256660657,
+      "site_index": 51
+    },
+    {
+      "demand_weight": 2.0572882465965803,
+      "satellite_time_row": 406,
+      "service_cost": 0.002357182675952796,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 5.742255088862536,
+      "satellite_time_row": 427,
+      "service_cost": 0.0016489396162345461,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 3.1368592389033694,
+      "satellite_time_row": 437,
+      "service_cost": 0.0016557347834851449,
+      "site_index": 133
+    },
+    {
+      "demand_weight": 2.3105787747488717,
+      "satellite_time_row": 438,
+      "service_cost": 0.002610697496044393,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 5.361694705163003,
+      "satellite_time_row": 441,
+      "service_cost": 0.002515910649085296,
+      "site_index": 51
+    },
+    {
+      "demand_weight": 1.9628811626693232,
+      "satellite_time_row": 456,
+      "service_cost": 0.002132239053898143,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 1.1766002317190116,
+      "satellite_time_row": 475,
+      "service_cost": 0.0024976737488219478,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 1.0976309908813318,
+      "satellite_time_row": 487,
+      "service_cost": 0.0030143350929722605,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 2.870485101659585,
+      "satellite_time_row": 489,
+      "service_cost": 0.003222506247464225,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 0.7886670885067067,
+      "satellite_time_row": 507,
+      "service_cost": 0.0020729339067358226,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 1.8857820944271066,
+      "satellite_time_row": 526,
+      "service_cost": 0.002028689227333627,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 2.668765235577919,
+      "satellite_time_row": 527,
+      "service_cost": 0.002556203620059882,
+      "site_index": 49
+    },
+    {
+      "demand_weight": 2.1355230242907965,
+      "satellite_time_row": 541,
+      "service_cost": 0.0026102331041369543,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 0.7233344754766629,
+      "satellite_time_row": 559,
+      "service_cost": 0.0021687547942463793,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 6.90961394353007,
+      "satellite_time_row": 560,
+      "service_cost": 0.0024753273568217985,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 2.9845298634059487,
+      "satellite_time_row": 588,
+      "service_cost": 0.0029816981753423566,
+      "site_index": 49
+    },
+    {
+      "demand_weight": 5.579931292445452,
+      "satellite_time_row": 589,
+      "service_cost": 0.0032323954945102183,
+      "site_index": 69
+    },
+    {
+      "demand_weight": 5.218730160885134,
+      "satellite_time_row": 592,
+      "service_cost": 0.002509262169414403,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 0.8858586985635154,
+      "satellite_time_row": 608,
+      "service_cost": 0.0024459277455137606,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 3.7361010497681444,
+      "satellite_time_row": 624,
+      "service_cost": 0.001564721197120747,
+      "site_index": 49
+    },
+    {
+      "demand_weight": 3.0761043958992054,
+      "satellite_time_row": 628,
+      "service_cost": 0.0015257369114512966,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 2.7599058930170792,
+      "satellite_time_row": 643,
+      "service_cost": 0.0016090599357343573,
+      "site_index": 198
+    },
+    {
+      "demand_weight": 1.051561632103077,
+      "satellite_time_row": 676,
+      "service_cost": 0.0013439932397006278,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 1.0400613396771408,
+      "satellite_time_row": 695,
+      "service_cost": 0.0023792424113086344,
+      "site_index": 121
+    },
+    {
+      "demand_weight": 3.2045145573046225,
+      "satellite_time_row": 716,
+      "service_cost": 0.0014437023151323844,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 7.642866614746131,
+      "satellite_time_row": 720,
+      "service_cost": 0.0018867031830588114,
+      "site_index": 177
+    },
+    {
+      "demand_weight": 3.1120948196840734,
+      "satellite_time_row": 721,
+      "service_cost": 0.0016877603162408546,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 10.799220640348995,
+      "satellite_time_row": 724,
+      "service_cost": 0.0018162418397755357,
+      "site_index": 134
+    },
+    {
+      "demand_weight": 4.596719268663557,
+      "satellite_time_row": 738,
+      "service_cost": 0.001349549655280552,
+      "site_index": 51
+    },
+    {
+      "demand_weight": 10.82650080111695,
+      "satellite_time_row": 739,
+      "service_cost": 0.002153549776615899,
+      "site_index": 9
+    },
+    {
+      "demand_weight": 5.36578890451482,
+      "satellite_time_row": 740,
+      "service_cost": 0.0024534217401305505,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 15.327273578559186,
+      "satellite_time_row": 743,
+      "service_cost": 0.002246554384750921,
+      "site_index": 175
+    },
+    {
+      "demand_weight": 0.403413926663971,
+      "satellite_time_row": 757,
+      "service_cost": 0.002413641005034577,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 12.996488819172257,
+      "satellite_time_row": 758,
+      "service_cost": 0.0018173214847931358,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 6.604927506632272,
+      "satellite_time_row": 759,
+      "service_cost": 0.001822275677110367,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 3.18712052124976,
+      "satellite_time_row": 761,
+      "service_cost": 0.0019120134581753513,
+      "site_index": 128
+    },
+    {
+      "demand_weight": 2.848193100690898,
+      "satellite_time_row": 763,
+      "service_cost": 0.0017081887757710245,
+      "site_index": 160
+    },
+    {
+      "demand_weight": 7.547108977089374,
+      "satellite_time_row": 777,
+      "service_cost": 0.0017801680962844012,
+      "site_index": 177
+    },
+    {
+      "demand_weight": 2.498462713838122,
+      "satellite_time_row": 778,
+      "service_cost": 0.0022836808991992513,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 9.220254356458234,
+      "satellite_time_row": 781,
+      "service_cost": 0.002012405175459647,
+      "site_index": 23
+    },
+    {
+      "demand_weight": 7.029877982692623,
+      "satellite_time_row": 797,
+      "service_cost": 0.0028449332316665137,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 2.133259171543432,
+      "satellite_time_row": 798,
+      "service_cost": 0.002290437485885861,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 12.11150323945895,
+      "satellite_time_row": 800,
+      "service_cost": 0.001715901020332915,
+      "site_index": 47
+    },
+    {
+      "demand_weight": 3.263047308306961,
+      "satellite_time_row": 815,
+      "service_cost": 0.001857156985966751,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 5.540959609700414,
+      "satellite_time_row": 830,
+      "service_cost": 0.0020617251840422592,
+      "site_index": 51
+    },
+    {
+      "demand_weight": 9.62350531015392,
+      "satellite_time_row": 831,
+      "service_cost": 0.002402913775923255,
+      "site_index": 9
+    },
+    {
+      "demand_weight": 4.284087452028512,
+      "satellite_time_row": 832,
+      "service_cost": 0.0023466337928787014,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 14.949985720772967,
+      "satellite_time_row": 835,
+      "service_cost": 0.0030384162870080444,
+      "site_index": 175
+    },
+    {
+      "demand_weight": 12.105753644645617,
+      "satellite_time_row": 850,
+      "service_cost": 0.0018701546659994905,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 6.743745335789234,
+      "satellite_time_row": 851,
+      "service_cost": 0.0021258204288802525,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 1.4431340136510584,
+      "satellite_time_row": 852,
+      "service_cost": 0.00239569076141554,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 3.280718505808064,
+      "satellite_time_row": 853,
+      "service_cost": 0.00250451217923797,
+      "site_index": 128
+    },
+    {
+      "demand_weight": 3.8114047009554874,
+      "satellite_time_row": 855,
+      "service_cost": 0.001809903429756124,
+      "site_index": 160
+    },
+    {
+      "demand_weight": 8.491449471112247,
+      "satellite_time_row": 872,
+      "service_cost": 0.0024445168573425428,
+      "site_index": 9
+    },
+    {
+      "demand_weight": 3.5911373775326165,
+      "satellite_time_row": 873,
+      "service_cost": 0.0018509557965284938,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 12.735089289443492,
+      "satellite_time_row": 876,
+      "service_cost": 0.0028088847335048495,
+      "site_index": 134
+    },
+    {
+      "demand_weight": 1.178215496542238,
+      "satellite_time_row": 890,
+      "service_cost": 0.0028249430025531616,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 13.08155030384344,
+      "satellite_time_row": 891,
+      "service_cost": 0.001701660822189217,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 6.619120342564047,
+      "satellite_time_row": 892,
+      "service_cost": 0.0019419696882799417,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 1.4720184200380855,
+      "satellite_time_row": 893,
+      "service_cost": 0.002591533237105735,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 5.215462573675177,
+      "satellite_time_row": 895,
+      "service_cost": 0.0030596288786870515,
+      "site_index": 175
+    },
+    {
+      "demand_weight": 2.2285346046214074,
+      "satellite_time_row": 896,
+      "service_cost": 0.0026179860669721844,
+      "site_index": 160
+    },
+    {
+      "demand_weight": 1.7889377083037925,
+      "satellite_time_row": 910,
+      "service_cost": 0.0029117010203751526,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 8.285175007555818,
+      "satellite_time_row": 912,
+      "service_cost": 0.0020448055199214477,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 7.1990482606724555,
+      "satellite_time_row": 913,
+      "service_cost": 0.002879143706969627,
+      "site_index": 65
+    },
+    {
+      "demand_weight": 2.4119931198958793,
+      "satellite_time_row": 914,
+      "service_cost": 0.0014529501475775953,
+      "site_index": 132
+    },
+    {
+      "demand_weight": 3.9755190279089407,
+      "satellite_time_row": 917,
+      "service_cost": 0.0025951710076458964,
+      "site_index": 160
+    },
+    {
+      "demand_weight": 1.7464357705742042,
+      "satellite_time_row": 931,
+      "service_cost": 0.0028804652185308644,
+      "site_index": 137
+    },
+    {
+      "demand_weight": 2.0021685804584224,
+      "satellite_time_row": 948,
+      "service_cost": 0.0017079049694058474,
+      "site_index": 186
+    },
+    {
+      "demand_weight": 13.017014301334356,
+      "satellite_time_row": 951,
+      "service_cost": 0.002021190957298136,
+      "site_index": 114
+    },
+    {
+      "demand_weight": 7.49747940455344,
+      "satellite_time_row": 952,
+      "service_cost": 0.0016945928425072425,
+      "site_index": 177
+    }
+  ],
+  "coverage_fraction": 0.5003377068125371,
+  "covered_demand": 480.3241985400355,
+  "num_assignments": 107,
+  "objective_value": 19.235134895569807,
+  "selected_sites": [
+    9,
+    23,
+    47,
+    49,
+    51,
+    65,
+    69,
+    114,
+    121,
+    128,
+    132,
+    133,
+    134,
+    137,
+    160,
+    175,
+    177,
+    186,
+    198
+  ],
+  "status": "Optimal",
+  "total_demand": 959.9999999999999
+}

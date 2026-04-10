@@ -1,0 +1,69 @@
+{
+  "artifacts": {
+    "backhaul_mask_csv": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/backhaul_mask.csv",
+    "backhaul_points": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/raw/backhaul/ixp_fiber_points.csv",
+    "candidates_file": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/raw/candidates/ground_station_candidates.csv",
+    "demand_npy": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/demand.npy",
+    "demand_parquet": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/demand.parquet",
+    "optimization_result_json": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/optimization_result.json",
+    "positions_h5": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/positions.h5",
+    "range_npz": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/slant_range.npz",
+    "service_cost_npz": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/service_cost.npz",
+    "tle_file": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/raw/tle/celestrak_tles.txt",
+    "visibility_npz": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus/data/processed/visibility.npz"
+  },
+  "commands": [
+    {
+      "command": "python3 -B scripts/build_candidate_grid.py --max-sites 50 --lat-step 8 --lon-step 8",
+      "name": "candidate_grid"
+    },
+    {
+      "command": "python3 -B scripts/build_proxy_backhaul.py",
+      "name": "proxy_backhaul"
+    },
+    {
+      "command": "python3 -B scripts/download_tle.py --limit 20 --timeout 30",
+      "name": "download_tle"
+    },
+    {
+      "command": "python3 -B scripts/build_backhaul_mask.py --max-distance-km 20000.0 --candidate-limit 50",
+      "name": "backhaul_mask"
+    },
+    {
+      "command": "python3 -B scripts/build_visibility_tensor.py --backhaul-mask-csv data/processed/backhaul_mask.csv --range-output data/processed/slant_range.npz --positions-h5-output data/processed/positions.h5 --candidate-limit 50 --satellite-limit 20 --min-elevation-deg 25.0",
+      "name": "visibility"
+    },
+    {
+      "command": "python3 -B scripts/build_service_cost.py",
+      "name": "service_cost"
+    },
+    {
+      "command": "python3 -B scripts/build_demand.py",
+      "name": "demand"
+    },
+    {
+      "command": "python3 -B scripts/run_optimization.py --visibility-npz data/processed/visibility.npz --visibility-metadata data/processed/visibility_metadata.json --backhaul-mask-csv data/processed/backhaul_mask.csv --service-cost-npz data/processed/service_cost.npz --demand-npy data/processed/demand.npy --coverage 0.14 --max-sites 20 --time-limit 120 --mip-gap 0.005 --output-json data/processed/optimization_result.json",
+      "name": "optimization"
+    }
+  ],
+  "created_at_utc": "2026-04-10T03:36:10.724068Z",
+  "git_commit": "7a545d2f4f53da97873affdbf4d8fbda2061a691",
+  "notes": [
+    "Generated proxy candidate and backhaul inputs; not authoritative deployment data.",
+    "Uniform demand baseline; GPW demand not yet integrated."
+  ],
+  "parameters": {
+    "backhaul_distance_km": 20000.0,
+    "candidate_limit": 50,
+    "coverage": 0.14,
+    "duration_hours": 4,
+    "max_sites": 20,
+    "min_elevation_deg": 25.0,
+    "satellite_limit": 20,
+    "step_seconds": 300
+  },
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "project_root": "/Users/ConstiX/Downloads/ml2_mini_project_jepa/project_argus",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "run_name": "phase1_proxy_tle_run"
+}

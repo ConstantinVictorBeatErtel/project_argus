@@ -1,0 +1,130 @@
+project:
+  name: satellite-gs-optimizer
+  random_seed: 42
+  timezone: UTC
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  tle_file: data/raw/tle/celestrak_tles.txt
+  tle_metadata: data/raw/tle/celestrak_tles.metadata.json
+  candidates_file: data/raw/candidates/ground_station_candidates.csv
+  gpw_raster: data/raw/population/gpw_population_density.tif
+  population_points_csv: data/raw/population/populated_places.csv
+  population_points_metadata: data/raw/population/populated_places.metadata.json
+  backhaul_points: data/raw/backhaul/ixp_fiber_points.csv
+  starlink_truth: data/raw/ground_truth/starlink_gateway_truth.csv
+  positions_h5: data/processed/positions.h5
+  ecef_positions_h5: data/processed/positions.h5
+  visibility_npz: data/processed/visibility.npz
+  range_npz: data/processed/slant_range.npz
+  service_cost_npz: data/processed/service_cost.npz
+  visibility_metadata: data/processed/visibility_metadata.json
+  demand_parquet: data/processed/demand.parquet
+  demand_npy: data/processed/demand.npy
+  population_demand_parquet: data/processed/demand_population_proxy.parquet
+  population_demand_npy: data/processed/demand_population_proxy.npy
+  backhaul_mask_csv: data/processed/backhaul_mask.csv
+  optimization_result_json: data/processed/optimization_result.json
+  run_manifest_json: data/processed/run_manifest.json
+  pareto_frontier_csv: data/processed/pareto_frontier.csv
+  pareto_frontier_json: data/processed/pareto_frontier.json
+  pareto_frontier_200_csv: data/processed/pareto_frontier_200.csv
+  pareto_frontier_200_json: data/processed/pareto_frontier_200.json
+  pareto_frontier_html: data/processed/pareto_frontier.html
+  sensitivity_results_csv: data/processed/sensitivity_results.csv
+  sensitivity_results_json: data/processed/sensitivity_results.json
+  sensitivity_results_population_proxy_csv: data/processed/sensitivity_results_population_proxy.csv
+  sensitivity_results_population_proxy_json: data/processed/sensitivity_results_population_proxy.json
+  sensitivity_coverage_html: data/processed/sensitivity_coverage.html
+  sensitivity_coverage_population_proxy_html: data/processed/sensitivity_coverage_population_proxy.html
+  selected_sites_50_html: data/processed/selected_sites_50.html
+  selected_sites_200_html: data/processed/selected_sites_200.html
+  selected_sites_population_proxy_html: data/processed/selected_sites_population_proxy.html
+  optimization_result_population_proxy_json: data/processed/optimization_result_population_proxy.json
+  selected_site_comparison_uniform_vs_population_csv: data/processed/selected_site_comparison_uniform_vs_population.csv
+  selected_site_comparison_uniform_vs_population_json: data/processed/selected_site_comparison_uniform_vs_population.json
+  selected_site_comparison_uniform_vs_population_html: data/processed/selected_site_comparison_uniform_vs_population.html
+
+time_grid:
+  start_utc: "2026-04-09T00:00:00Z"
+  duration_hours: 4
+  step_seconds: 300
+  include_endpoint: false
+
+scenario:
+  satellite_limit: 20
+  candidate_limit: 50
+  min_site_separation_km: 50.0
+
+propagation:
+  engine: skyfield_sgp4
+  output_frame: itrs_ecef
+  position_dtype: float32
+  hdf5_compression: gzip
+  hdf5_compression_level: 4
+
+visibility:
+  min_elevation_deg: 25.0
+  earth_model: WGS84
+  tensor_layout: satellite_time_by_site_csr
+  flattened_row_order: row = satellite_index * num_times + time_index
+  site_chunk_size: 16
+  time_chunk_size: 12
+  sparse_dtype: uint8
+  distance_dtype: float32
+
+demand:
+  model: gpw_ground_track_convolution
+  kernel_radius_km: 250.0
+  population_floor: 1.0
+  output_units: normalized_relay_weight
+  uniform_baseline: true
+
+latency:
+  alpha: 1.0
+  beta: 1.0
+  speed_of_light_km_s: 299792.458
+  default_queue_delay_s: 0.0
+
+backhaul:
+  max_distance_to_backbone_km: 75.0
+  enforce_preprocessing_mask: true
+
+regulatory:
+  min_distance_to_exclusion_zone_km: 25.0
+  exclusion_zones_file: data/raw/itu_exclusion_zones.geojson
+
+optimization:
+  solver: pulp
+  coverage_requirement: 0.9
+  max_ground_stations: 20
+  station_fixed_cost_weight: 1.0
+  latency_weight: 1.0
+  unmet_demand_penalty: 1000.0
+  mip_gap: 0.005
+  time_limit_seconds: 600
+
+rolling_horizon:
+  enabled: false
+  horizon_hours: 4
+  overlap_hours: 1
+  stitch_continuity: true
+
+pareto:
+  epsilon_grid:
+    - 0.80
+    - 0.85
+    - 0.90
+    - 0.95
+    - 1.00
+
+validation:
+  heavens_above_reference: data/raw/heavens_above_iss_passes.csv
+  max_visibility_time_error_seconds: 60
+  lp_gap_threshold: 0.05
+  require_zero_constraint_violations: true
+
+logging:
+  level: INFO
+  format: "%(asctime)s %(levelname)s %(name)s - %(message)s"
