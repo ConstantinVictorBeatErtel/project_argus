@@ -49,7 +49,7 @@ notebooks/
 
 ## Where We Are
 
-Phase 1 foundation is underway. The overarching plan remains valid, but the project narrative has been updated: the proxy experiment should not be judged against a fixed 90% coverage promise. Coverage is an output of the scenario assumptions, and the central question is the tradeoff between cost, coverage, latency, and feasible infrastructure.
+Phase 2 is now complete. The project has moved from a Phase 1 proxy foundation into a full demand-and-constraints workflow with raster-backed population demand, backhaul preprocessing, and explicit baseline comparisons against uniform demand.
 
 Completed:
 
@@ -84,6 +84,13 @@ Completed:
   - ECEF-to-WGS84 subpoint conversion
   - Gaussian city-population kernel demand weighting
   - normalized solver vector at `data/processed/demand_population_proxy.npy`
+- Added raster demand tooling for a full Phase 2 run:
+  - `scripts/download_population_raster.py`
+  - WorldPop global 1km constrained raster metadata loading
+  - windowed raster demand convolution in `src/simulation/demand.py`
+  - `population-raster` mode in `scripts/build_demand.py`
+  - coverage comparison utilities in `src/evaluation/coverage_metrics.py`
+  - `scripts/evaluate_phase2.py` for uniform-vs-raster comparison artifacts
 - Added `scripts/build_service_cost.py` to convert sparse slant range into sparse propagation-delay service costs.
 - Wired optional `backhaul_mask.csv` support into visibility precomputation and the MILP CLI.
 - Added `scripts/create_synthetic_instance.py` to generate deterministic toy candidates, backhaul points, and ECEF positions for full pipeline checks.
@@ -167,6 +174,40 @@ Completed:
   - comparison table saved to `data/processed/selected_site_comparison_uniform_vs_population.csv`
   - comparison summary saved to `data/processed/selected_site_comparison_uniform_vs_population.json`
   - comparison map saved to `data/processed/selected_site_comparison_uniform_vs_population.html`
+- Completed a full Phase 2 raster-backed demand run:
+  - population source: WorldPop global 1km constrained raster for 2024
+  - raster downloaded to `data/raw/population/worldpop_2024_1km_constrained.tif`
+  - raster demand vector saved to `data/processed/demand_population_raster.npy` and `.parquet`
+  - raster sensitivity saved to `data/processed/sensitivity_results_population_raster.csv` and `.json`
+  - raster sensitivity chart saved to `data/processed/sensitivity_coverage_population_raster.html`
+  - at 0 degrees and 30 stations, raster-weighted demand coverage reached 0.999513
+  - at 10 degrees and 30 stations, raster-weighted demand coverage reached 0.983929
+  - at 25 degrees and 20 stations, raster-weighted demand coverage reached 0.614440
+  - at 25 degrees and 30 stations, raster-weighted demand coverage reached 0.715078
+  - demand-weighted visibility upper bound at 25 degrees was 0.883803
+- Solved a raster-demand 25-degree exact optimization target:
+  - target coverage: 0.50
+  - max stations: 20
+  - status: optimal
+  - achieved weighted demand coverage: 0.500636
+  - selected 13 sites
+  - result saved to `data/processed/optimization_result_population_raster.json`
+  - map saved to `data/processed/selected_sites_population_raster.html`
+- Compared selected-site geography for the 25-degree, 20-station uniform-vs-raster max-coverage runs:
+  - overlap count: 0
+  - Jaccard similarity: 0.0
+  - all 20 selected sites under uniform demand differ from the 20 selected sites under raster demand
+  - comparison table saved to `data/processed/selected_site_comparison_uniform_vs_raster.csv`
+  - comparison summary saved to `data/processed/selected_site_comparison_uniform_vs_raster.json`
+  - comparison map saved to `data/processed/selected_site_comparison_uniform_vs_raster.html`
+- Added a dedicated Phase 2 comparison artifact set:
+  - `data/processed/phase2_comparison.csv`
+  - `data/processed/phase2_comparison.json`
+  - `data/processed/phase2_comparison.md`
+  - target-scenario result: at 25 degrees and 20 stations, raster demand raises achieved coverage from 0.209375 to 0.614440, an absolute gain of 0.405065 and a relative multiplier of 2.934640
+- Wrote a dedicated Phase 2 run manifest:
+  - `data/processed/phase2_run_manifest.json`
+  - records the WorldPop download, raster demand build, sensitivity run, target optimization, selection comparison, and evaluation commands
 - Added focused tests for visibility geometry, feasibility masking, and small exact MILP feasibility.
 
 Important Phase 1 caveat:
@@ -195,6 +236,7 @@ Available locally:
 - `pandas`
 - `pulp`
 - `PyYAML`
+- `rasterio`
 - `skyfield`
 - `h5py`
 - `pytest`
@@ -205,13 +247,12 @@ The code still imports `skyfield` and `h5py` lazily so lightweight geometry and 
 
 Immediate next steps:
 
-1. Use `docs/report_outline.md` as the skeleton for the class report.
-2. Turn `docs/related_work.md` into 1-2 polished report paragraphs that explicitly connect facility location, maximum coverage, and satellite ground-station optimization.
-3. Add static image export for the visualizations if needed, via `kaleido` or a matplotlib fallback.
-4. Add Heavens-Above ISS regression data if reliable pass-window data becomes available.
+1. Turn `docs/report_outline.md` into the final class report prose.
+2. Export a few static figures from the HTML artifacts for slides/report embedding.
+3. Add Heavens-Above ISS regression data if reliable pass-window data becomes available.
+4. Decide whether to spend remaining time on Starlink gateway geography validation or on rolling-horizon scaling.
 
 Later phases:
 
-- Phase 2: GPW demand, backhaul filtering, uniform-vs-population demand comparison.
 - Phase 3: 24-hour sparse scaling, rolling-horizon decomposition, runtime and MIP-gap comparison.
 - Phase 4: Pareto sweep, Starlink gateway clustering validation, sensitivity/disruption scenarios.

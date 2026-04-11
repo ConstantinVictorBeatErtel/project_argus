@@ -1,0 +1,71 @@
+{
+  "artifacts": {
+    "optimization_result_population_raster_json": "data/processed/optimization_result_population_raster.json",
+    "phase2_comparison_csv": "data/processed/phase2_comparison.csv",
+    "phase2_comparison_json": "data/processed/phase2_comparison.json",
+    "phase2_comparison_md": "data/processed/phase2_comparison.md",
+    "population_raster": "data/raw/population/worldpop_2024_1km_constrained.tif",
+    "population_raster_demand_npy": "data/processed/demand_population_raster.npy",
+    "population_raster_demand_parquet": "data/processed/demand_population_raster.parquet",
+    "population_raster_metadata": "data/raw/population/worldpop_2024_1km_constrained.metadata.json",
+    "selected_site_comparison_uniform_vs_raster_json": "data/processed/selected_site_comparison_uniform_vs_raster.json",
+    "sensitivity_results_population_raster_csv": "data/processed/sensitivity_results_population_raster.csv",
+    "sensitivity_results_population_raster_json": "data/processed/sensitivity_results_population_raster.json"
+  },
+  "commands": [
+    {
+      "command": "python3 -B scripts/download_population_raster.py",
+      "name": "download_population_raster"
+    },
+    {
+      "command": "python3 -B scripts/build_demand.py --model population-raster --visibility-metadata data/processed/visibility_metadata_200.json --population-raster data/raw/population/worldpop_2024_1km_constrained.tif --satellite-limit 20 --kernel-radius-km 250 --support-multiplier 3.0 --population-exponent 1.0 --floor-weight 0.05 --parquet-output data/processed/demand_population_raster.parquet --npy-output data/processed/demand_population_raster.npy",
+      "name": "build_population_raster_demand"
+    },
+    {
+      "command": "python3 -B scripts/run_sensitivity.py --candidate-limit 200 --backhaul-mask-csv data/processed/backhaul_mask.csv --demand-npy data/processed/demand_population_raster.npy --elevations 0,10,25 --budgets 5,10,15,20,30 --time-limit 120 --mip-gap 0.005 --output-dir data/processed/sensitivity_population_raster --output-csv data/processed/sensitivity_results_population_raster.csv --output-json data/processed/sensitivity_results_population_raster.json",
+      "name": "raster_sensitivity"
+    },
+    {
+      "command": "python3 -B scripts/run_optimization.py --visibility-npz data/processed/visibility_200.npz --service-cost-npz data/processed/service_cost_200.npz --demand-npy data/processed/demand_population_raster.npy --backhaul-mask-csv data/processed/backhaul_mask.csv --visibility-metadata data/processed/visibility_metadata_200.json --coverage 0.5 --max-sites 20 --time-limit 120 --mip-gap 0.005 --output-json data/processed/optimization_result_population_raster.json",
+      "name": "raster_target_optimization"
+    },
+    {
+      "command": "python3 -B scripts/compare_selected_sites.py --metadata data/processed/visibility_metadata_200.json --left-csv data/processed/sensitivity_results.csv --right-csv data/processed/sensitivity_results_population_raster.csv --elevation 25 --budget 20 --left-label uniform --right-label raster --output-csv data/processed/selected_site_comparison_uniform_vs_raster.csv --output-json data/processed/selected_site_comparison_uniform_vs_raster.json --output-html data/processed/selected_site_comparison_uniform_vs_raster.html",
+      "name": "uniform_vs_raster_selection"
+    },
+    {
+      "command": "python3 -B scripts/evaluate_phase2.py --left-csv data/processed/sensitivity_results.csv --right-csv data/processed/sensitivity_results_population_raster.csv --site-comparison-json data/processed/selected_site_comparison_uniform_vs_raster.json --left-label uniform --right-label raster --target-elevation 25 --target-budget 20 --output-csv data/processed/phase2_comparison.csv --output-json data/processed/phase2_comparison.json --output-md data/processed/phase2_comparison.md",
+      "name": "phase2_evaluation"
+    }
+  ],
+  "created_at_utc": "2026-04-11T02:21:10.348376Z",
+  "git_commit": "6ec32253b6a1c8f815d50cdad4c1d1222bf54552",
+  "notes": [
+    "Phase 2 completed with official WorldPop raster demand and proxy candidate/backhaul inputs.",
+    "Critical comparison uses demand-weighted visibility upper bounds rather than raw row visibility alone."
+  ],
+  "parameters": {
+    "budgets": [
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "candidate_limit": 200,
+    "elevations": [
+      0,
+      10,
+      25
+    ],
+    "floor_weight": 0.05,
+    "kernel_radius_km": 250.0,
+    "population_exponent": 1.0,
+    "satellite_limit": 20,
+    "support_multiplier": 3.0
+  },
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "project_root": ".",
+  "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "run_name": "phase2_worldpop_raster_run"
+}

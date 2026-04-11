@@ -140,17 +140,62 @@ Artifacts:
 - `data/processed/selected_site_comparison_uniform_vs_population.json`
 - `data/processed/selected_site_comparison_uniform_vs_population.html`
 
+Phase 2 raster demand:
+
+To complete Phase 2, we replaced the city-point proxy with an official WorldPop global 1 km constrained raster. For each satellite-time row, we compute the satellite subpoint, read only a local raster window around that point, and apply a Gaussian kernel over the raster population values. This keeps the demand model tied to gridded population density while avoiding a full in-memory raster load.
+
+We use WorldPop rather than GPW here because it is official, global, directly downloadable, and small enough to support a reproducible course-project workflow. This is a pragmatic substitution, not a change in the core modeling idea.
+
+Raster-backed sensitivity, using the same 200-site proxy candidate set:
+
+| Elevation threshold | 5 sites | 10 sites | 15 sites | 20 sites | 30 sites | Demand visibility upper bound |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 0 deg | 73.8% | 94.2% | 99.1% | 99.9% | 100.0% | 100.0% |
+| 10 deg | 53.7% | 72.3% | 85.2% | 91.6% | 98.4% | 99.7% |
+| 25 deg | 28.3% | 44.0% | 54.1% | 61.4% | 71.5% | 88.4% |
+
+Artifacts:
+
+- `data/raw/population/worldpop_2024_1km_constrained.tif`
+- `data/raw/population/worldpop_2024_1km_constrained.metadata.json`
+- `data/processed/demand_population_raster.parquet`
+- `data/processed/demand_population_raster.npy`
+- `data/processed/sensitivity_results_population_raster.csv`
+- `data/processed/sensitivity_results_population_raster.json`
+- `data/processed/sensitivity_coverage_population_raster.html`
+- `data/processed/optimization_result_population_raster.json`
+- `data/processed/selected_sites_population_raster.html`
+- `data/processed/phase2_comparison.csv`
+- `data/processed/phase2_comparison.json`
+- `data/processed/phase2_comparison.md`
+
+Interpretation:
+
+At the original 25-degree threshold and 20-station budget, uniform demand achieves 20.9% coverage, while the raster-backed demand model achieves 61.4% coverage. The demand-weighted visibility upper bound rises from 59.7% under uniform row demand to 88.4% under raster demand, which shows that high-population ground-track opportunities are much easier to cover than a uniform row baseline suggests.
+
+This is exactly the managerial point Phase 2 needed to establish: demand assumptions materially change both the measured frontier and the optimal infrastructure portfolio.
+
+Selected-site geography comparison:
+
+We compared the 25-degree, 20-station max-coverage portfolios under uniform demand and raster-backed demand. The overlap is 0 sites out of 40 selected sites, with Jaccard similarity 0.0. In other words, once demand is modeled on a real population raster, the optimizer reallocates the entire station portfolio.
+
+Artifacts:
+
+- `data/processed/selected_site_comparison_uniform_vs_raster.csv`
+- `data/processed/selected_site_comparison_uniform_vs_raster.json`
+- `data/processed/selected_site_comparison_uniform_vs_raster.html`
+
 ## 6. Limitations
 
 - Candidate sites are generated proxy sites, not authoritative ground-station candidates.
 - Backhaul hubs are proxy feasibility anchors, not measured fiber/IXP infrastructure.
-- Demand now includes a Natural Earth populated-places proxy, but not a full GPW/WorldPop raster convolution.
+- Candidate and backhaul inputs are still proxies even though demand is now raster-backed.
+- Demand uses a WorldPop raster rather than GPW specifically.
 - Validation against known gateway clusters is not yet implemented.
 - The 0-degree elevation case is a diagnostic lower-barrier case, not an operational recommendation.
 
 ## 7. Next Extensions
 
-- Upgrade the population proxy to a GPW or WorldPop raster convolution if time allows.
 - Add real known-gateway validation if reliable coordinates are available.
 - Extend the horizon and use rolling-horizon decomposition if full-horizon MILP solves become slow.
 

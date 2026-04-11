@@ -8,3 +8,4 @@ skyfield
 h5py
 pytest
 certifi
+rasterio

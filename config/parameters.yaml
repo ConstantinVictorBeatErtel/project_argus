@@ -10,6 +10,8 @@ paths:
   tle_metadata: data/raw/tle/celestrak_tles.metadata.json
   candidates_file: data/raw/candidates/ground_station_candidates.csv
   gpw_raster: data/raw/population/gpw_population_density.tif
+  population_raster: data/raw/population/worldpop_2024_1km_constrained.tif
+  population_raster_metadata: data/raw/population/worldpop_2024_1km_constrained.metadata.json
   population_points_csv: data/raw/population/populated_places.csv
   population_points_metadata: data/raw/population/populated_places.metadata.json
   backhaul_points: data/raw/backhaul/ixp_fiber_points.csv
@@ -24,6 +26,8 @@ paths:
   demand_npy: data/processed/demand.npy
   population_demand_parquet: data/processed/demand_population_proxy.parquet
   population_demand_npy: data/processed/demand_population_proxy.npy
+  population_raster_demand_parquet: data/processed/demand_population_raster.parquet
+  population_raster_demand_npy: data/processed/demand_population_raster.npy
   backhaul_mask_csv: data/processed/backhaul_mask.csv
   optimization_result_json: data/processed/optimization_result.json
   run_manifest_json: data/processed/run_manifest.json
@@ -36,15 +40,27 @@ paths:
   sensitivity_results_json: data/processed/sensitivity_results.json
   sensitivity_results_population_proxy_csv: data/processed/sensitivity_results_population_proxy.csv
   sensitivity_results_population_proxy_json: data/processed/sensitivity_results_population_proxy.json
+  sensitivity_results_population_raster_csv: data/processed/sensitivity_results_population_raster.csv
+  sensitivity_results_population_raster_json: data/processed/sensitivity_results_population_raster.json
   sensitivity_coverage_html: data/processed/sensitivity_coverage.html
   sensitivity_coverage_population_proxy_html: data/processed/sensitivity_coverage_population_proxy.html
+  sensitivity_coverage_population_raster_html: data/processed/sensitivity_coverage_population_raster.html
   selected_sites_50_html: data/processed/selected_sites_50.html
   selected_sites_200_html: data/processed/selected_sites_200.html
   selected_sites_population_proxy_html: data/processed/selected_sites_population_proxy.html
+  selected_sites_population_raster_html: data/processed/selected_sites_population_raster.html
   optimization_result_population_proxy_json: data/processed/optimization_result_population_proxy.json
+  optimization_result_population_raster_json: data/processed/optimization_result_population_raster.json
   selected_site_comparison_uniform_vs_population_csv: data/processed/selected_site_comparison_uniform_vs_population.csv
   selected_site_comparison_uniform_vs_population_json: data/processed/selected_site_comparison_uniform_vs_population.json
   selected_site_comparison_uniform_vs_population_html: data/processed/selected_site_comparison_uniform_vs_population.html
+  selected_site_comparison_uniform_vs_raster_csv: data/processed/selected_site_comparison_uniform_vs_raster.csv
+  selected_site_comparison_uniform_vs_raster_json: data/processed/selected_site_comparison_uniform_vs_raster.json
+  selected_site_comparison_uniform_vs_raster_html: data/processed/selected_site_comparison_uniform_vs_raster.html
+  phase2_comparison_csv: data/processed/phase2_comparison.csv
+  phase2_comparison_json: data/processed/phase2_comparison.json
+  phase2_comparison_md: data/processed/phase2_comparison.md
+  phase2_run_manifest_json: data/processed/phase2_run_manifest.json
 
 time_grid:
   start_utc: "2026-04-09T00:00:00Z"

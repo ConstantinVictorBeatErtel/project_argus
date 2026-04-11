@@ -20,12 +20,12 @@ Implemented:
 - WGS84 candidate-site geometry.
 - Sparse visibility and slant-range matrix construction.
 - Proxy candidate-site and proxy backhaul generation.
-- Uniform Phase 1 demand and Natural Earth populated-place proxy demand.
+- Uniform demand, Natural Earth population proxy demand, and WorldPop raster-backed demand.
 - PuLP/CBC MILP for site opening and satellite-time assignment.
 - Epsilon-constraint Pareto sweep.
 - Max-coverage sensitivity analysis across station budgets and elevation thresholds.
 - Plotly HTML visualizations for Pareto frontier, selected sites, and sensitivity results.
-- A focused pytest suite for geometry, masks, MILP feasibility, sensitivity, and visualization generation.
+- A focused pytest suite for geometry, masks, demand models, MILP feasibility, sensitivity, and visualization generation.
 
 Current generated artifacts live in `data/processed/`.
 
@@ -37,6 +37,9 @@ Current sensitivity artifacts:
 - `data/processed/sensitivity_results_population_proxy.csv`
 - `data/processed/sensitivity_results_population_proxy.json`
 - `data/processed/sensitivity_coverage_population_proxy.html`
+- `data/processed/sensitivity_results_population_raster.csv`
+- `data/processed/sensitivity_results_population_raster.json`
+- `data/processed/sensitivity_coverage_population_raster.html`
 
 Current population proxy artifacts:
 
@@ -49,6 +52,22 @@ Current population proxy artifacts:
 - `data/processed/selected_site_comparison_uniform_vs_population.json`
 - `data/processed/selected_site_comparison_uniform_vs_population.html`
 
+Current raster Phase 2 artifacts:
+
+- `data/raw/population/worldpop_2024_1km_constrained.tif`
+- `data/raw/population/worldpop_2024_1km_constrained.metadata.json`
+- `data/processed/demand_population_raster.parquet`
+- `data/processed/demand_population_raster.npy`
+- `data/processed/optimization_result_population_raster.json`
+- `data/processed/selected_sites_population_raster.html`
+- `data/processed/selected_site_comparison_uniform_vs_raster.csv`
+- `data/processed/selected_site_comparison_uniform_vs_raster.json`
+- `data/processed/selected_site_comparison_uniform_vs_raster.html`
+- `data/processed/phase2_comparison.csv`
+- `data/processed/phase2_comparison.json`
+- `data/processed/phase2_comparison.md`
+- `data/processed/phase2_run_manifest.json`
+
 ## Documentation
 
 - `summary.md`: project ledger with what has been built and what is next.
@@ -58,6 +77,6 @@ Current population proxy artifacts:
 
 ## Important Data Caveat
 
-Phase 1 uses generated proxy candidate sites and proxy backhaul hubs. These are enough to test the model and demonstrate the network-design tradeoff, but they should be described as proxies in the report. Real GPW demand, authoritative gateway locations, and validated backhaul data can be added later without changing the core architecture.
+Candidate sites and backhaul hubs are still proxy inputs and should be described that way in the report. The demand side is stronger now: Phase 2 uses an official WorldPop global 1 km constrained raster as the population-weighted demand source.
 
-The current population-weighted demand is a city-population proxy, not a full population-density raster model. GPW or WorldPop raster convolution remains a higher-fidelity upgrade.
+The remaining data upgrade is GPW-specific replication or real gateway validation, not the basic ability to run a raster-backed demand model.

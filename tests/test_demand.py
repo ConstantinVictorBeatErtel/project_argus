@@ -8,12 +8,17 @@ from tempfile import TemporaryDirectory
 
 import numpy as np
 import pandas as pd
+import rasterio
+from rasterio.transform import from_origin
 
 from src.simulation.demand import (
     build_population_weighted_demand_frame,
+    build_population_raster_demand_frame,
     build_uniform_demand_frame,
     demand_vector_from_frame,
     ecef_to_geodetic_lat_lon,
+    load_population_raster_metadata,
+    population_raster_weighted_demand_vector,
     load_visibility_metadata,
     population_weighted_demand_vector,
     uniform_demand_vector,
@@ -108,4 +113,45 @@ def test_build_population_weighted_demand_frame_shape() -> None:
     frame = build_population_weighted_demand_frame(positions, points, kernel_radius_km=500.0)
 
     assert frame.shape[0] == 2
+    assert np.isclose(float(frame["demand"].sum()), 2.0)
+
+
+def test_population_raster_demand_prioritizes_nearby_cells() -> None:
+    positions = np.array([[[6378.137, 0.0, 0.0], [0.0, 6378.137, 0.0]]])
+    raster = np.array([[10.0, 0.0], [0.0, 0.0]], dtype=np.float32)
+
+    with TemporaryDirectory() as tmpdir:
+        raster_path = Path(tmpdir) / "population.tif"
+        with rasterio.open(
+            raster_path,
+            "w",
+            driver="GTiff",
+            width=2,
+            height=2,
+            count=1,
+            dtype="float32",
+            crs="EPSG:4326",
+            transform=from_origin(-1.0, 1.0, 1.0, 1.0),
+            nodata=0.0,
+        ) as dataset:
+            dataset.write(raster, 1)
+
+        demand = population_raster_weighted_demand_vector(
+            positions,
+            raster_path,
+            kernel_radius_km=250.0,
+            support_multiplier=2.0,
+            floor_weight=0.01,
+            normalize_total=2.0,
+        )
+        metadata = load_population_raster_metadata(raster_path)
+        frame = build_population_raster_demand_frame(
+            positions,
+            metadata,
+            kernel_radius_km=250.0,
+            support_multiplier=2.0,
+        )
+
+    assert np.isclose(float(demand.sum()), 2.0)
+    assert demand[0] > demand[1]
     assert np.isclose(float(frame["demand"].sum()), 2.0)
