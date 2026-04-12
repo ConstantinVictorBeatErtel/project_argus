@@ -29,6 +29,21 @@ Implemented:
 
 Current generated artifacts live in `data/processed/`.
 
+## Streamlit App
+
+You can explore the 200-site selected-site map as a Streamlit app instead of opening the raw HTML export directly:
+
+```bash
+streamlit run streamlit_app.py
+```
+
+The app reproduces the `data/processed/selected_sites_200.html` visualization from:
+
+- `data/processed/visibility_metadata_200.json`
+- `data/processed/optimization_result_200.json`
+
+and adds run metrics plus a table of the selected sites.
+
 Current sensitivity artifacts:
 
 - `data/processed/sensitivity_results.csv`

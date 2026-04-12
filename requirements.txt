@@ -1,11 +1,13 @@
 numpy
 scipy
 pandas
+plotly
 pyarrow
 PyYAML
 pulp
 skyfield
 h5py
+streamlit
 pytest
 certifi
 rasterio
