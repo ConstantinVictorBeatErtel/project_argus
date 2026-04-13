@@ -1,0 +1,71 @@
+{
+  "description": "2x2 demand-misspecification cross-evaluation. Rows = portfolio optimized for; columns = demand model used for evaluation.",
+  "portfolios": {
+    "uniform_optimal": {
+      "source": "optimization_result_200.json",
+      "num_sites": 19,
+      "site_indices": [
+        3,
+        16,
+        17,
+        24,
+        28,
+        34,
+        43,
+        48,
+        85,
+        89,
+        101,
+        105,
+        120,
+        121,
+        125,
+        132,
+        137,
+        152,
+        186
+      ]
+    },
+    "raster_optimal": {
+      "source": "optimization_result_population_raster.json",
+      "num_sites": 13,
+      "site_indices": [
+        9,
+        27,
+        47,
+        51,
+        54,
+        65,
+        92,
+        114,
+        128,
+        134,
+        156,
+        172,
+        175
+      ]
+    }
+  },
+  "cross_evaluation_table": {
+    "uniform_portfolio_uniform_eval": 0.2,
+    "uniform_portfolio_raster_eval": 0.058243,
+    "raster_portfolio_uniform_eval": 0.054167,
+    "raster_portfolio_raster_eval": 0.505136
+  },
+  "coverage_penalty": {
+    "under_uniform_demand": {
+      "description": "Loss incurred when the raster-optimal portfolio is evaluated under uniform demand",
+      "optimal_coverage": 0.2,
+      "penalty_portfolio_coverage": 0.054167,
+      "absolute_pp_drop": 0.145833,
+      "pct_of_optimal": 72.9167
+    },
+    "under_raster_demand": {
+      "description": "Loss incurred when the uniform-optimal portfolio is evaluated under raster demand",
+      "optimal_coverage": 0.505136,
+      "penalty_portfolio_coverage": 0.058243,
+      "absolute_pp_drop": 0.446893,
+      "pct_of_optimal": 88.4698
+    }
+  }
+}

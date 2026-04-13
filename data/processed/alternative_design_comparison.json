@@ -1,0 +1,8 @@
+{
+  "geo_spread_raster_coverage": 0.0785991598158945,
+  "geo_spread_uniform_coverage": 0.071875,
+  "greedy_arcs_raster_coverage": 0.06449661026486675,
+  "greedy_arcs_uniform_coverage": 0.20104166666666667,
+  "milp_raster_coverage": 0.5006360956104274,
+  "milp_uniform_coverage": 0.2
+}

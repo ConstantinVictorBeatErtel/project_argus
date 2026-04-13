@@ -1,6 +1,7 @@
 numpy
 scipy
 pandas
+matplotlib
 plotly
 pyarrow
 PyYAML
@@ -11,3 +12,6 @@ streamlit
 pytest
 certifi
 rasterio
+python-docx
+python-pptx
+geopandas

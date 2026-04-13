@@ -1,0 +1,207 @@
+{
+  "elevation_deg": 25.0,
+  "budgets_analysed": [
+    5,
+    10,
+    15,
+    20,
+    30
+  ],
+  "analyses": [
+    {
+      "demand_model": "uniform",
+      "elevation_deg": 25.0,
+      "budget_coverage_table": {
+        "5": 0.07395833,
+        "10": 0.128125,
+        "15": 0.17083333,
+        "20": 0.209375,
+        "30": 0.27291667
+      },
+      "segments": [
+        {
+          "from_stations": 5,
+          "to_stations": 10,
+          "coverage_from": 0.07395833,
+          "coverage_to": 0.128125,
+          "delta_coverage": 0.05416667,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.01083333,
+          "stations_per_1pp_gain": 0.9231
+        },
+        {
+          "from_stations": 10,
+          "to_stations": 15,
+          "coverage_from": 0.128125,
+          "coverage_to": 0.17083333,
+          "delta_coverage": 0.04270833,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.00854167,
+          "stations_per_1pp_gain": 1.1707
+        },
+        {
+          "from_stations": 15,
+          "to_stations": 20,
+          "coverage_from": 0.17083333,
+          "coverage_to": 0.209375,
+          "delta_coverage": 0.03854167,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.00770833,
+          "stations_per_1pp_gain": 1.2973
+        },
+        {
+          "from_stations": 20,
+          "to_stations": 30,
+          "coverage_from": 0.209375,
+          "coverage_to": 0.27291667,
+          "delta_coverage": 0.06354167,
+          "delta_stations": 10,
+          "marginal_coverage_per_station": 0.00635417,
+          "stations_per_1pp_gain": 1.5738
+        }
+      ],
+      "max_marginal_coverage_per_station": 0.01083333,
+      "knee_station_budget": 30,
+      "knee_description": "Marginal coverage drops below 0.5417% per station (half of peak 1.0833%) after 30 stations",
+      "cheapest_segment_stations_per_1pp": 0.9231,
+      "cost_doubling_threshold_stations_per_1pp": 1.8462,
+      "cost_doubles_at_segment": null
+    },
+    {
+      "demand_model": "city_point_proxy",
+      "elevation_deg": 25.0,
+      "budget_coverage_table": {
+        "5": 0.22120946,
+        "10": 0.3458915,
+        "15": 0.44150159,
+        "20": 0.51719894,
+        "30": 0.63363172
+      },
+      "segments": [
+        {
+          "from_stations": 5,
+          "to_stations": 10,
+          "coverage_from": 0.22120946,
+          "coverage_to": 0.3458915,
+          "delta_coverage": 0.12468204,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.02493641,
+          "stations_per_1pp_gain": 0.401
+        },
+        {
+          "from_stations": 10,
+          "to_stations": 15,
+          "coverage_from": 0.3458915,
+          "coverage_to": 0.44150159,
+          "delta_coverage": 0.09561009,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.01912202,
+          "stations_per_1pp_gain": 0.523
+        },
+        {
+          "from_stations": 15,
+          "to_stations": 20,
+          "coverage_from": 0.44150159,
+          "coverage_to": 0.51719894,
+          "delta_coverage": 0.07569734,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.01513947,
+          "stations_per_1pp_gain": 0.6605
+        },
+        {
+          "from_stations": 20,
+          "to_stations": 30,
+          "coverage_from": 0.51719894,
+          "coverage_to": 0.63363172,
+          "delta_coverage": 0.11643278,
+          "delta_stations": 10,
+          "marginal_coverage_per_station": 0.01164328,
+          "stations_per_1pp_gain": 0.8589
+        }
+      ],
+      "max_marginal_coverage_per_station": 0.02493641,
+      "knee_station_budget": 20,
+      "knee_description": "Marginal coverage drops below 1.2468% per station (half of peak 2.4936%) after 20 stations",
+      "cheapest_segment_stations_per_1pp": 0.401,
+      "cost_doubling_threshold_stations_per_1pp": 0.802,
+      "cost_doubles_at_segment": {
+        "from_stations": 20,
+        "to_stations": 30,
+        "coverage_from": 0.51719894,
+        "coverage_to": 0.63363172,
+        "delta_coverage": 0.11643278,
+        "delta_stations": 10,
+        "marginal_coverage_per_station": 0.01164328,
+        "stations_per_1pp_gain": 0.8589
+      }
+    },
+    {
+      "demand_model": "population_raster",
+      "elevation_deg": 25.0,
+      "budget_coverage_table": {
+        "5": 0.28302631,
+        "10": 0.43993156,
+        "15": 0.54123169,
+        "20": 0.61444025,
+        "30": 0.71500383
+      },
+      "segments": [
+        {
+          "from_stations": 5,
+          "to_stations": 10,
+          "coverage_from": 0.28302631,
+          "coverage_to": 0.43993156,
+          "delta_coverage": 0.15690524,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.03138105,
+          "stations_per_1pp_gain": 0.3187
+        },
+        {
+          "from_stations": 10,
+          "to_stations": 15,
+          "coverage_from": 0.43993156,
+          "coverage_to": 0.54123169,
+          "delta_coverage": 0.10130014,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.02026003,
+          "stations_per_1pp_gain": 0.4936
+        },
+        {
+          "from_stations": 15,
+          "to_stations": 20,
+          "coverage_from": 0.54123169,
+          "coverage_to": 0.61444025,
+          "delta_coverage": 0.07320855,
+          "delta_stations": 5,
+          "marginal_coverage_per_station": 0.01464171,
+          "stations_per_1pp_gain": 0.683
+        },
+        {
+          "from_stations": 20,
+          "to_stations": 30,
+          "coverage_from": 0.61444025,
+          "coverage_to": 0.71500383,
+          "delta_coverage": 0.10056359,
+          "delta_stations": 10,
+          "marginal_coverage_per_station": 0.01005636,
+          "stations_per_1pp_gain": 0.9944
+        }
+      ],
+      "max_marginal_coverage_per_station": 0.03138105,
+      "knee_station_budget": 15,
+      "knee_description": "Marginal coverage drops below 1.5691% per station (half of peak 3.1381%) after 15 stations",
+      "cheapest_segment_stations_per_1pp": 0.3187,
+      "cost_doubling_threshold_stations_per_1pp": 0.6374,
+      "cost_doubles_at_segment": {
+        "from_stations": 15,
+        "to_stations": 20,
+        "coverage_from": 0.54123169,
+        "coverage_to": 0.61444025,
+        "delta_coverage": 0.07320855,
+        "delta_stations": 5,
+        "marginal_coverage_per_station": 0.01464171,
+        "stations_per_1pp_gain": 0.683
+      }
+    }
+  ]
+}
