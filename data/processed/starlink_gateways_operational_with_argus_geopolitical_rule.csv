@@ -1,0 +1,251 @@
+name,latitude_deg,longitude_deg,status,excluded_zone,geopolitical_allowed_by_argus_rule
+"Aerzen, Germany",52.0489,9.2683,operational,,True
+"Akita, Japan",39.72,140.1024,operational,,True
+"Akron, OH",41.0575,-81.5199,operational,,True
+"Alfouvar de Cima, Portugal",40.5167,-8.25,operational,,True
+"Anchorage, AK",61.2181,-149.9003,operational,,True
+"Angeles, Philippines",15.145,120.5887,operational,,True
+"Ashburn, VA",39.0157,-77.4649,operational,,True
+"Awarua, NZ",-46.5294,168.3781,operational,,True
+"Ballinspittle, Ireland",51.6508,-8.5808,operational,,True
+"Bandon, OR",43.2476,-124.3828,operational,,True
+"Banning, CA",33.9191,-116.8494,operational,,True
+"Bastrop, TX",30.1579,-97.4069,operational,,True
+"Baxley, GA",31.7791,-82.3485,operational,,True
+"Beekmantown, NY",44.7629,-73.5754,operational,,True
+"Bellingham, WA",48.7519,-122.4787,operational,,True
+"Big Ivy, TN",35.1599,-88.061,operational,,True
+"Bluffdale, UT",40.4798,-111.9042,operational,,True
+"Boca Chica, TX",26.0621,-97.1668,operational,,True
+"Boise, ID",43.5811,-116.29,operational,,True
+"Boorowa, Australia",-34.4392,148.7142,operational,,True
+"Brewster, WA",48.0962,-119.7806,operational,,True
+"Bridgewater, CT",41.5454,-73.3544,operational,,True
+"Broadview, IL",41.8642,-87.8534,operational,,True
+"Broken Hill, Australia",-31.9505,141.4681,operational,,True
+"Brooklyn Park, MN",45.144,-93.3858,operational,,True
+"Bulla Bulling, Australia",-31.1,121.0167,operational,,True
+"Burbank, CA",34.2001,-118.3438,operational,,True
+"Butte, MT",46.0038,-112.5348,operational,,True
+"Cabo San Lucas, Mexico",22.8905,-109.9167,operational,,True
+"Cal-Nev-Ari, NV",35.2987,-114.8745,operational,,True
+"Calais, ME",45.1714,-67.2476,operational,,True
+"Caldera, Chile",-27.0667,-70.8167,operational,,True
+"Calrossie, Australia",-36.45,145.3,operational,,True
+"Calverton, NY",40.9089,-72.7976,operational,,True
+"Camaçari, Brazil",-12.6996,-38.3263,operational,,True
+"Canyonleigh, Australia",-34.5333,150.2,operational,,True
+"Cass County, ND",46.93,-97.25,operational,,True
+"Cataby, Australia",-30.75,115.5333,operational,,True
+"Centennial, CO",39.5919,-104.8469,operational,,True
+"Chalfont Grove, UK",51.6167,-0.5667,operational,,True
+"Chantilly, VA",38.9102,-77.4727,operational,,True
+"Chapel Hill, NC",35.8958,-79.2267,operational,,True
+"Charcas, Mexico",23.1314,-101.1136,operational,,True
+"Charleston, SC",32.7765,-79.9311,operational,,True
+"Chaska, MN",44.851,-93.598,operational,,True
+"Chattanooga, TN",35.0317,-85.2975,operational,,True
+"Chicago, IL",41.8414,-87.6711,operational,,True
+"Chico, CA",39.7754,-121.9199,operational,,True
+"Clarksville, GA",34.6485,-83.5473,operational,,True
+"Cobargo, Australia",-36.3886,149.89,operational,,True
+"Colburn, ID",48.4,-116.55,operational,,True
+"Conrad, MT",48.17,-111.95,operational,,True
+"Corpus Christi, TX",27.7931,-97.4519,operational,,True
+"Cromwell, NZ",-45.05,169.2,operational,,True
+"Dallas, TX",32.7999,-96.8182,operational,,True
+"Debeque, CO",39.289,-108.205,operational,,True
+"Delta, UT",39.3461,-112.5894,operational,,True
+"Denver, CO",39.7457,-104.9954,operational,,True
+"Douglas, WY",42.7401,-105.3504,operational,,True
+"Draper, UT",40.4799,-111.8229,operational,,True
+"Dubois, ID",44.1704,-112.2251,operational,,True
+"Dubuque, IA",42.4446,-90.6785,operational,,True
+"Duluth, MN",46.8281,-92.1304,operational,,True
+"Dumas, TX",35.8628,-101.9732,operational,,True
+"Eagan, MN",44.8393,-93.1456,operational,,True
+"Edison, NJ",40.5211,-74.3451,operational,,True
+El Marques,20.7351,-100.2836,operational,,True
+"Elbert, CO",39.2239,-104.5347,operational,,True
+"Elfordstown, Ireland",52.0833,-8.25,operational,,True
+"Evanston, WY",41.2683,-110.9632,operational,,True
+"Fair Park, UT",40.7669,-111.9212,operational,,True
+"Fairbanks, AK",64.8378,-147.7164,operational,,True
+"Falda del Carmen, Argentina",-31.5333,-64.45,operational,,True
+"Foggia, Italy",41.4621,15.5444,operational,,True
+"Fort Lauderdale, FL",26.1224,-80.1373,operational,,True
+"Franklin Park, IL",41.9288,-87.8574,operational,,True
+"Frederick, MD",39.4143,-77.4105,operational,,True
+"Fremont, CA",37.4921,-121.9367,operational,,True
+"Ft. Lauderdale, FL",26.1911,-80.1934,operational,,True
+"Gaffney, SC",35.0718,-81.6498,operational,,True
+"Goodyear, AZ",33.4121,-112.4129,operational,,True
+"Goonhilly, UK",50.0502,-5.1825,operational,,True
+"Gordon, GA",32.8411,-83.2538,operational,,True
+"Grant District, WV",38.978,-79.1466,operational,,True
+"Greenville, PA",41.4028,-80.3812,operational,,True
+"Guarapari, Brazil",-20.6614,-40.4981,operational,,True
+"Hamshire, TX",29.8622,-94.6749,operational,,True
+"Hawkins, TX",32.6136,-95.2998,operational,,True
+"Hawthorne, CA",33.9207,-118.328,operational,,True
+"Highlands Ranch, CO",39.55,-105.0333,operational,,True
+"Hillman, MI",45.0586,-83.9022,operational,,True
+"Hillsboro, TX",32.011,-97.13,operational,,True
+"Hinds, NZ",-43.8667,171.5833,operational,,True
+"Hitterdal, MN",46.9769,-96.2595,operational,,True
+"Honolulu, HI",21.315,-157.8664,operational,,True
+"Howell, UT",41.8366,-112.4352,operational,,True
+"Ibi, Spain",38.6264,-0.5726,operational,,True
+"Inman, KS",38.2319,-97.7725,operational,,True
+"Iron Mountain, CO",39.7775,-104.9685,operational,,True
+"Irvine, CA",33.6872,-117.8479,operational,,True
+"Isle of Man, UK",54.13909,-4.49728,operational,,True
+"Itaboraí, Brazil",-22.7446,-42.8586,operational,,True
+"Kalama, WA",46.01,-122.84,operational,,True
+"Kaua'i, HI",21.9994,-159.378,operational,,True
+"Kaunas, Lithuania",54.8985,23.9036,operational,russia_belarus,False
+"Kenansville, FL",27.8847,-81.0962,operational,,True
+"Kent, WA",47.4211,-122.2481,operational,,True
+"Ketchikan, AK",55.342,-131.636,operational,,True
+"Ki Ki, Australia",-35.8,139.7167,operational,,True
+"Kihei, HI",20.746,-156.432,operational,,True
+"Kiowa, CO",39.292,-104.5052,operational,,True
+"Kuparuk, AK",70.3316,-149.5947,operational,,True
+"Lawrence, KS",38.9717,-95.2353,operational,,True
+Lekki,6.4711,3.8148,operational,,True
+"Lepe, Spain",37.2547,-7.2044,operational,,True
+"Limestone, ME",46.9149,-67.9195,operational,,True
+"Lindon, UT",40.3327,-111.7312,operational,,True
+"Lisle, IL",41.8006,-88.0961,operational,,True
+"Litchfield, MN",45.12,-94.53,operational,,True
+"Lithia Springs, GA",33.7459,-84.5795,operational,,True
+"Llano Grande, Mexico",19.34,-97.008,operational,,True
+"Lockport, NY",43.1709,-78.6903,operational,,True
+"Loring, ME",46.95,-67.89,operational,,True
+"Los Angeles, CA",34.0581,-118.2354,operational,,True
+"Lunenburg, VT",44.412,-71.7318,operational,,True
+"Luz, Brazil",-19.79,-44.7325,operational,,True
+"Lynnwood, WA",47.8417,-122.3009,operational,,True
+"Madera, CA",36.8588,-119.9105,operational,,True
+"Manaus, Brazil",-3.119,-60.0217,operational,,True
+"Mandale, NC",35.895778,-79.226722,operational,,True
+"Manistique, MI",45.9575,-86.2464,operational,,True
+"Marathon, ON",48.754,-86.379,operational,,True
+"Marcell, MN",47.593,-93.6941,operational,,True
+"Marsala, Italy",37.7986,12.4357,operational,,True
+"Mazahua, Mexico",19.65,-100.05,operational,,True
+"McGregor, TX",31.44,-97.41,operational,,True
+"Merida, Mexico",20.9674,-89.5926,operational,,True
+"Merredin, Australia",-31.4833,118.2833,operational,,True
+"Merrillan, WI",44.45,-90.8333,operational,,True
+"Mesa, AZ",33.4212,-111.8592,operational,,True
+"Miami, FL",25.7915,-80.3797,operational,,True
+"Milano, Italy",45.4642,9.19,operational,,True
+"Milwaukee, WI",43.1512,-88.0088,operational,,True
+"Minneapolis, MN",44.9709,-93.2544,operational,,True
+"Molokai, HI",21.1333,-157.0167,operational,,True
+Monterey,36.2231,-121.3877,operational,,True
+Montes Carlos,9.2895,-75.3994,operational,,True
+"Mossoró, Brazil",-5.1878,-37.3441,operational,,True
+"Mt. Ayr, IN",39.975,-87.3036,operational,,True
+"Muallim, Turkey",40.0333,30.05,operational,,True
+"Murayjat, Oman",23.588,58.545,operational,,True
+"Myrtle Beach, SC",33.71,-78.8958,operational,,True
+"Nemaha, NE",40.3408,-95.6708,operational,,True
+"New Braunfels, TX",29.703,-98.1245,operational,,True
+"New York, NY",40.7178,-74.0083,operational,,True
+"Niland, CA",33.2205,-115.4668,operational,,True
+"Nome, AK",64.5011,-165.4064,operational,,True
+"Norcross, GA",33.941,-84.2135,operational,,True
+"North Miami, FL",25.9496,-80.1918,operational,,True
+"Northlake, IL",41.92,-87.9113,operational,,True
+"Noviciado, Chile",-33.4167,-70.9333,operational,,True
+"Otaru, Japan",43.1907,140.9945,operational,,True
+"Oxford, AL",33.5936,-85.8768,operational,,True
+"Panaca, NV",37.8,-114.39,operational,,True
+"Perry, FL",30.0616,-83.5805,operational,,True
+"Peñuelas, Mexico",21.8422,-102.3344,operational,,True
+"Phoenix, AZ",33.6841,-112.0983,operational,,True
+"Pimba, Australia",-31.2833,136.8,operational,,True
+"Pine Valley, CA",32.7014,-116.3651,operational,,True
+"Piscataway, NJ",40.5434,-74.498,operational,,True
+"Piti, GU",13.4156,144.6879,operational,,True
+"Ponce, PR",18.0111,-66.6141,operational,,True
+"Port St. Lucie, FL",27.2813,-80.4831,operational,,True
+"Porto Alegre, Brazil",-30.0346,-51.2177,operational,,True
+"Presidente Prudente, Brazil",-22.1257,-51.3875,operational,,True
+"Prosser, WA",46.2068,-119.7687,operational,,True
+"Prudhoe Bay, AK",70.2466,-148.569,operational,,True
+"Puerto Montt, Chile",-41.4689,-72.9411,operational,,True
+"Puerto Saavedra, Chile",-38.7833,-73.3833,operational,,True
+"Punta Arenas, Chile",-53.1638,-70.9171,operational,,True
+"Punta Gorda, FL",26.9298,-82.0454,operational,,True
+"Puwera, NZ",-35.8,174.2333,operational,,True
+"Redmond, WA",47.674,-122.1215,operational,,True
+"Rio Negro, Brazil",-26.105,-49.7978,operational,,True
+"Riverside, GA",33.8151,-84.4601,operational,,True
+"Robbins, CA",38.875,-121.70705555555556,operational,,True
+"Robertsdale, AL",30.55,-87.71,operational,,True
+"Rolette County, ND",48.6604,-99.8105,operational,,True
+"Rolette, ND",48.6597,-99.8406,operational,,True
+"Roll, AZ",32.8128,-113.9953,operational,,True
+"Saguenay, QC",48.4279,-71.0548,operational,,True
+"Salem, OR",44.9453,-122.8886,operational,,True
+"Salt Lake City, UT",40.5861,-111.968,operational,,True
+"Sambro Creek, NS",44.4833,-63.6,operational,,True
+"San Clemente, Chile",-35.5333,-71.4833,operational,,True
+"San Jose, CA",37.2422,-121.7844,operational,,True
+"Sanderson, TX",30.1421,-102.3949,operational,,True
+"Sandston, VA",37.4901,-77.2461,operational,,True
+"Santa Clara, CA",37.3992,-121.9803,operational,,True
+"Santa Elena, Chile",-36.8167,-72.0167,operational,,True
+"Santiago de los Caballeros, DR",19.4517,-70.697,operational,,True
+"Seattle, WA",47.5832,-122.3251,operational,,True
+"Secaucus, NJ",40.7855,-74.0686,operational,,True
+"Shakopee, MN",44.7797,-93.4627,operational,,True
+"Slope County, ND",46.45,-103.95,operational,,True
+"Springbrook Creek, Australia",-24.8333,152.1167,operational,,True
+"Springer, OK",34.2853,-97.1317,operational,,True
+"St James, MN",44.0515,-94.5346,operational,,True
+"St. John's, NL",47.5615,-52.7126,operational,,True
+"Sterling, VA",38.985,-77.4239,operational,,True
+"Sullivan, ME",44.5314,-68.2022,operational,,True
+"Sunnyvale, CA",37.4117,-122.0217,operational,,True
+"Sunset, TX",33.4486,-97.7767,operational,,True
+"Surrency, GA",31.6829,-82.2697,operational,,True
+"Surubim, Brazil",-7.8311,-35.7531,operational,,True
+"Sussex, NJ",41.2018,-74.5263,operational,,True
+"Suva, Fiji",-18.1416,178.4419,operational,,True
+"Tapachula, Mexico",14.9032,-92.2577,operational,,True
+"Te Hana, NZ",-36.2667,174.55,operational,,True
+"Tea Gardens, Australia",-32.6667,152.15,operational,,True
+"Thomaston, GA",32.9471,-84.2618,operational,,True
+"Tionesta, CA",41.1811,-122.8747,operational,,True
+"Toa Baja, PR",18.4441,-66.2545,operational,,True
+"Toonpan, Australia",-19.2833,146.75,operational,,True
+"Torrumbarry, Australia",-36.0333,144.5833,operational,,True
+"Tracy City, TN",35.2595,-85.7369,operational,,True
+"Tromsø, Norway",69.6496,18.956,operational,,True
+"Tucson, AZ",32.1701,-110.9577,operational,,True
+"Tukwila, WA",47.5089,-122.2994,operational,,True
+"Tulelake, CA",41.644,-121.3293,operational,,True
+"Uruguaiana, Brazil",-29.7547,-57.0883,operational,,True
+"Vernon, UT",40.09,-112.43,operational,,True
+"Villahermosa, Mexico",17.9893,-92.9472,operational,,True
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,operational,,True
+Villenave d’Ornon,44.7738,-0.5595,operational,,True
+"Virginia Beach, VA",36.7838,-76.0093,operational,,True
+"Wagin, Australia",-33.3167,117.35,operational,,True
+"Wailuku, HI",20.9005,-156.5046,operational,,True
+"Warra, Australia",-26.9833,150.9333,operational,,True
+"Warren, MO",38.7728,-91.1643,operational,,True
+"Watkins, CO",39.7582,-104.617,operational,,True
+"Weehawken, NJ",40.7616,-74.0253,operational,,True
+"Wellington, UT",39.5401,-110.6928,operational,,True
+"West Jordan, UT",40.6198,-111.9863,operational,,True
+"Westbury, NY",40.7559,-73.5579,operational,,True
+"Westminster, CO",39.8845,-105.0802,operational,,True
+"Willemstad, Curaçao",12.1696,-68.99,operational,venezuela,False
+"Wise, VA",36.977333,-82.528,operational,,True
+"Wola Krobowska, Poland",50.35,20.55,operational,russia_belarus,False
+"Yamaguchi, Japan",34.1861,131.4706,operational,china,False

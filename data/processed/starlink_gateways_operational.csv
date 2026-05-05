@@ -1,0 +1,251 @@
+name,latitude_deg,longitude_deg,status
+"Aerzen, Germany",52.0489,9.2683,operational
+"Akita, Japan",39.72,140.1024,operational
+"Akron, OH",41.0575,-81.5199,operational
+"Alfouvar de Cima, Portugal",40.5167,-8.25,operational
+"Anchorage, AK",61.2181,-149.9003,operational
+"Angeles, Philippines",15.145,120.5887,operational
+"Ashburn, VA",39.0157,-77.4649,operational
+"Awarua, NZ",-46.5294,168.3781,operational
+"Ballinspittle, Ireland",51.6508,-8.5808,operational
+"Bandon, OR",43.2476,-124.3828,operational
+"Banning, CA",33.9191,-116.8494,operational
+"Bastrop, TX",30.1579,-97.4069,operational
+"Baxley, GA",31.7791,-82.3485,operational
+"Beekmantown, NY",44.7629,-73.5754,operational
+"Bellingham, WA",48.7519,-122.4787,operational
+"Big Ivy, TN",35.1599,-88.061,operational
+"Bluffdale, UT",40.4798,-111.9042,operational
+"Boca Chica, TX",26.0621,-97.1668,operational
+"Boise, ID",43.5811,-116.29,operational
+"Boorowa, Australia",-34.4392,148.7142,operational
+"Brewster, WA",48.0962,-119.7806,operational
+"Bridgewater, CT",41.5454,-73.3544,operational
+"Broadview, IL",41.8642,-87.8534,operational
+"Broken Hill, Australia",-31.9505,141.4681,operational
+"Brooklyn Park, MN",45.144,-93.3858,operational
+"Bulla Bulling, Australia",-31.1,121.0167,operational
+"Burbank, CA",34.2001,-118.3438,operational
+"Butte, MT",46.0038,-112.5348,operational
+"Cabo San Lucas, Mexico",22.8905,-109.9167,operational
+"Cal-Nev-Ari, NV",35.2987,-114.8745,operational
+"Calais, ME",45.1714,-67.2476,operational
+"Caldera, Chile",-27.0667,-70.8167,operational
+"Calrossie, Australia",-36.45,145.3,operational
+"Calverton, NY",40.9089,-72.7976,operational
+"Camaçari, Brazil",-12.6996,-38.3263,operational
+"Canyonleigh, Australia",-34.5333,150.2,operational
+"Cass County, ND",46.93,-97.25,operational
+"Cataby, Australia",-30.75,115.5333,operational
+"Centennial, CO",39.5919,-104.8469,operational
+"Chalfont Grove, UK",51.6167,-0.5667,operational
+"Chantilly, VA",38.9102,-77.4727,operational
+"Chapel Hill, NC",35.8958,-79.2267,operational
+"Charcas, Mexico",23.1314,-101.1136,operational
+"Charleston, SC",32.7765,-79.9311,operational
+"Chaska, MN",44.851,-93.598,operational
+"Chattanooga, TN",35.0317,-85.2975,operational
+"Chicago, IL",41.8414,-87.6711,operational
+"Chico, CA",39.7754,-121.9199,operational
+"Clarksville, GA",34.6485,-83.5473,operational
+"Cobargo, Australia",-36.3886,149.89,operational
+"Colburn, ID",48.4,-116.55,operational
+"Conrad, MT",48.17,-111.95,operational
+"Corpus Christi, TX",27.7931,-97.4519,operational
+"Cromwell, NZ",-45.05,169.2,operational
+"Dallas, TX",32.7999,-96.8182,operational
+"Debeque, CO",39.289,-108.205,operational
+"Delta, UT",39.3461,-112.5894,operational
+"Denver, CO",39.7457,-104.9954,operational
+"Douglas, WY",42.7401,-105.3504,operational
+"Draper, UT",40.4799,-111.8229,operational
+"Dubois, ID",44.1704,-112.2251,operational
+"Dubuque, IA",42.4446,-90.6785,operational
+"Duluth, MN",46.8281,-92.1304,operational
+"Dumas, TX",35.8628,-101.9732,operational
+"Eagan, MN",44.8393,-93.1456,operational
+"Edison, NJ",40.5211,-74.3451,operational
+El Marques,20.7351,-100.2836,operational
+"Elbert, CO",39.2239,-104.5347,operational
+"Elfordstown, Ireland",52.0833,-8.25,operational
+"Evanston, WY",41.2683,-110.9632,operational
+"Fair Park, UT",40.7669,-111.9212,operational
+"Fairbanks, AK",64.8378,-147.7164,operational
+"Falda del Carmen, Argentina",-31.5333,-64.45,operational
+"Foggia, Italy",41.4621,15.5444,operational
+"Fort Lauderdale, FL",26.1224,-80.1373,operational
+"Franklin Park, IL",41.9288,-87.8574,operational
+"Frederick, MD",39.4143,-77.4105,operational
+"Fremont, CA",37.4921,-121.9367,operational
+"Ft. Lauderdale, FL",26.1911,-80.1934,operational
+"Gaffney, SC",35.0718,-81.6498,operational
+"Goodyear, AZ",33.4121,-112.4129,operational
+"Goonhilly, UK",50.0502,-5.1825,operational
+"Gordon, GA",32.8411,-83.2538,operational
+"Grant District, WV",38.978,-79.1466,operational
+"Greenville, PA",41.4028,-80.3812,operational
+"Guarapari, Brazil",-20.6614,-40.4981,operational
+"Hamshire, TX",29.8622,-94.6749,operational
+"Hawkins, TX",32.6136,-95.2998,operational
+"Hawthorne, CA",33.9207,-118.328,operational
+"Highlands Ranch, CO",39.55,-105.0333,operational
+"Hillman, MI",45.0586,-83.9022,operational
+"Hillsboro, TX",32.011,-97.13,operational
+"Hinds, NZ",-43.8667,171.5833,operational
+"Hitterdal, MN",46.9769,-96.2595,operational
+"Honolulu, HI",21.315,-157.8664,operational
+"Howell, UT",41.8366,-112.4352,operational
+"Ibi, Spain",38.6264,-0.5726,operational
+"Inman, KS",38.2319,-97.7725,operational
+"Iron Mountain, CO",39.7775,-104.9685,operational
+"Irvine, CA",33.6872,-117.8479,operational
+"Isle of Man, UK",54.13909,-4.49728,operational
+"Itaboraí, Brazil",-22.7446,-42.8586,operational
+"Kalama, WA",46.01,-122.84,operational
+"Kaua'i, HI",21.9994,-159.378,operational
+"Kaunas, Lithuania",54.8985,23.9036,operational
+"Kenansville, FL",27.8847,-81.0962,operational
+"Kent, WA",47.4211,-122.2481,operational
+"Ketchikan, AK",55.342,-131.636,operational
+"Ki Ki, Australia",-35.8,139.7167,operational
+"Kihei, HI",20.746,-156.432,operational
+"Kiowa, CO",39.292,-104.5052,operational
+"Kuparuk, AK",70.3316,-149.5947,operational
+"Lawrence, KS",38.9717,-95.2353,operational
+Lekki,6.4711,3.8148,operational
+"Lepe, Spain",37.2547,-7.2044,operational
+"Limestone, ME",46.9149,-67.9195,operational
+"Lindon, UT",40.3327,-111.7312,operational
+"Lisle, IL",41.8006,-88.0961,operational
+"Litchfield, MN",45.12,-94.53,operational
+"Lithia Springs, GA",33.7459,-84.5795,operational
+"Llano Grande, Mexico",19.34,-97.008,operational
+"Lockport, NY",43.1709,-78.6903,operational
+"Loring, ME",46.95,-67.89,operational
+"Los Angeles, CA",34.0581,-118.2354,operational
+"Lunenburg, VT",44.412,-71.7318,operational
+"Luz, Brazil",-19.79,-44.7325,operational
+"Lynnwood, WA",47.8417,-122.3009,operational
+"Madera, CA",36.8588,-119.9105,operational
+"Manaus, Brazil",-3.119,-60.0217,operational
+"Mandale, NC",35.895778,-79.226722,operational
+"Manistique, MI",45.9575,-86.2464,operational
+"Marathon, ON",48.754,-86.379,operational
+"Marcell, MN",47.593,-93.6941,operational
+"Marsala, Italy",37.7986,12.4357,operational
+"Mazahua, Mexico",19.65,-100.05,operational
+"McGregor, TX",31.44,-97.41,operational
+"Merida, Mexico",20.9674,-89.5926,operational
+"Merredin, Australia",-31.4833,118.2833,operational
+"Merrillan, WI",44.45,-90.8333,operational
+"Mesa, AZ",33.4212,-111.8592,operational
+"Miami, FL",25.7915,-80.3797,operational
+"Milano, Italy",45.4642,9.19,operational
+"Milwaukee, WI",43.1512,-88.0088,operational
+"Minneapolis, MN",44.9709,-93.2544,operational
+"Molokai, HI",21.1333,-157.0167,operational
+Monterey,36.2231,-121.3877,operational
+Montes Carlos,9.2895,-75.3994,operational
+"Mossoró, Brazil",-5.1878,-37.3441,operational
+"Mt. Ayr, IN",39.975,-87.3036,operational
+"Muallim, Turkey",40.0333,30.05,operational
+"Murayjat, Oman",23.588,58.545,operational
+"Myrtle Beach, SC",33.71,-78.8958,operational
+"Nemaha, NE",40.3408,-95.6708,operational
+"New Braunfels, TX",29.703,-98.1245,operational
+"New York, NY",40.7178,-74.0083,operational
+"Niland, CA",33.2205,-115.4668,operational
+"Nome, AK",64.5011,-165.4064,operational
+"Norcross, GA",33.941,-84.2135,operational
+"North Miami, FL",25.9496,-80.1918,operational
+"Northlake, IL",41.92,-87.9113,operational
+"Noviciado, Chile",-33.4167,-70.9333,operational
+"Otaru, Japan",43.1907,140.9945,operational
+"Oxford, AL",33.5936,-85.8768,operational
+"Panaca, NV",37.8,-114.39,operational
+"Perry, FL",30.0616,-83.5805,operational
+"Peñuelas, Mexico",21.8422,-102.3344,operational
+"Phoenix, AZ",33.6841,-112.0983,operational
+"Pimba, Australia",-31.2833,136.8,operational
+"Pine Valley, CA",32.7014,-116.3651,operational
+"Piscataway, NJ",40.5434,-74.498,operational
+"Piti, GU",13.4156,144.6879,operational
+"Ponce, PR",18.0111,-66.6141,operational
+"Port St. Lucie, FL",27.2813,-80.4831,operational
+"Porto Alegre, Brazil",-30.0346,-51.2177,operational
+"Presidente Prudente, Brazil",-22.1257,-51.3875,operational
+"Prosser, WA",46.2068,-119.7687,operational
+"Prudhoe Bay, AK",70.2466,-148.569,operational
+"Puerto Montt, Chile",-41.4689,-72.9411,operational
+"Puerto Saavedra, Chile",-38.7833,-73.3833,operational
+"Punta Arenas, Chile",-53.1638,-70.9171,operational
+"Punta Gorda, FL",26.9298,-82.0454,operational
+"Puwera, NZ",-35.8,174.2333,operational
+"Redmond, WA",47.674,-122.1215,operational
+"Rio Negro, Brazil",-26.105,-49.7978,operational
+"Riverside, GA",33.8151,-84.4601,operational
+"Robbins, CA",38.875,-121.70705555555556,operational
+"Robertsdale, AL",30.55,-87.71,operational
+"Rolette County, ND",48.6604,-99.8105,operational
+"Rolette, ND",48.6597,-99.8406,operational
+"Roll, AZ",32.8128,-113.9953,operational
+"Saguenay, QC",48.4279,-71.0548,operational
+"Salem, OR",44.9453,-122.8886,operational
+"Salt Lake City, UT",40.5861,-111.968,operational
+"Sambro Creek, NS",44.4833,-63.6,operational
+"San Clemente, Chile",-35.5333,-71.4833,operational
+"San Jose, CA",37.2422,-121.7844,operational
+"Sanderson, TX",30.1421,-102.3949,operational
+"Sandston, VA",37.4901,-77.2461,operational
+"Santa Clara, CA",37.3992,-121.9803,operational
+"Santa Elena, Chile",-36.8167,-72.0167,operational
+"Santiago de los Caballeros, DR",19.4517,-70.697,operational
+"Seattle, WA",47.5832,-122.3251,operational
+"Secaucus, NJ",40.7855,-74.0686,operational
+"Shakopee, MN",44.7797,-93.4627,operational
+"Slope County, ND",46.45,-103.95,operational
+"Springbrook Creek, Australia",-24.8333,152.1167,operational
+"Springer, OK",34.2853,-97.1317,operational
+"St James, MN",44.0515,-94.5346,operational
+"St. John's, NL",47.5615,-52.7126,operational
+"Sterling, VA",38.985,-77.4239,operational
+"Sullivan, ME",44.5314,-68.2022,operational
+"Sunnyvale, CA",37.4117,-122.0217,operational
+"Sunset, TX",33.4486,-97.7767,operational
+"Surrency, GA",31.6829,-82.2697,operational
+"Surubim, Brazil",-7.8311,-35.7531,operational
+"Sussex, NJ",41.2018,-74.5263,operational
+"Suva, Fiji",-18.1416,178.4419,operational
+"Tapachula, Mexico",14.9032,-92.2577,operational
+"Te Hana, NZ",-36.2667,174.55,operational
+"Tea Gardens, Australia",-32.6667,152.15,operational
+"Thomaston, GA",32.9471,-84.2618,operational
+"Tionesta, CA",41.1811,-122.8747,operational
+"Toa Baja, PR",18.4441,-66.2545,operational
+"Toonpan, Australia",-19.2833,146.75,operational
+"Torrumbarry, Australia",-36.0333,144.5833,operational
+"Tracy City, TN",35.2595,-85.7369,operational
+"Tromsø, Norway",69.6496,18.956,operational
+"Tucson, AZ",32.1701,-110.9577,operational
+"Tukwila, WA",47.5089,-122.2994,operational
+"Tulelake, CA",41.644,-121.3293,operational
+"Uruguaiana, Brazil",-29.7547,-57.0883,operational
+"Vernon, UT",40.09,-112.43,operational
+"Villahermosa, Mexico",17.9893,-92.9472,operational
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,operational
+Villenave d’Ornon,44.7738,-0.5595,operational
+"Virginia Beach, VA",36.7838,-76.0093,operational
+"Wagin, Australia",-33.3167,117.35,operational
+"Wailuku, HI",20.9005,-156.5046,operational
+"Warra, Australia",-26.9833,150.9333,operational
+"Warren, MO",38.7728,-91.1643,operational
+"Watkins, CO",39.7582,-104.617,operational
+"Weehawken, NJ",40.7616,-74.0253,operational
+"Wellington, UT",39.5401,-110.6928,operational
+"West Jordan, UT",40.6198,-111.9863,operational
+"Westbury, NY",40.7559,-73.5579,operational
+"Westminster, CO",39.8845,-105.0802,operational
+"Willemstad, Curaçao",12.1696,-68.99,operational
+"Wise, VA",36.977333,-82.528,operational
+"Wola Krobowska, Poland",50.35,20.55,operational
+"Yamaguchi, Japan",34.1861,131.4706,operational
