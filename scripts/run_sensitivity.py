@@ -25,7 +25,7 @@ from scripts.build_visibility_tensor import (
     build_visibility_outputs,
     load_candidates_csv,
 )
-from scripts.run_optimization import load_site_feasible
+from scripts.run_optimization import combine_site_feasible, load_site_feasible
 from src.evaluation.sensitivity import sensitivity_results_to_frame, solve_budget_sensitivity
 from src.optimization.milp import propagation_latency_cost
 from src.simulation.propagator import propagate_tle_file
@@ -48,6 +48,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--tle-file", type=Path, default=None, help="TLE file.")
     parser.add_argument("--candidates-csv", type=Path, default=None, help="Candidate site CSV.")
     parser.add_argument("--backhaul-mask-csv", type=Path, default=None, help="Optional backhaul mask CSV.")
+    parser.add_argument("--geopolitical-mask-csv", type=Path, default=None, help="Optional geopolitical eligibility mask CSV.")
     parser.add_argument("--demand-npy", type=Path, default=None, help="Optional demand vector.")
     parser.add_argument("--output-dir", type=Path, default=PROJECT_ROOT / "data" / "processed" / "sensitivity")
     parser.add_argument("--output-csv", type=Path, default=PROJECT_ROOT / "data" / "processed" / "sensitivity_results.csv")
@@ -143,11 +144,17 @@ def main() -> None:
         service_cost.data = service_cost.data * float(latency_cfg["alpha"])
         save_npz(scenario_paths["service_cost"], service_cost, compressed=True)
 
-        site_feasible = (
+        backhaul_feasible = (
             load_site_feasible(args.backhaul_mask_csv, metadata_json=metadata_path)
             if args.backhaul_mask_csv is not None
             else None
         )
+        geopolitical_feasible = (
+            load_site_feasible(args.geopolitical_mask_csv, metadata_json=metadata_path)
+            if args.geopolitical_mask_csv is not None
+            else None
+        )
+        site_feasible = combine_site_feasible(backhaul_feasible, geopolitical_feasible)
         all_results.extend(
             solve_budget_sensitivity(
                 load_npz(scenario_paths["visibility"]),

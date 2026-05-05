@@ -34,12 +34,22 @@ def _parse_bool(value: object) -> bool:
 
 
 def load_site_feasible(mask_csv: Path, *, metadata_json: Path | None = None) -> np.ndarray:
-    """Load a site feasibility vector from ``backhaul_mask.csv``."""
+    """Load a site feasibility vector from a mask CSV."""
 
     frame = pd.read_csv(mask_csv)
-    column = "b_i" if "b_i" in frame.columns else "backhaul_feasible" if "backhaul_feasible" in frame.columns else None
+    column = (
+        "b_i"
+        if "b_i" in frame.columns
+        else "backhaul_feasible"
+        if "backhaul_feasible" in frame.columns
+        else "g_i"
+        if "g_i" in frame.columns
+        else "geopolitical_allowed"
+        if "geopolitical_allowed" in frame.columns
+        else None
+    )
     if column is None:
-        raise ValueError("backhaul mask must include `b_i` or `backhaul_feasible`")
+        raise ValueError("mask must include `b_i`, `backhaul_feasible`, `g_i`, or `geopolitical_allowed`")
 
     if metadata_json is not None:
         site_ids = json.loads(metadata_json.read_text(encoding="utf-8"))["site_ids"]
@@ -54,6 +64,20 @@ def load_site_feasible(mask_csv: Path, *, metadata_json: Path | None = None) -> 
     return np.asarray([_parse_bool(value) for value in frame[column].tolist()], dtype=np.bool_)
 
 
+def combine_site_feasible(*masks: np.ndarray | None) -> np.ndarray | None:
+    """Combine optional site feasibility masks with logical AND."""
+
+    active = [np.asarray(mask, dtype=np.bool_) for mask in masks if mask is not None]
+    if not active:
+        return None
+    combined = active[0].copy()
+    for mask in active[1:]:
+        if mask.shape != combined.shape:
+            raise ValueError(f"site feasibility masks have incompatible shapes: {combined.shape} vs {mask.shape}")
+        combined &= mask
+    return combined
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Solve satellite ground-station placement MILP.")
     parser.add_argument(
@@ -66,6 +90,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--service-cost-npz", type=Path, default=None, help="Optional sparse service-cost matrix.")
     parser.add_argument("--demand-npy", type=Path, default=None, help="Optional NumPy demand vector with one value per row.")
     parser.add_argument("--backhaul-mask-csv", type=Path, default=None, help="Optional b_i feasibility mask CSV.")
+    parser.add_argument("--geopolitical-mask-csv", type=Path, default=None, help="Optional g_i geopolitical feasibility mask CSV.")
     parser.add_argument("--visibility-metadata", type=Path, default=None, help="Optional metadata JSON for site_id ordering.")
     parser.add_argument("--coverage", type=float, default=0.9, help="Required weighted coverage fraction.")
     parser.add_argument("--max-sites", type=int, default=None, help="Optional maximum number of ground stations.")
@@ -85,11 +110,17 @@ def main() -> None:
     visibility = load_npz(args.visibility_npz)
     service_cost = load_npz(args.service_cost_npz) if args.service_cost_npz is not None else None
     demand = np.load(args.demand_npy) if args.demand_npy is not None else None
-    site_feasible = (
+    backhaul_feasible = (
         load_site_feasible(args.backhaul_mask_csv, metadata_json=args.visibility_metadata)
         if args.backhaul_mask_csv is not None
         else None
     )
+    geopolitical_feasible = (
+        load_site_feasible(args.geopolitical_mask_csv, metadata_json=args.visibility_metadata)
+        if args.geopolitical_mask_csv is not None
+        else None
+    )
+    site_feasible = combine_site_feasible(backhaul_feasible, geopolitical_feasible)
 
     result = solve_ground_station_milp(
         visibility,
