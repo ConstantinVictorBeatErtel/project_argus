@@ -1,0 +1,41 @@
+% Model formulation outline for the report
+\begin{align}
+\mathcal{I} &= \text{candidate ground-station sites}, &
+\mathcal{R} &= \{(j,t): \text{satellite } j \text{ at time } t\} \\
+\end{align}
+
+\noindent\textbf{Parameters}
+\begin{align}
+a_{ri} &\in \{0,1\} && \text{1 if site } i \text{ can see satellite-time row } r \\
+d_r &\ge 0 && \text{demand weight for row } r \\
+f_i &\ge 0 && \text{fixed opening cost for site } i \\
+c_{ri} &\ge 0 && \text{latency-weighted service cost on feasible arc } (r,i) \\
+b_i &\in \{0,1\} && \text{1 if site } i \text{ satisfies backhaul feasibility} \\
+g_i &\in \{0,1\} && \text{1 if site } i \text{ satisfies geopolitical feasibility} \\
+K &\in \mathbb{Z}_+ && \text{maximum number of open ground stations.}
+\end{align}
+
+\noindent\textbf{Decision variables}
+\begin{align}
+y_i &\in \{0,1\} && \text{1 if site } i \text{ is opened} \\
+x_{ri} &\in \{0,1\} && \text{1 if row } r \text{ is served by site } i.
+\end{align}
+
+\noindent\textbf{Cost-minimizing formulation with coverage requirement } \epsilon
+\begin{align}
+\min_{x,y}\quad & \sum_{i \in \mathcal{I}} f_i y_i + \sum_{r \in \mathcal{R}}\sum_{i \in \mathcal{I}} c_{ri}x_{ri} \\
+\text{s.t.}\quad
+& x_{ri} \le a_{ri} && \forall r \in \mathcal{R}, i \in \mathcal{I} && \text{visibility feasibility} \\
+& x_{ri} \le y_i && \forall r \in \mathcal{R}, i \in \mathcal{I} && \text{assignment only to open sites} \\
+& \sum_{i \in \mathcal{I}} x_{ri} \le 1 && \forall r \in \mathcal{R} && \text{single assignment} \\
+& \sum_{i \in \mathcal{I}} y_i \le K && && \text{station budget} \\
+& y_i \le b_i && \forall i \in \mathcal{I} && \text{backhaul feasibility} \\
+& y_i \le g_i && \forall i \in \mathcal{I} && \text{geopolitical feasibility} \\
+& \sum_{r \in \mathcal{R}}\sum_{i \in \mathcal{I}} d_r x_{ri} \ge \epsilon \sum_{r \in \mathcal{R}} d_r && && \text{coverage requirement.}
+\end{align}
+
+\noindent\textbf{Sensitivity variant.} For budget/elevation heat maps, we fix $K$ and maximize weighted coverage:
+\begin{align}
+\max_{x,y}\quad & \sum_{r \in \mathcal{R}}\sum_{i \in \mathcal{I}} d_r x_{ri}
+\end{align}
+\noindent subject to the same visibility, linkage, assignment, budget, backhaul, and geopolitical constraints.
