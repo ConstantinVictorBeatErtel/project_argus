@@ -1,0 +1,37 @@
+kuiper_site,portfolio,nearest_model_km
+"Rawlins, WY",Uniform baseline,781.8889440099603
+"Rawlins, WY",WorldPop baseline,7977.5434555985175
+"Rawlins, WY",Uniform + geopolitical constraint,781.8889440099603
+"Rawlins, WY",WorldPop + geopolitical constraint,781.8889440099603
+"Casa Grande, AZ",Uniform baseline,1680.3382783895215
+"Casa Grande, AZ",WorldPop baseline,8973.550654406556
+"Casa Grande, AZ",Uniform + geopolitical constraint,1680.3382783895215
+"Casa Grande, AZ",WorldPop + geopolitical constraint,1593.4300897454798
+"Mount Ulla, NC",Uniform baseline,782.2154539560232
+"Mount Ulla, NC",WorldPop baseline,6714.518637577452
+"Mount Ulla, NC",Uniform + geopolitical constraint,2185.2017970843767
+"Mount Ulla, NC",WorldPop + geopolitical constraint,1010.0455176180848
+"Kapolei, HI",Uniform baseline,2149.601270594469
+"Kapolei, HI",WorldPop baseline,7304.091339293938
+"Kapolei, HI",Uniform + geopolitical constraint,2149.601270594469
+"Kapolei, HI",WorldPop + geopolitical constraint,5043.852384647122
+"Kahului, HI",Uniform baseline,2250.1632037217787
+"Kahului, HI",WorldPop baseline,7481.4646169074485
+"Kahului, HI",Uniform + geopolitical constraint,2250.1632037217787
+"Kahului, HI",WorldPop + geopolitical constraint,4972.628272241871
+"Whiting, ME",Uniform baseline,1052.1733321068687
+"Whiting, ME",WorldPop baseline,5279.213028725829
+"Whiting, ME",Uniform + geopolitical constraint,1213.648292669487
+"Whiting, ME",WorldPop + geopolitical constraint,699.5803704062763
+"Carr, CO",Uniform baseline,977.7321511642676
+"Carr, CO",WorldPop baseline,7911.797925743573
+"Carr, CO",Uniform + geopolitical constraint,977.7321511642676
+"Carr, CO",WorldPop + geopolitical constraint,750.5631904689182
+"Owatonna, MN",Uniform baseline,911.7636349329606
+"Owatonna, MN",WorldPop baseline,6999.320421610658
+"Owatonna, MN",Uniform + geopolitical constraint,911.7636349329606
+"Owatonna, MN",WorldPop + geopolitical constraint,496.2458991931678
+"Raymond, OH",Uniform baseline,1110.0760341072962
+"Raymond, OH",WorldPop baseline,6645.020964180609
+"Raymond, OH",Uniform + geopolitical constraint,1612.765371972356
+"Raymond, OH",WorldPop + geopolitical constraint,737.0332541989237

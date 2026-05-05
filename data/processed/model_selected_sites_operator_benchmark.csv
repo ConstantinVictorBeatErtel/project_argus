@@ -1,0 +1,73 @@
+portfolio,candidate_index,latitude_deg,longitude_deg
+Uniform baseline,3,-24.0,148.0
+Uniform baseline,16,20.0,-12.0
+Uniform baseline,17,-44.0,112.0
+Uniform baseline,24,52.0,-128.0
+Uniform baseline,28,44.0,-52.0
+Uniform baseline,34,40.0,-164.0
+Uniform baseline,43,-44.0,152.0
+Uniform baseline,48,52.0,-96.0
+Uniform baseline,85,56.0,-64.0
+Uniform baseline,89,20.0,180.0
+Uniform baseline,101,-44.0,132.0
+Uniform baseline,105,28.0,-52.0
+Uniform baseline,120,-20.0,128.0
+Uniform baseline,121,48.0,-112.0
+Uniform baseline,125,-28.0,40.0
+Uniform baseline,132,52.0,56.0
+Uniform baseline,137,44.0,-12.0
+Uniform baseline,152,56.0,-80.0
+Uniform baseline,186,36.0,-72.0
+WorldPop baseline,9,44.0,20.0
+WorldPop baseline,27,28.0,92.0
+WorldPop baseline,47,36.0,112.0
+WorldPop baseline,51,36.0,-4.0
+WorldPop baseline,54,4.0,0.0
+WorldPop baseline,65,56.0,36.0
+WorldPop baseline,92,8.0,12.0
+WorldPop baseline,114,48.0,4.0
+WorldPop baseline,128,32.0,80.0
+WorldPop baseline,134,32.0,128.0
+WorldPop baseline,156,-4.0,36.0
+WorldPop baseline,172,12.0,-8.0
+WorldPop baseline,175,28.0,108.0
+Uniform + geopolitical constraint,3,-24.0,148.0
+Uniform + geopolitical constraint,16,20.0,-12.0
+Uniform + geopolitical constraint,17,-44.0,112.0
+Uniform + geopolitical constraint,24,52.0,-128.0
+Uniform + geopolitical constraint,28,44.0,-52.0
+Uniform + geopolitical constraint,34,40.0,-164.0
+Uniform + geopolitical constraint,43,-44.0,152.0
+Uniform + geopolitical constraint,48,52.0,-96.0
+Uniform + geopolitical constraint,63,-24.0,-16.0
+Uniform + geopolitical constraint,78,40.0,-140.0
+Uniform + geopolitical constraint,82,-32.0,16.0
+Uniform + geopolitical constraint,85,56.0,-64.0
+Uniform + geopolitical constraint,101,-44.0,132.0
+Uniform + geopolitical constraint,105,28.0,-52.0
+Uniform + geopolitical constraint,120,-20.0,128.0
+Uniform + geopolitical constraint,121,48.0,-112.0
+Uniform + geopolitical constraint,125,-28.0,40.0
+Uniform + geopolitical constraint,136,-32.0,140.0
+Uniform + geopolitical constraint,137,44.0,-12.0
+Uniform + geopolitical constraint,152,56.0,-80.0
+WorldPop + geopolitical constraint,9,44.0,20.0
+WorldPop + geopolitical constraint,23,40.0,136.0
+WorldPop + geopolitical constraint,38,-24.0,28.0
+WorldPop + geopolitical constraint,51,36.0,-4.0
+WorldPop + geopolitical constraint,54,4.0,0.0
+WorldPop + geopolitical constraint,69,44.0,-76.0
+WorldPop + geopolitical constraint,91,-12.0,-40.0
+WorldPop + geopolitical constraint,92,8.0,12.0
+WorldPop + geopolitical constraint,97,-12.0,32.0
+WorldPop + geopolitical constraint,112,-24.0,-52.0
+WorldPop + geopolitical constraint,114,48.0,4.0
+WorldPop + geopolitical constraint,121,48.0,-112.0
+WorldPop + geopolitical constraint,133,40.0,-96.0
+WorldPop + geopolitical constraint,156,-4.0,36.0
+WorldPop + geopolitical constraint,160,8.0,108.0
+WorldPop + geopolitical constraint,172,12.0,-8.0
+WorldPop + geopolitical constraint,177,40.0,32.0
+WorldPop + geopolitical constraint,180,16.0,124.0
+WorldPop + geopolitical constraint,181,20.0,-96.0
+WorldPop + geopolitical constraint,191,40.0,8.0

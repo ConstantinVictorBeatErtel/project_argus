@@ -106,11 +106,11 @@ Recommended structure:
 
 For Starlink, use this result:
 
-> The operational Starlink gateway data include 250 operational gateways. The original WorldPop portfolio has median nearest-gateway distance of 7,154 km and only 7.6% of Starlink gateways within 1,000 km of an Argus site. After imposing the geopolitical constraint, the WorldPop portfolio improves to a median nearest-gateway distance of 881 km, with 57.6% of Starlink gateways within 1,000 km.
+> The operational Starlink gateway data include 250 operational gateways. The original WorldPop portfolio has median nearest-gateway distance of 7,154 km and only 7.6% of Starlink gateways within 1,000 km of a model-selected site. After imposing the geopolitical constraint, the WorldPop portfolio improves to a median nearest-gateway distance of 881 km, with 57.6% of Starlink gateways within 1,000 km.
 
 For Kuiper, use the more cautious result:
 
-> The FCC Kuiper sample is U.S.-heavy, so it is closer to the uniform Argus portfolio than to the unconstrained WorldPop portfolio. This reinforces that operator siting reflects jurisdiction, licensing, and rollout strategy in addition to population demand.
+> The FCC Kuiper sample is U.S.-heavy, so it is closer to the uniform model-selected portfolio than to the unconstrained WorldPop portfolio. This reinforces that operator siting reflects jurisdiction, licensing, and rollout strategy in addition to population demand.
 
 ## 9. Update The Limitations Section
 

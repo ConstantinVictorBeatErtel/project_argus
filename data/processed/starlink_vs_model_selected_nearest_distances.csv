@@ -1,0 +1,1001 @@
+starlink_gateway,latitude_deg,longitude_deg,portfolio,nearest_argus_km
+"Aerzen, Germany",52.0489,9.2683,Uniform baseline,1807.621277240214
+"Aerzen, Germany",52.0489,9.2683,WorldPop baseline,586.4913988119386
+"Aerzen, Germany",52.0489,9.2683,Uniform + geopolitical constraint,1807.621277240214
+"Aerzen, Germany",52.0489,9.2683,WorldPop + geopolitical constraint,586.4913988119386
+"Akita, Japan",39.72,140.1024,Uniform baseline,4377.585162310219
+"Akita, Japan",39.72,140.1024,WorldPop baseline,1385.7308093044198
+"Akita, Japan",39.72,140.1024,Uniform + geopolitical constraint,4689.3700152218225
+"Akita, Japan",39.72,140.1024,WorldPop + geopolitical constraint,351.50866766665484
+"Akron, OH",41.0575,-81.5199,Uniform baseline,1000.0596139264318
+"Akron, OH",41.0575,-81.5199,WorldPop baseline,6467.299596163452
+"Akron, OH",41.0575,-81.5199,Uniform + geopolitical constraint,1639.4883751920324
+"Akron, OH",41.0575,-81.5199,WorldPop + geopolitical constraint,558.0483468267327
+"Alfouvar de Cima, Portugal",40.5167,-8.25,Uniform baseline,495.1235525987807
+"Alfouvar de Cima, Portugal",40.5167,-8.25,WorldPop baseline,624.2689633573527
+"Alfouvar de Cima, Portugal",40.5167,-8.25,Uniform + geopolitical constraint,495.1235525987807
+"Alfouvar de Cima, Portugal",40.5167,-8.25,WorldPop + geopolitical constraint,624.2689633573527
+"Anchorage, AK",61.2181,-149.9003,Uniform baseline,1673.6242266597944
+"Anchorage, AK",61.2181,-149.9003,WorldPop baseline,6519.2643110337285
+"Anchorage, AK",61.2181,-149.9003,Uniform + geopolitical constraint,1673.6242266597944
+"Anchorage, AK",61.2181,-149.9003,WorldPop + geopolitical constraint,2791.204168215742
+"Angeles, Philippines",15.145,120.5887,Uniform baseline,3991.0454722683025
+"Angeles, Philippines",15.145,120.5887,WorldPop baseline,1930.379429537807
+"Angeles, Philippines",15.145,120.5887,Uniform + geopolitical constraint,3991.0454722683025
+"Angeles, Philippines",15.145,120.5887,WorldPop + geopolitical constraint,377.5529703431552
+"Ashburn, VA",39.0157,-77.4649,Uniform baseline,587.027060885951
+"Ashburn, VA",39.0157,-77.4649,WorldPop baseline,6305.480382743582
+"Ashburn, VA",39.0157,-77.4649,Uniform + geopolitical constraint,1897.8201399496068
+"Ashburn, VA",39.0157,-77.4649,WorldPop + geopolitical constraint,567.4658557726566
+"Awarua, NZ",-46.5294,168.3781,Uniform baseline,1309.715854995248
+"Awarua, NZ",-46.5294,168.3781,WorldPop baseline,9625.81315442957
+"Awarua, NZ",-46.5294,168.3781,Uniform + geopolitical constraint,1309.715854995248
+"Awarua, NZ",-46.5294,168.3781,WorldPop + geopolitical constraint,8248.267159761772
+"Ballinspittle, Ireland",51.6508,-8.5808,Uniform baseline,887.940570725158
+"Ballinspittle, Ireland",51.6508,-8.5808,WorldPop baseline,987.8776310230152
+"Ballinspittle, Ireland",51.6508,-8.5808,Uniform + geopolitical constraint,887.940570725158
+"Ballinspittle, Ireland",51.6508,-8.5808,WorldPop + geopolitical constraint,987.8776310230152
+"Bandon, OR",43.2476,-124.3828,Uniform baseline,1009.9405119631788
+"Bandon, OR",43.2476,-124.3828,WorldPop baseline,8682.149082936385
+"Bandon, OR",43.2476,-124.3828,Uniform + geopolitical constraint,1009.9405119631788
+"Bandon, OR",43.2476,-124.3828,WorldPop + geopolitical constraint,1096.5861541197253
+"Banning, CA",33.9191,-116.8494,Uniform baseline,1616.953950549767
+"Banning, CA",33.9191,-116.8494,WorldPop baseline,9177.207848679676
+"Banning, CA",33.9191,-116.8494,Uniform + geopolitical constraint,1616.953950549767
+"Banning, CA",33.9191,-116.8494,WorldPop + geopolitical constraint,1616.953950549767
+"Bastrop, TX",30.1579,-97.4069,Uniform baseline,2341.139874428596
+"Bastrop, TX",30.1579,-97.4069,WorldPop baseline,8338.955432704763
+"Bastrop, TX",30.1579,-97.4069,Uniform + geopolitical constraint,2341.139874428596
+"Bastrop, TX",30.1579,-97.4069,WorldPop + geopolitical constraint,1101.8088980389225
+"Baxley, GA",31.7791,-82.3485,Uniform baseline,1063.470451946387
+"Baxley, GA",31.7791,-82.3485,WorldPop baseline,7044.848610049969
+"Baxley, GA",31.7791,-82.3485,Uniform + geopolitical constraint,2506.841810764606
+"Baxley, GA",31.7791,-82.3485,WorldPop + geopolitical constraint,1467.4954932931234
+"Beekmantown, NY",44.7629,-73.5754,Uniform baseline,983.428483559373
+"Beekmantown, NY",44.7629,-73.5754,WorldPop baseline,5702.004034303572
+"Beekmantown, NY",44.7629,-73.5754,Uniform + geopolitical constraint,1328.5615720156516
+"Beekmantown, NY",44.7629,-73.5754,WorldPop + geopolitical constraint,210.5207391860387
+"Bellingham, WA",48.7519,-122.4787,Uniform baseline,532.406819047588
+"Bellingham, WA",48.7519,-122.4787,WorldPop baseline,8090.008859442838
+"Bellingham, WA",48.7519,-122.4787,Uniform + geopolitical constraint,532.406819047588
+"Bellingham, WA",48.7519,-122.4787,WorldPop + geopolitical constraint,777.8343651319127
+"Big Ivy, TN",35.1599,-88.061,Uniform baseline,1453.8351730384734
+"Big Ivy, TN",35.1599,-88.061,WorldPop baseline,7328.140496458426
+"Big Ivy, TN",35.1599,-88.061,Uniform + geopolitical constraint,1975.8597779034635
+"Big Ivy, TN",35.1599,-88.061,WorldPop + geopolitical constraint,882.0418331724449
+"Bluffdale, UT",40.4798,-111.9042,Uniform baseline,836.2427197338704
+"Bluffdale, UT",40.4798,-111.9042,WorldPop baseline,8331.269978422932
+"Bluffdale, UT",40.4798,-111.9042,Uniform + geopolitical constraint,836.2427197338704
+"Bluffdale, UT",40.4798,-111.9042,WorldPop + geopolitical constraint,836.2427197338704
+"Boca Chica, TX",26.0621,-97.1668,Uniform baseline,2629.8526863159286
+"Boca Chica, TX",26.0621,-97.1668,WorldPop baseline,8606.818847905763
+"Boca Chica, TX",26.0621,-97.1668,Uniform + geopolitical constraint,2760.9651591016072
+"Boca Chica, TX",26.0621,-97.1668,WorldPop + geopolitical constraint,684.5529650398731
+"Boise, ID",43.5811,-116.29,Uniform baseline,593.1410233087164
+"Boise, ID",43.5811,-116.29,WorldPop baseline,8280.115507331442
+"Boise, ID",43.5811,-116.29,Uniform + geopolitical constraint,593.1410233087164
+"Boise, ID",43.5811,-116.29,WorldPop + geopolitical constraint,593.1410233087164
+"Boorowa, Australia",-34.4392,148.7142,Uniform baseline,1099.8921657610813
+"Boorowa, Australia",-34.4392,148.7142,WorldPop baseline,7698.758594845971
+"Boorowa, Australia",-34.4392,148.7142,Uniform + geopolitical constraint,854.437956081801
+"Boorowa, Australia",-34.4392,148.7142,WorldPop + geopolitical constraint,6187.726911186349
+"Brewster, WA",48.0962,-119.7806,Uniform baseline,578.2199178728591
+"Brewster, WA",48.0962,-119.7806,WorldPop baseline,8035.497882680775
+"Brewster, WA",48.0962,-119.7806,Uniform + geopolitical constraint,578.2199178728591
+"Brewster, WA",48.0962,-119.7806,WorldPop + geopolitical constraint,578.2199178728591
+"Bridgewater, CT",41.5454,-73.3544,Uniform baseline,627.6743591036574
+"Bridgewater, CT",41.5454,-73.3544,WorldPop baseline,5881.351625782761
+"Bridgewater, CT",41.5454,-73.3544,Uniform + geopolitical constraint,1677.5490491249466
+"Bridgewater, CT",41.5454,-73.3544,WorldPop + geopolitical constraint,347.99046295003615
+"Broadview, IL",41.8642,-87.8534,Uniform baseline,1283.785519414722
+"Broadview, IL",41.8642,-87.8534,WorldPop baseline,6819.079419193179
+"Broadview, IL",41.8642,-87.8534,Uniform + geopolitical constraint,1283.785519414722
+"Broadview, IL",41.8642,-87.8534,WorldPop + geopolitical constraint,714.7387952431183
+"Broken Hill, Australia",-31.9505,141.4681,Uniform baseline,1091.6438458546602
+"Broken Hill, Australia",-31.9505,141.4681,WorldPop baseline,7250.562283752813
+"Broken Hill, Australia",-31.9505,141.4681,Uniform + geopolitical constraint,138.58547188473733
+"Broken Hill, Australia",-31.9505,141.4681,WorldPop + geopolitical constraint,5647.638364835806
+"Brooklyn Park, MN",45.144,-93.3858,Uniform baseline,786.1030915132973
+"Brooklyn Park, MN",45.144,-93.3858,WorldPop baseline,6918.1590907389655
+"Brooklyn Park, MN",45.144,-93.3858,Uniform + geopolitical constraint,786.1030915132973
+"Brooklyn Park, MN",45.144,-93.3858,WorldPop + geopolitical constraint,610.6406105784554
+"Bulla Bulling, Australia",-31.1,121.0167,Uniform baseline,1418.2745499136834
+"Bulla Bulling, Australia",-31.1,121.0167,WorldPop baseline,6714.909154737823
+"Bulla Bulling, Australia",-31.1,121.0167,Uniform + geopolitical constraint,1418.2745499136834
+"Bulla Bulling, Australia",-31.1,121.0167,WorldPop + geopolitical constraint,4563.372808394997
+"Burbank, CA",34.2001,-118.3438,Uniform baseline,1622.5159054599508
+"Burbank, CA",34.2001,-118.3438,WorldPop baseline,9230.719360387331
+"Burbank, CA",34.2001,-118.3438,Uniform + geopolitical constraint,1622.5159054599508
+"Burbank, CA",34.2001,-118.3438,WorldPop + geopolitical constraint,1622.5159054599508
+"Butte, MT",46.0038,-112.5348,Uniform baseline,225.6400848653416
+"Butte, MT",46.0038,-112.5348,WorldPop baseline,7885.397509604321
+"Butte, MT",46.0038,-112.5348,Uniform + geopolitical constraint,225.6400848653416
+"Butte, MT",46.0038,-112.5348,WorldPop + geopolitical constraint,225.6400848653416
+"Cabo San Lucas, Mexico",22.8905,-109.9167,Uniform baseline,2798.1599582412023
+"Cabo San Lucas, Mexico",22.8905,-109.9167,WorldPop baseline,9758.031927854345
+"Cabo San Lucas, Mexico",22.8905,-109.9167,Uniform + geopolitical constraint,2798.1599582412023
+"Cabo San Lucas, Mexico",22.8905,-109.9167,WorldPop + geopolitical constraint,1475.0739860624594
+"Cal-Nev-Ari, NV",35.2987,-114.8745,Uniform baseline,1432.0945974813858
+"Cal-Nev-Ari, NV",35.2987,-114.8745,WorldPop baseline,8946.94533964549
+"Cal-Nev-Ari, NV",35.2987,-114.8745,Uniform + geopolitical constraint,1432.0945974813858
+"Cal-Nev-Ari, NV",35.2987,-114.8745,WorldPop + geopolitical constraint,1432.0945974813858
+"Calais, ME",45.1714,-67.2476,Uniform baseline,1095.414310254808
+"Calais, ME",45.1714,-67.2476,WorldPop baseline,5254.80409254143
+"Calais, ME",45.1714,-67.2476,Uniform + geopolitical constraint,1212.677547705293
+"Calais, ME",45.1714,-67.2476,WorldPop + geopolitical constraint,704.8896327716016
+"Caldera, Chile",-27.0667,-70.8167,Uniform baseline,6444.176769550582
+"Caldera, Chile",-27.0667,-70.8167,WorldPop baseline,8044.232569556025
+"Caldera, Chile",-27.0667,-70.8167,Uniform + geopolitical constraint,5467.55109887973
+"Caldera, Chile",-27.0667,-70.8167,WorldPop + geopolitical constraint,1916.582974648805
+"Calrossie, Australia",-36.45,145.3,Uniform baseline,1013.2756344796368
+"Calrossie, Australia",-36.45,145.3,WorldPop baseline,7821.3480485362115
+"Calrossie, Australia",-36.45,145.3,Uniform + geopolitical constraint,694.2252315939069
+"Calrossie, Australia",-36.45,145.3,WorldPop + geopolitical constraint,6246.543876351385
+"Calverton, NY",40.9089,-72.7976,Uniform baseline,550.2377886085443
+"Calverton, NY",40.9089,-72.7976,WorldPop baseline,5859.53587107204
+"Calverton, NY",40.9089,-72.7976,Uniform + geopolitical constraint,1735.610562931324
+"Calverton, NY",40.9089,-72.7976,WorldPop + geopolitical constraint,432.5495974758056
+"Camaçari, Brazil",-12.6996,-38.3263,Uniform baseline,4638.757550267485
+"Camaçari, Brazil",-12.6996,-38.3263,WorldPop baseline,4328.5617881299195
+"Camaçari, Brazil",-12.6996,-38.3263,Uniform + geopolitical constraint,2664.6078086121856
+"Camaçari, Brazil",-12.6996,-38.3263,WorldPop + geopolitical constraint,197.74330404152929
+"Canyonleigh, Australia",-34.5333,150.2,Uniform baseline,1063.915822174487
+"Canyonleigh, Australia",-34.5333,150.2,WorldPop baseline,7753.736059461742
+"Canyonleigh, Australia",-34.5333,150.2,Uniform + geopolitical constraint,988.7457195019324
+"Canyonleigh, Australia",-34.5333,150.2,WorldPop + geopolitical constraint,6264.67104024634
+"Cass County, ND",46.93,-97.25,Uniform baseline,570.925743031867
+"Cass County, ND",46.93,-97.25,WorldPop baseline,7007.0938991127
+"Cass County, ND",46.93,-97.25,Uniform + geopolitical constraint,570.925743031867
+"Cass County, ND",46.93,-97.25,WorldPop + geopolitical constraint,777.1265692756521
+"Cataby, Australia",-30.75,115.5333,Uniform baseline,1505.6491196309505
+"Cataby, Australia",-30.75,115.5333,WorldPop baseline,6581.397297072552
+"Cataby, Australia",-30.75,115.5333,Uniform + geopolitical constraint,1505.6491196309505
+"Cataby, Australia",-30.75,115.5333,WorldPop + geopolitical constraint,4383.032834122018
+"Centennial, CO",39.5919,-104.8469,Uniform baseline,1096.033893213801
+"Centennial, CO",39.5919,-104.8469,WorldPop baseline,8019.229428358735
+"Centennial, CO",39.5919,-104.8469,Uniform + geopolitical constraint,1096.033893213801
+"Centennial, CO",39.5919,-104.8469,WorldPop + geopolitical constraint,756.8770093534062
+"Chalfont Grove, UK",51.6167,-0.5667,Uniform baseline,1200.007426647292
+"Chalfont Grove, UK",51.6167,-0.5667,WorldPop baseline,518.5576854930987
+"Chalfont Grove, UK",51.6167,-0.5667,Uniform + geopolitical constraint,1200.007426647292
+"Chalfont Grove, UK",51.6167,-0.5667,WorldPop + geopolitical constraint,518.5576854930987
+"Chantilly, VA",38.9102,-77.4727,Uniform baseline,581.2688832994368
+"Chantilly, VA",38.9102,-77.4727,WorldPop baseline,6310.487584262112
+"Chantilly, VA",38.9102,-77.4727,Uniform + geopolitical constraint,1909.4532715869689
+"Chantilly, VA",38.9102,-77.4727,WorldPop + geopolitical constraint,579.085671132013
+"Chapel Hill, NC",35.8958,-79.2267,Uniform baseline,650.487149505108
+"Chapel Hill, NC",35.8958,-79.2267,WorldPop baseline,6584.964415102828
+"Chapel Hill, NC",35.8958,-79.2267,Uniform + geopolitical constraint,2226.747885228
+"Chapel Hill, NC",35.8958,-79.2267,WorldPop + geopolitical constraint,941.9777347455556
+"Charcas, Mexico",23.1314,-101.1136,Uniform baseline,2928.5316761678982
+"Charcas, Mexico",23.1314,-101.1136,WorldPop baseline,9120.549503071366
+"Charcas, Mexico",23.1314,-101.1136,Uniform + geopolitical constraint,2928.5316761678982
+"Charcas, Mexico",23.1314,-101.1136,WorldPop + geopolitical constraint,633.043895778184
+"Charleston, SC",32.7765,-79.9311,Uniform baseline,810.8743727293839
+"Charleston, SC",32.7765,-79.9311,WorldPop baseline,6792.0095689558575
+"Charleston, SC",32.7765,-79.9311,Uniform + geopolitical constraint,2499.597535210696
+"Charleston, SC",32.7765,-79.9311,WorldPop + geopolitical constraint,1293.7473997031746
+"Chaska, MN",44.851,-93.598,Uniform baseline,814.329521009827
+"Chaska, MN",44.851,-93.598,WorldPop baseline,6952.246649976715
+"Chaska, MN",44.851,-93.598,Uniform + geopolitical constraint,814.329521009827
+"Chaska, MN",44.851,-93.598,WorldPop + geopolitical constraint,574.2343984562351
+"Chattanooga, TN",35.0317,-85.2975,Uniform baseline,1207.3849861632937
+"Chattanooga, TN",35.0317,-85.2975,WorldPop baseline,7121.674097291182
+"Chattanooga, TN",35.0317,-85.2975,Uniform + geopolitical constraint,2069.652264893013
+"Chattanooga, TN",35.0317,-85.2975,WorldPop + geopolitical constraint,1092.5728105731982
+"Chicago, IL",41.8414,-87.6711,Uniform baseline,1292.6951956639198
+"Chicago, IL",41.8414,-87.6711,WorldPop baseline,6809.204441367484
+"Chicago, IL",41.8414,-87.6711,Uniform + geopolitical constraint,1292.6951956639198
+"Chicago, IL",41.8414,-87.6711,WorldPop + geopolitical constraint,728.7918799693089
+"Chico, CA",39.7754,-121.9199,Uniform baseline,1209.7421667734695
+"Chico, CA",39.7754,-121.9199,WorldPop baseline,8894.915529722775
+"Chico, CA",39.7754,-121.9199,Uniform + geopolitical constraint,1209.7421667734695
+"Chico, CA",39.7754,-121.9199,WorldPop + geopolitical constraint,1209.7421667734695
+"Clarksville, GA",34.6485,-83.5473,Uniform baseline,1057.6829422876826
+"Clarksville, GA",34.6485,-83.5473,WorldPop baseline,6998.598231199151
+"Clarksville, GA",34.6485,-83.5473,Uniform + geopolitical constraint,2169.5141323172293
+"Clarksville, GA",34.6485,-83.5473,WorldPop + geopolitical constraint,1224.6041878324943
+"Cobargo, Australia",-36.3886,149.89,Uniform baseline,865.029317817975
+"Cobargo, Australia",-36.3886,149.89,WorldPop baseline,7938.448675515517
+"Cobargo, Australia",-36.3886,149.89,Uniform + geopolitical constraint,865.029317817975
+"Cobargo, Australia",-36.3886,149.89,WorldPop + geopolitical constraint,6428.869118434262
+"Colburn, ID",48.4,-116.55,Uniform baseline,340.0918801166593
+"Colburn, ID",48.4,-116.55,WorldPop baseline,7865.542439882657
+"Colburn, ID",48.4,-116.55,Uniform + geopolitical constraint,340.0918801166593
+"Colburn, ID",48.4,-116.55,WorldPop + geopolitical constraint,340.0918801166593
+"Conrad, MT",48.17,-111.95,Uniform baseline,19.264548347189777
+"Conrad, MT",48.17,-111.95,WorldPop baseline,7671.818394603101
+"Conrad, MT",48.17,-111.95,Uniform + geopolitical constraint,19.264548347189777
+"Conrad, MT",48.17,-111.95,WorldPop + geopolitical constraint,19.264548347189777
+"Corpus Christi, TX",27.7931,-97.4519,Uniform baseline,2560.8363526389026
+"Corpus Christi, TX",27.7931,-97.4519,WorldPop baseline,8522.555729970158
+"Corpus Christi, TX",27.7931,-97.4519,Uniform + geopolitical constraint,2574.2691044482417
+"Corpus Christi, TX",27.7931,-97.4519,WorldPop + geopolitical constraint,879.0039566391328
+"Cromwell, NZ",-45.05,169.2,Uniform baseline,1365.940785742185
+"Cromwell, NZ",-45.05,169.2,WorldPop baseline,9524.392600960153
+"Cromwell, NZ",-45.05,169.2,Uniform + geopolitical constraint,1365.940785742185
+"Cromwell, NZ",-45.05,169.2,WorldPop + geopolitical constraint,8176.536755442515
+"Dallas, TX",32.7999,-96.8182,Uniform baseline,2115.2886401497244
+"Dallas, TX",32.7999,-96.8182,WorldPop baseline,8086.382181692745
+"Dallas, TX",32.7999,-96.8182,Uniform + geopolitical constraint,2115.2886401497244
+"Dallas, TX",32.7999,-96.8182,WorldPop + geopolitical constraint,803.9450240575402
+"Debeque, CO",39.289,-108.205,Uniform baseline,1015.2746105458162
+"Debeque, CO",39.289,-108.205,WorldPop baseline,8233.54497059796
+"Debeque, CO",39.289,-108.205,Uniform + geopolitical constraint,1015.2746105458162
+"Debeque, CO",39.289,-108.205,WorldPop + geopolitical constraint,1015.2746105458162
+"Delta, UT",39.3461,-112.5894,Uniform baseline,963.4283625768576
+"Delta, UT",39.3461,-112.5894,WorldPop baseline,8466.417107409628
+"Delta, UT",39.3461,-112.5894,Uniform + geopolitical constraint,963.4283625768576
+"Delta, UT",39.3461,-112.5894,WorldPop + geopolitical constraint,963.4283625768576
+"Denver, CO",39.7457,-104.9954,Uniform baseline,1074.9093060161792
+"Denver, CO",39.7457,-104.9954,WorldPop baseline,8014.914395370379
+"Denver, CO",39.7457,-104.9954,Uniform + geopolitical constraint,1074.9093060161792
+"Denver, CO",39.7457,-104.9954,WorldPop + geopolitical constraint,767.8498264205714
+"Douglas, WY",42.7401,-105.3504,Uniform baseline,781.650644981381
+"Douglas, WY",42.7401,-105.3504,WorldPop baseline,7787.046885721007
+"Douglas, WY",42.7401,-105.3504,Uniform + geopolitical constraint,781.650644981381
+"Douglas, WY",42.7401,-105.3504,WorldPop + geopolitical constraint,781.650644981381
+"Draper, UT",40.4799,-111.8229,Uniform baseline,836.3153187955978
+"Draper, UT",40.4799,-111.8229,WorldPop baseline,8326.97309606443
+"Draper, UT",40.4799,-111.8229,Uniform + geopolitical constraint,836.3153187955978
+"Draper, UT",40.4799,-111.8229,WorldPop + geopolitical constraint,836.3153187955978
+"Dubois, ID",44.1704,-112.2251,Uniform baseline,426.1852657827961
+"Dubois, ID",44.1704,-112.2251,WorldPop baseline,8028.035171653568
+"Dubois, ID",44.1704,-112.2251,Uniform + geopolitical constraint,426.1852657827961
+"Dubois, ID",44.1704,-112.2251,WorldPop + geopolitical constraint,426.1852657827961
+"Dubuque, IA",42.4446,-90.6785,Uniform baseline,1135.2012030252572
+"Dubuque, IA",42.4446,-90.6785,WorldPop baseline,6953.212681602866
+"Dubuque, IA",42.4446,-90.6785,Uniform + geopolitical constraint,1135.2012030252572
+"Dubuque, IA",42.4446,-90.6785,WorldPop + geopolitical constraint,521.3599887525429
+"Duluth, MN",46.8281,-92.1304,Uniform baseline,639.3769969326343
+"Duluth, MN",46.8281,-92.1304,WorldPop baseline,6722.426947196421
+"Duluth, MN",46.8281,-92.1304,Uniform + geopolitical constraint,639.3769969326343
+"Duluth, MN",46.8281,-92.1304,WorldPop + geopolitical constraint,820.79785855763
+"Dumas, TX",35.8628,-101.9732,Uniform baseline,1581.0688922913876
+"Dumas, TX",35.8628,-101.9732,WorldPop baseline,8158.702678625063
+"Dumas, TX",35.8628,-101.9732,Uniform + geopolitical constraint,1581.0688922913876
+"Dumas, TX",35.8628,-101.9732,WorldPop + geopolitical constraint,696.8859423091083
+"Eagan, MN",44.8393,-93.1456,Uniform baseline,823.4536796773976
+"Eagan, MN",44.8393,-93.1456,WorldPop baseline,6926.403041362525
+"Eagan, MN",44.8393,-93.1456,Uniform + geopolitical constraint,823.4536796773976
+"Eagan, MN",44.8393,-93.1456,WorldPop + geopolitical constraint,586.8036279110842
+"Edison, NJ",40.5211,-74.3451,Uniform baseline,542.7610806470624
+"Edison, NJ",40.5211,-74.3451,WorldPop baseline,5996.89211347457
+"Edison, NJ",40.5211,-74.3451,Uniform + geopolitical constraint,1769.8863012571564
+"Edison, NJ",40.5211,-74.3451,WorldPop + geopolitical constraint,410.0845126894443
+El Marques,20.7351,-100.2836,Uniform baseline,3208.322027503536
+El Marques,20.7351,-100.2836,WorldPop baseline,9207.19982665549
+El Marques,20.7351,-100.2836,Uniform + geopolitical constraint,3208.322027503536
+El Marques,20.7351,-100.2836,WorldPop + geopolitical constraint,453.9380493902648
+"Elbert, CO",39.2239,-104.5347,Uniform baseline,1144.8340484583646
+"Elbert, CO",39.2239,-104.5347,WorldPop baseline,8031.902541297157
+"Elbert, CO",39.2239,-104.5347,Uniform + geopolitical constraint,1144.8340484583646
+"Elbert, CO",39.2239,-104.5347,WorldPop + geopolitical constraint,735.8881867399411
+"Elfordstown, Ireland",52.0833,-8.25,Uniform baseline,940.7342555590698
+"Elfordstown, Ireland",52.0833,-8.25,WorldPop baseline,983.8797011424664
+"Elfordstown, Ireland",52.0833,-8.25,Uniform + geopolitical constraint,940.7342555590698
+"Elfordstown, Ireland",52.0833,-8.25,WorldPop + geopolitical constraint,983.8797011424664
+"Evanston, WY",41.2683,-110.9632,Uniform baseline,752.9929534860642
+"Evanston, WY",41.2683,-110.9632,WorldPop baseline,8213.35795590895
+"Evanston, WY",41.2683,-110.9632,Uniform + geopolitical constraint,752.9929534860642
+"Evanston, WY",41.2683,-110.9632,WorldPop + geopolitical constraint,752.9929534860642
+"Fair Park, UT",40.7669,-111.9212,Uniform baseline,804.3082760994456
+"Fair Park, UT",40.7669,-111.9212,WorldPop baseline,8307.208967333225
+"Fair Park, UT",40.7669,-111.9212,Uniform + geopolitical constraint,804.3082760994456
+"Fair Park, UT",40.7669,-111.9212,WorldPop + geopolitical constraint,804.3082760994456
+"Fairbanks, AK",64.8378,-147.7164,Uniform baseline,1815.8505461693849
+"Fairbanks, AK",64.8378,-147.7164,WorldPop baseline,6556.702832732347
+"Fairbanks, AK",64.8378,-147.7164,Uniform + geopolitical constraint,1815.8505461693849
+"Fairbanks, AK",64.8378,-147.7164,WorldPop + geopolitical constraint,2820.1435506773114
+"Falda del Carmen, Argentina",-31.5333,-64.45,Uniform baseline,6749.838573908274
+"Falda del Carmen, Argentina",-31.5333,-64.45,WorldPop baseline,7715.674862947352
+"Falda del Carmen, Argentina",-31.5333,-64.45,Uniform + geopolitical constraint,4801.678177329243
+"Falda del Carmen, Argentina",-31.5333,-64.45,WorldPop + geopolitical constraint,1482.221145918871
+"Foggia, Italy",41.4621,15.5444,Uniform baseline,2256.7383124218877
+"Foggia, Italy",41.4621,15.5444,WorldPop baseline,460.4026641864451
+"Foggia, Italy",41.4621,15.5444,Uniform + geopolitical constraint,2256.7383124218877
+"Foggia, Italy",41.4621,15.5444,WorldPop + geopolitical constraint,460.4026641864451
+"Fort Lauderdale, FL",26.1224,-80.1373,Uniform baseline,1343.0301681690607
+"Fort Lauderdale, FL",26.1224,-80.1373,WorldPop baseline,7155.666446832458
+"Fort Lauderdale, FL",26.1224,-80.1373,Uniform + geopolitical constraint,2787.8965888688153
+"Fort Lauderdale, FL",26.1224,-80.1373,WorldPop + geopolitical constraint,1758.0619636481956
+"Franklin Park, IL",41.9288,-87.8574,Uniform baseline,1277.1795416664368
+"Franklin Park, IL",41.9288,-87.8574,WorldPop baseline,6814.683614659571
+"Franklin Park, IL",41.9288,-87.8574,Uniform + geopolitical constraint,1277.1795416664368
+"Franklin Park, IL",41.9288,-87.8574,WorldPop + geopolitical constraint,716.2087181442837
+"Frederick, MD",39.4143,-77.4105,Uniform baseline,608.6325013366275
+"Frederick, MD",39.4143,-77.4105,WorldPop baseline,6284.693586109148
+"Frederick, MD",39.4143,-77.4105,Uniform + geopolitical constraint,1854.0663760665705
+"Frederick, MD",39.4143,-77.4105,WorldPop + geopolitical constraint,523.1536301668482
+"Fremont, CA",37.4921,-121.9367,Uniform baseline,1419.9500331560057
+"Fremont, CA",37.4921,-121.9367,WorldPop baseline,9107.97666974076
+"Fremont, CA",37.4921,-121.9367,Uniform + geopolitical constraint,1419.9500331560057
+"Fremont, CA",37.4921,-121.9367,WorldPop + geopolitical constraint,1419.9500331560057
+"Ft. Lauderdale, FL",26.1911,-80.1934,Uniform baseline,1339.7277963357074
+"Ft. Lauderdale, FL",26.1911,-80.1934,WorldPop baseline,7156.797416421208
+"Ft. Lauderdale, FL",26.1911,-80.1934,Uniform + geopolitical constraint,2791.9899075700655
+"Ft. Lauderdale, FL",26.1911,-80.1934,WorldPop + geopolitical constraint,1755.3568855740084
+"Gaffney, SC",35.0718,-81.6498,Uniform baseline,878.8705196058654
+"Gaffney, SC",35.0718,-81.6498,WorldPop baseline,6822.500532889568
+"Gaffney, SC",35.0718,-81.6498,Uniform + geopolitical constraint,2200.3780706682937
+"Gaffney, SC",35.0718,-81.6498,WorldPop + geopolitical constraint,1103.9994573124525
+"Goodyear, AZ",33.4121,-112.4129,Uniform baseline,1622.467298112601
+"Goodyear, AZ",33.4121,-112.4129,WorldPop baseline,8978.898585569244
+"Goodyear, AZ",33.4121,-112.4129,Uniform + geopolitical constraint,1622.467298112601
+"Goodyear, AZ",33.4121,-112.4129,WorldPop + geopolitical constraint,1622.467298112601
+"Goonhilly, UK",50.0502,-5.1825,Uniform baseline,847.5618114462227
+"Goonhilly, UK",50.0502,-5.1825,WorldPop baseline,706.7220031346206
+"Goonhilly, UK",50.0502,-5.1825,Uniform + geopolitical constraint,847.5618114462227
+"Goonhilly, UK",50.0502,-5.1825,WorldPop + geopolitical constraint,706.7220031346206
+"Gordon, GA",32.8411,-83.2538,Uniform baseline,1089.588179979863
+"Gordon, GA",32.8411,-83.2538,WorldPop baseline,7065.831015863389
+"Gordon, GA",32.8411,-83.2538,Uniform + geopolitical constraint,2365.401488657007
+"Gordon, GA",32.8411,-83.2538,WorldPop + geopolitical constraint,1388.5304204157703
+"Grant District, WV",38.978,-79.1466,Uniform baseline,711.8983108546523
+"Grant District, WV",38.978,-79.1466,WorldPop baseline,6441.549278383529
+"Grant District, WV",38.978,-79.1466,Uniform + geopolitical constraint,1893.80917697368
+"Grant District, WV",38.978,-79.1466,WorldPop + geopolitical constraint,616.7431871132305
+"Greenville, PA",41.4028,-80.3812,Uniform baseline,942.53591180025
+"Greenville, PA",41.4028,-80.3812,WorldPop baseline,6368.605353282687
+"Greenville, PA",41.4028,-80.3812,Uniform + geopolitical constraint,1623.3692414303766
+"Greenville, PA",41.4028,-80.3812,WorldPop + geopolitical constraint,459.86205183543075
+"Guarapari, Brazil",-20.6614,-40.4981,Uniform baseline,5482.426512104805
+"Guarapari, Brazil",-20.6614,-40.4981,WorldPop baseline,5080.344570323615
+"Guarapari, Brazil",-20.6614,-40.4981,Uniform + geopolitical constraint,2543.658789531132
+"Guarapari, Brazil",-20.6614,-40.4981,WorldPop + geopolitical constraint,964.5657742549698
+"Hamshire, TX",29.8622,-94.6749,Uniform baseline,2217.43948257137
+"Hamshire, TX",29.8622,-94.6749,WorldPop baseline,8170.24850352477
+"Hamshire, TX",29.8622,-94.6749,Uniform + geopolitical constraint,2464.0238977352888
+"Hamshire, TX",29.8622,-94.6749,WorldPop + geopolitical constraint,1104.703475699966
+"Hawkins, TX",32.6136,-95.2998,Uniform baseline,2156.4124555941216
+"Hawkins, TX",32.6136,-95.2998,WorldPop baseline,8003.125229333244
+"Hawkins, TX",32.6136,-95.2998,Uniform + geopolitical constraint,2156.4124555941216
+"Hawkins, TX",32.6136,-95.2998,WorldPop + geopolitical constraint,823.714564692871
+"Hawthorne, CA",33.9207,-118.328,Uniform baseline,1651.8204897788091
+"Hawthorne, CA",33.9207,-118.328,WorldPop baseline,9255.428863403326
+"Hawthorne, CA",33.9207,-118.328,Uniform + geopolitical constraint,1651.8204897788091
+"Hawthorne, CA",33.9207,-118.328,WorldPop + geopolitical constraint,1651.8204897788091
+"Highlands Ranch, CO",39.55,-105.0333,Uniform baseline,1092.4299445794948
+"Highlands Ranch, CO",39.55,-105.0333,WorldPop baseline,8033.331190408131
+"Highlands Ranch, CO",39.55,-105.0333,Uniform + geopolitical constraint,1092.4299445794948
+"Highlands Ranch, CO",39.55,-105.0333,WorldPop + geopolitical constraint,773.2751575062497
+"Hillman, MI",45.0586,-83.9022,Uniform baseline,1176.013286545691
+"Hillman, MI",45.0586,-83.9022,WorldPop baseline,6348.111481863801
+"Hillman, MI",45.0586,-83.9022,Uniform + geopolitical constraint,1176.013286545691
+"Hillman, MI",45.0586,-83.9022,WorldPop + geopolitical constraint,637.0966171479317
+"Hillsboro, TX",32.011,-97.13,Uniform baseline,2174.5592443003325
+"Hillsboro, TX",32.011,-97.13,WorldPop baseline,8170.259082437946
+"Hillsboro, TX",32.011,-97.13,Uniform + geopolitical constraint,2174.5592443003325
+"Hillsboro, TX",32.011,-97.13,WorldPop + geopolitical constraint,894.1084027489833
+"Hinds, NZ",-43.8667,171.5833,Uniform baseline,1564.5413357495077
+"Hinds, NZ",-43.8667,171.5833,WorldPop baseline,9525.057588195046
+"Hinds, NZ",-43.8667,171.5833,Uniform + geopolitical constraint,1564.5413357495077
+"Hinds, NZ",-43.8667,171.5833,WorldPop + geopolitical constraint,8223.065213501442
+"Hitterdal, MN",46.9769,-96.2595,Uniform baseline,558.85664042984
+"Hitterdal, MN",46.9769,-96.2595,WorldPop baseline,6947.992645694978
+"Hitterdal, MN",46.9769,-96.2595,Uniform + geopolitical constraint,558.85664042984
+"Hitterdal, MN",46.9769,-96.2595,WorldPop + geopolitical constraint,776.0770006158916
+"Honolulu, HI",21.315,-157.8664,Uniform baseline,2157.4455316521903
+"Honolulu, HI",21.315,-157.8664,WorldPop baseline,7325.7544992296125
+"Honolulu, HI",21.315,-157.8664,Uniform + geopolitical constraint,2157.4455316521903
+"Honolulu, HI",21.315,-157.8664,WorldPop + geopolitical constraint,5029.945855955833
+"Howell, UT",41.8366,-112.4352,Uniform baseline,686.1916664235048
+"Howell, UT",41.8366,-112.4352,WorldPop baseline,8240.975752438102
+"Howell, UT",41.8366,-112.4352,Uniform + geopolitical constraint,686.1916664235048
+"Howell, UT",41.8366,-112.4352,WorldPop + geopolitical constraint,686.1916664235048
+"Ibi, Spain",38.6264,-0.5726,Uniform baseline,1124.4552645100405
+"Ibi, Spain",38.6264,-0.5726,WorldPop baseline,420.844120955915
+"Ibi, Spain",38.6264,-0.5726,Uniform + geopolitical constraint,1124.4552645100405
+"Ibi, Spain",38.6264,-0.5726,WorldPop + geopolitical constraint,420.844120955915
+"Inman, KS",38.2319,-97.7725,Uniform baseline,1537.125062382299
+"Inman, KS",38.2319,-97.7725,WorldPop baseline,7711.399508481025
+"Inman, KS",38.2319,-97.7725,Uniform + geopolitical constraint,1537.125062382299
+"Inman, KS",38.2319,-97.7725,WorldPop + geopolitical constraint,249.06000754387503
+"Iron Mountain, CO",39.7775,-104.9685,Uniform baseline,1072.942083634112
+"Iron Mountain, CO",39.7775,-104.9685,WorldPop baseline,8010.744569400441
+"Iron Mountain, CO",39.7775,-104.9685,Uniform + geopolitical constraint,1072.942083634112
+"Iron Mountain, CO",39.7775,-104.9685,WorldPop + geopolitical constraint,765.2591986871041
+"Irvine, CA",33.6872,-117.8479,Uniform baseline,1664.5431136771092
+"Irvine, CA",33.6872,-117.8479,WorldPop baseline,9251.420611552776
+"Irvine, CA",33.6872,-117.8479,Uniform + geopolitical constraint,1664.5431136771092
+"Irvine, CA",33.6872,-117.8479,WorldPop + geopolitical constraint,1664.5431136771092
+"Isle of Man, UK",54.13909,-4.49728,Uniform baseline,1251.2612534319778
+"Isle of Man, UK",54.13909,-4.49728,WorldPop baseline,903.4492675838616
+"Isle of Man, UK",54.13909,-4.49728,Uniform + geopolitical constraint,1251.2612534319778
+"Isle of Man, UK",54.13909,-4.49728,WorldPop + geopolitical constraint,903.4492675838616
+"Itaboraí, Brazil",-22.7446,-42.8586,Uniform baseline,5727.176684544412
+"Itaboraí, Brazil",-22.7446,-42.8586,WorldPop baseline,5416.60429667064
+"Itaboraí, Brazil",-22.7446,-42.8586,Uniform + geopolitical constraint,2740.9320411945755
+"Itaboraí, Brazil",-22.7446,-42.8586,WorldPop + geopolitical constraint,943.2729723530508
+"Kalama, WA",46.01,-122.84,Uniform baseline,764.5934068254547
+"Kalama, WA",46.01,-122.84,WorldPop baseline,8358.088083353088
+"Kalama, WA",46.01,-122.84,Uniform + geopolitical constraint,764.5934068254547
+"Kalama, WA",46.01,-122.84,WorldPop + geopolitical constraint,850.4235281929579
+"Kaua'i, HI",21.9994,-159.378,Uniform baseline,2048.659565337708
+"Kaua'i, HI",21.9994,-159.378,WorldPop baseline,7151.992736800956
+"Kaua'i, HI",21.9994,-159.378,Uniform + geopolitical constraint,2048.659565337708
+"Kaua'i, HI",21.9994,-159.378,WorldPop + geopolitical constraint,5080.8941488800365
+"Kaunas, Lithuania",54.8985,23.9036,Uniform baseline,2130.405479666825
+"Kaunas, Lithuania",54.8985,23.9036,WorldPop baseline,771.566435432368
+"Kaunas, Lithuania",54.8985,23.9036,Uniform + geopolitical constraint,2823.7742574015215
+"Kaunas, Lithuania",54.8985,23.9036,WorldPop + geopolitical constraint,1243.779355252822
+"Kenansville, FL",27.8847,-81.0962,Uniform baseline,1244.1304117957377
+"Kenansville, FL",27.8847,-81.0962,WorldPop baseline,7143.236071624418
+"Kenansville, FL",27.8847,-81.0962,Uniform + geopolitical constraint,2851.322503341367
+"Kenansville, FL",27.8847,-81.0962,WorldPop + geopolitical constraint,1747.8150466338652
+"Kent, WA",47.4211,-122.2481,Uniform baseline,655.5396401939643
+"Kent, WA",47.4211,-122.2481,WorldPop baseline,8202.700996559166
+"Kent, WA",47.4211,-122.2481,Uniform + geopolitical constraint,655.5396401939643
+"Kent, WA",47.4211,-122.2481,WorldPop + geopolitical constraint,768.8914210187655
+"Ketchikan, AK",55.342,-131.636,Uniform baseline,441.9804442090267
+"Ketchikan, AK",55.342,-131.636,WorldPop baseline,7583.894484939965
+"Ketchikan, AK",55.342,-131.636,Uniform + geopolitical constraint,441.9804442090267
+"Ketchikan, AK",55.342,-131.636,WorldPop + geopolitical constraint,1573.0571628884952
+"Ki Ki, Australia",-35.8,139.7167,Uniform baseline,1123.4477760128889
+"Ki Ki, Australia",-35.8,139.7167,WorldPop baseline,7637.327933073242
+"Ki Ki, Australia",-35.8,139.7167,Uniform + geopolitical constraint,423.3482228934871
+"Ki Ki, Australia",-35.8,139.7167,WorldPop + geopolitical constraint,5893.346812073932
+"Kihei, HI",20.746,-156.432,Uniform baseline,2258.415244770248
+"Kihei, HI",20.746,-156.432,WorldPop baseline,7487.146329538223
+"Kihei, HI",20.746,-156.432,Uniform + geopolitical constraint,2258.415244770248
+"Kihei, HI",20.746,-156.432,WorldPop + geopolitical constraint,4976.9849689149405
+"Kiowa, CO",39.292,-104.5052,Uniform baseline,1139.4674924474975
+"Kiowa, CO",39.292,-104.5052,WorldPop baseline,8024.563937308083
+"Kiowa, CO",39.292,-104.5052,Uniform + geopolitical constraint,1139.4674924474975
+"Kiowa, CO",39.292,-104.5052,WorldPop + geopolitical constraint,732.175241732671
+"Kuparuk, AK",70.3316,-149.5947,Uniform baseline,2314.9698394571706
+"Kuparuk, AK",70.3316,-149.5947,WorldPop baseline,5960.560585258909
+"Kuparuk, AK",70.3316,-149.5947,Uniform + geopolitical constraint,2314.9698394571706
+"Kuparuk, AK",70.3316,-149.5947,WorldPop + geopolitical constraint,3176.833981285417
+"Lawrence, KS",38.9717,-95.2353,Uniform baseline,1449.8851575233252
+"Lawrence, KS",38.9717,-95.2353,WorldPop baseline,7497.2582956006945
+"Lawrence, KS",38.9717,-95.2353,Uniform + geopolitical constraint,1449.8851575233252
+"Lawrence, KS",38.9717,-95.2353,WorldPop + geopolitical constraint,131.8344478328593
+Lekki,6.4711,3.8148,Uniform baseline,2275.182680299976
+Lekki,6.4711,3.8148,WorldPop baseline,503.89243197578713
+Lekki,6.4711,3.8148,Uniform + geopolitical constraint,2275.182680299976
+Lekki,6.4711,3.8148,WorldPop + geopolitical constraint,503.89243197578713
+"Lepe, Spain",37.2547,-7.2044,Uniform baseline,851.8857431425163
+"Lepe, Spain",37.2547,-7.2044,WorldPop baseline,318.14708368537447
+"Lepe, Spain",37.2547,-7.2044,Uniform + geopolitical constraint,851.8857431425163
+"Lepe, Spain",37.2547,-7.2044,WorldPop + geopolitical constraint,318.14708368537447
+"Limestone, ME",46.9149,-67.9195,Uniform baseline,1045.648514442708
+"Limestone, ME",46.9149,-67.9195,WorldPop baseline,5203.442136858561
+"Limestone, ME",46.9149,-67.9195,Uniform + geopolitical constraint,1045.648514442708
+"Limestone, ME",46.9149,-67.9195,WorldPop + geopolitical constraint,708.2264514349007
+"Lindon, UT",40.3327,-111.7312,Uniform baseline,852.8328616008121
+"Lindon, UT",40.3327,-111.7312,WorldPop baseline,8334.917759449676
+"Lindon, UT",40.3327,-111.7312,Uniform + geopolitical constraint,852.8328616008121
+"Lindon, UT",40.3327,-111.7312,WorldPop + geopolitical constraint,852.8328616008121
+"Lisle, IL",41.8006,-88.0961,Uniform baseline,1281.527819220452
+"Lisle, IL",41.8006,-88.0961,WorldPop baseline,6838.976198847333
+"Lisle, IL",41.8006,-88.0961,Uniform + geopolitical constraint,1281.527819220452
+"Lisle, IL",41.8006,-88.0961,WorldPop + geopolitical constraint,693.5119075632705
+"Litchfield, MN",45.12,-94.53,Uniform baseline,772.5877683231879
+"Litchfield, MN",45.12,-94.53,WorldPop baseline,6986.97463804331
+"Litchfield, MN",45.12,-94.53,Uniform + geopolitical constraint,772.5877683231879
+"Litchfield, MN",45.12,-94.53,WorldPop + geopolitical constraint,581.8797522997095
+"Lithia Springs, GA",33.7459,-84.5795,Uniform baseline,1173.7234450917806
+"Lithia Springs, GA",33.7459,-84.5795,WorldPop baseline,7128.8206758799315
+"Lithia Springs, GA",33.7459,-84.5795,Uniform + geopolitical constraint,2226.7260761372404
+"Lithia Springs, GA",33.7459,-84.5795,WorldPop + geopolitical constraint,1229.4871857301605
+"Llano Grande, Mexico",19.34,-97.008,Uniform baseline,3065.4994552309113
+"Llano Grande, Mexico",19.34,-97.008,WorldPop baseline,9018.614605088316
+"Llano Grande, Mexico",19.34,-97.008,Uniform + geopolitical constraint,3461.5714551577435
+"Llano Grande, Mexico",19.34,-97.008,WorldPop + geopolitical constraint,128.55049384251316
+"Lockport, NY",43.1709,-78.6903,Uniform baseline,981.344068455996
+"Lockport, NY",43.1709,-78.6903,WorldPop baseline,6139.361563218942
+"Lockport, NY",43.1709,-78.6903,Uniform + geopolitical constraint,1429.5846241799077
+"Lockport, NY",43.1709,-78.6903,WorldPop + geopolitical constraint,235.4682716830746
+"Loring, ME",46.95,-67.89,Uniform baseline,1041.3303832804986
+"Loring, ME",46.95,-67.89,WorldPop baseline,5199.582288344076
+"Loring, ME",46.95,-67.89,Uniform + geopolitical constraint,1041.3303832804986
+"Loring, ME",46.95,-67.89,WorldPop + geopolitical constraint,711.8780477489871
+"Los Angeles, CA",34.0581,-118.2354,Uniform baseline,1634.7347341359468
+"Los Angeles, CA",34.0581,-118.2354,WorldPop baseline,9238.00883622954
+"Los Angeles, CA",34.0581,-118.2354,Uniform + geopolitical constraint,1634.7347341359468
+"Los Angeles, CA",34.0581,-118.2354,WorldPop + geopolitical constraint,1634.7347341359468
+"Lunenburg, VT",44.412,-71.7318,Uniform baseline,935.647415118145
+"Lunenburg, VT",44.412,-71.7318,WorldPop baseline,5600.574753650939
+"Lunenburg, VT",44.412,-71.7318,Uniform + geopolitical constraint,1399.036870827145
+"Lunenburg, VT",44.412,-71.7318,WorldPop + geopolitical constraint,343.24262826334785
+"Luz, Brazil",-19.79,-44.7325,Uniform baseline,5371.182846081788
+"Luz, Brazil",-19.79,-44.7325,WorldPop baseline,5353.621640024786
+"Luz, Brazil",-19.79,-44.7325,Uniform + geopolitical constraint,2995.846416897778
+"Luz, Brazil",-19.79,-44.7325,WorldPop + geopolitical constraint,883.6823520876275
+"Lynnwood, WA",47.8417,-122.3009,Uniform baseline,616.2852448920967
+"Lynnwood, WA",47.8417,-122.3009,WorldPop baseline,8166.251717509065
+"Lynnwood, WA",47.8417,-122.3009,Uniform + geopolitical constraint,616.2852448920967
+"Lynnwood, WA",47.8417,-122.3009,WorldPop + geopolitical constraint,767.2331735228896
+"Madera, CA",36.8588,-119.9105,Uniform baseline,1396.8837412961118
+"Madera, CA",36.8588,-119.9105,WorldPop baseline,9067.06253954306
+"Madera, CA",36.8588,-119.9105,Uniform + geopolitical constraint,1396.8837412961118
+"Madera, CA",36.8588,-119.9105,WorldPop + geopolitical constraint,1396.8837412961118
+"Manaus, Brazil",-3.119,-60.0217,Uniform baseline,3565.191911755925
+"Manaus, Brazil",-3.119,-60.0217,WorldPop baseline,5989.341851627791
+"Manaus, Brazil",-3.119,-60.0217,Uniform + geopolitical constraint,3565.191911755925
+"Manaus, Brazil",-3.119,-60.0217,WorldPop + geopolitical constraint,2415.516214884358
+"Mandale, NC",35.895778,-79.226722,Uniform baseline,650.48926231776
+"Mandale, NC",35.895778,-79.226722,WorldPop baseline,6584.967230897022
+"Mandale, NC",35.895778,-79.226722,Uniform + geopolitical constraint,2226.7489483128174
+"Mandale, NC",35.895778,-79.226722,WorldPop + geopolitical constraint,941.9806314875588
+"Manistique, MI",45.9575,-86.2464,Uniform baseline,977.3026401290832
+"Manistique, MI",45.9575,-86.2464,WorldPop baseline,6432.231597565088
+"Manistique, MI",45.9575,-86.2464,Uniform + geopolitical constraint,977.3026401290832
+"Manistique, MI",45.9575,-86.2464,WorldPop + geopolitical constraint,834.1447477959014
+"Marathon, ON",48.754,-86.379,Uniform baseline,770.9895892563069
+"Marathon, ON",48.754,-86.379,WorldPop baseline,6252.632409698864
+"Marathon, ON",48.754,-86.379,Uniform + geopolitical constraint,770.9895892563069
+"Marathon, ON",48.754,-86.379,WorldPop + geopolitical constraint,954.4273242556668
+"Marcell, MN",47.593,-93.6941,Uniform baseline,517.1619853894255
+"Marcell, MN",47.593,-93.6941,WorldPop baseline,6757.423245982753
+"Marcell, MN",47.593,-93.6941,Uniform + geopolitical constraint,517.1619853894255
+"Marcell, MN",47.593,-93.6941,WorldPop + geopolitical constraint,864.2389717192692
+"Marsala, Italy",37.7986,12.4357,Uniform baseline,2156.9554397714883
+"Marsala, Italy",37.7986,12.4357,WorldPop baseline,937.101420417278
+"Marsala, Italy",37.7986,12.4357,Uniform + geopolitical constraint,2156.9554397714883
+"Marsala, Italy",37.7986,12.4357,WorldPop + geopolitical constraint,455.1716512118061
+"Mazahua, Mexico",19.65,-100.05,Uniform baseline,3284.0097510938067
+"Mazahua, Mexico",19.65,-100.05,WorldPop baseline,9258.148905562715
+"Mazahua, Mexico",19.65,-100.05,Uniform + geopolitical constraint,3330.9846118850783
+"Mazahua, Mexico",19.65,-100.05,WorldPop + geopolitical constraint,425.4219526746474
+"McGregor, TX",31.44,-97.41,Uniform baseline,2216.068195043905
+"McGregor, TX",31.44,-97.41,WorldPop baseline,8234.706497330719
+"McGregor, TX",31.44,-97.41,Uniform + geopolitical constraint,2216.068195043905
+"McGregor, TX",31.44,-97.41,WorldPop + geopolitical constraint,960.2620577445036
+"Merida, Mexico",20.9674,-89.5926,Uniform baseline,2390.197995338642
+"Merida, Mexico",20.9674,-89.5926,WorldPop baseline,8276.435962023654
+"Merida, Mexico",20.9674,-89.5926,Uniform + geopolitical constraint,3494.7934569337144
+"Merida, Mexico",20.9674,-89.5926,WorldPop + geopolitical constraint,675.982016272854
+"Merredin, Australia",-31.4833,118.2833,Uniform baseline,1496.268201164647
+"Merredin, Australia",-31.4833,118.2833,WorldPop baseline,6703.323562012799
+"Merredin, Australia",-31.4833,118.2833,Uniform + geopolitical constraint,1496.268201164647
+"Merredin, Australia",-31.4833,118.2833,WorldPop + geopolitical constraint,4524.552712634848
+"Merrillan, WI",44.45,-90.8333,Uniform baseline,922.0758558556852
+"Merrillan, WI",44.45,-90.8333,WorldPop baseline,6816.655177543714
+"Merrillan, WI",44.45,-90.8333,Uniform + geopolitical constraint,922.0758558556852
+"Merrillan, WI",44.45,-90.8333,WorldPop + geopolitical constraint,652.2769474371628
+"Mesa, AZ",33.4212,-111.8592,Uniform baseline,1621.1312782353866
+"Mesa, AZ",33.4212,-111.8592,WorldPop baseline,8946.805296779881
+"Mesa, AZ",33.4212,-111.8592,Uniform + geopolitical constraint,1621.1312782353866
+"Mesa, AZ",33.4212,-111.8592,WorldPop + geopolitical constraint,1588.4761074952178
+"Miami, FL",25.7915,-80.3797,Uniform baseline,1387.0881878063876
+"Miami, FL",25.7915,-80.3797,WorldPop baseline,7194.872857339778
+"Miami, FL",25.7915,-80.3797,Uniform + geopolitical constraint,2818.7388310961346
+"Miami, FL",25.7915,-80.3797,WorldPop + geopolitical constraint,1723.1154450752094
+"Milano, Italy",45.4642,9.19,Uniform baseline,1676.8602978407146
+"Milano, Italy",45.4642,9.19,WorldPop baseline,485.59065251436016
+"Milano, Italy",45.4642,9.19,Uniform + geopolitical constraint,1676.8602978407146
+"Milano, Italy",45.4642,9.19,WorldPop + geopolitical constraint,485.59065251436016
+"Milwaukee, WI",43.1512,-88.0088,Uniform baseline,1150.6005618245
+"Milwaukee, WI",43.1512,-88.0088,WorldPop baseline,6736.652598240939
+"Milwaukee, WI",43.1512,-88.0088,Uniform + geopolitical constraint,1150.6005618245
+"Milwaukee, WI",43.1512,-88.0088,WorldPop + geopolitical constraint,750.969130823414
+"Minneapolis, MN",44.9709,-93.2544,Uniform baseline,807.213357872876
+"Minneapolis, MN",44.9709,-93.2544,WorldPop baseline,6923.149329241778
+"Minneapolis, MN",44.9709,-93.2544,Uniform + geopolitical constraint,807.213357872876
+"Minneapolis, MN",44.9709,-93.2544,WorldPop + geopolitical constraint,596.7347279880069
+"Molokai, HI",21.1333,-157.0167,Uniform baseline,2199.92685635842
+"Molokai, HI",21.1333,-157.0167,WorldPop baseline,7413.491767293507
+"Molokai, HI",21.1333,-157.0167,Uniform + geopolitical constraint,2199.92685635842
+"Molokai, HI",21.1333,-157.0167,WorldPop + geopolitical constraint,4985.526158340086
+Monterey,36.2231,-121.3877,Uniform baseline,1518.7591339312546
+Monterey,36.2231,-121.3877,WorldPop baseline,9199.161999421867
+Monterey,36.2231,-121.3877,Uniform + geopolitical constraint,1518.7591339312546
+Monterey,36.2231,-121.3877,WorldPop + geopolitical constraint,1518.7591339312546
+Montes Carlos,9.2895,-75.3994,Uniform baseline,2989.92293170735
+Montes Carlos,9.2895,-75.3994,WorldPop baseline,7354.184399889127
+Montes Carlos,9.2895,-75.3994,Uniform + geopolitical constraint,3213.2088724094965
+Montes Carlos,9.2895,-75.3994,WorldPop + geopolitical constraint,2511.8657283804837
+"Mossoró, Brazil",-5.1878,-37.3441,Uniform baseline,3939.3995954795855
+"Mossoró, Brazil",-5.1878,-37.3441,WorldPop baseline,3765.6305471798487
+"Mossoró, Brazil",-5.1878,-37.3441,Uniform + geopolitical constraint,3096.7131033206815
+"Mossoró, Brazil",-5.1878,-37.3441,WorldPop + geopolitical constraint,811.7508066910091
+"Mt. Ayr, IN",39.975,-87.3036,Uniform baseline,1409.964553595618
+"Mt. Ayr, IN",39.975,-87.3036,WorldPop baseline,6920.763265288489
+"Mt. Ayr, IN",39.975,-87.3036,Uniform + geopolitical constraint,1493.9423357745525
+"Mt. Ayr, IN",39.975,-87.3036,WorldPop + geopolitical constraint,740.6083098611874
+"Muallim, Turkey",40.0333,30.05,Uniform baseline,2385.069835428653
+"Muallim, Turkey",40.0333,30.05,WorldPop baseline,939.2184332611454
+"Muallim, Turkey",40.0333,30.05,Uniform + geopolitical constraint,3463.7635513229243
+"Muallim, Turkey",40.0333,30.05,WorldPop + geopolitical constraint,166.0989458101374
+"Murayjat, Oman",23.588,58.545,Uniform baseline,3166.7138873523772
+"Murayjat, Oman",23.588,58.545,WorldPop baseline,2302.773789915723
+"Murayjat, Oman",23.588,58.545,Uniform + geopolitical constraint,6071.136149470007
+"Murayjat, Oman",23.588,58.545,WorldPop + geopolitical constraint,3082.0886474460303
+"Myrtle Beach, SC",33.71,-78.8958,Uniform baseline,678.5796130973573
+"Myrtle Beach, SC",33.71,-78.8958,WorldPop baseline,6660.077783463987
+"Myrtle Beach, SC",33.71,-78.8958,Uniform + geopolitical constraint,2452.3172470836366
+"Myrtle Beach, SC",33.71,-78.8958,WorldPop + geopolitical constraint,1171.1345457483508
+"Nemaha, NE",40.3408,-95.6708,Uniform baseline,1296.6880523797174
+"Nemaha, NE",40.3408,-95.6708,WorldPop baseline,7417.80922653035
+"Nemaha, NE",40.3408,-95.6708,Uniform + geopolitical constraint,1296.6880523797174
+"Nemaha, NE",40.3408,-95.6708,WorldPop + geopolitical constraint,47.100218562043565
+"New Braunfels, TX",29.703,-98.1245,Uniform baseline,2354.549440438265
+"New Braunfels, TX",29.703,-98.1245,WorldPop baseline,8422.999061542305
+"New Braunfels, TX",29.703,-98.1245,Uniform + geopolitical constraint,2354.549440438265
+"New Braunfels, TX",29.703,-98.1245,WorldPop + geopolitical constraint,1099.92985523736
+"New York, NY",40.7178,-74.0083,Uniform baseline,553.0028371544838
+"New York, NY",40.7178,-74.0083,WorldPop baseline,5962.8205603452425
+"New York, NY",40.7178,-74.0083,Uniform + geopolitical constraint,1754.398258668406
+"New York, NY",40.7178,-74.0083,WorldPop + geopolitical constraint,399.941727674788
+"Niland, CA",33.2205,-115.4668,Uniform baseline,1668.797174024854
+"Niland, CA",33.2205,-115.4668,WorldPop baseline,9165.537065895138
+"Niland, CA",33.2205,-115.4668,Uniform + geopolitical constraint,1668.797174024854
+"Niland, CA",33.2205,-115.4668,WorldPop + geopolitical constraint,1668.797174024854
+"Nome, AK",64.5011,-165.4064,Uniform baseline,2536.515028306309
+"Nome, AK",64.5011,-165.4064,WorldPop baseline,5719.901117093843
+"Nome, AK",64.5011,-165.4064,Uniform + geopolitical constraint,2536.515028306309
+"Nome, AK",64.5011,-165.4064,WorldPop + geopolitical constraint,3624.647378740627
+"Norcross, GA",33.941,-84.2135,Uniform baseline,1135.356268957921
+"Norcross, GA",33.941,-84.2135,WorldPop baseline,7088.829104996405
+"Norcross, GA",33.941,-84.2135,Uniform + geopolitical constraint,2218.7502893545297
+"Norcross, GA",33.941,-84.2135,WorldPop + geopolitical constraint,1243.4473160873588
+"North Miami, FL",25.9496,-80.1918,Uniform baseline,1362.1059053790889
+"North Miami, FL",25.9496,-80.1918,WorldPop baseline,7169.850735495839
+"North Miami, FL",25.9496,-80.1918,Uniform + geopolitical constraint,2796.8729023311425
+"North Miami, FL",25.9496,-80.1918,WorldPop + geopolitical constraint,1746.589143948858
+"Northlake, IL",41.92,-87.9113,Uniform baseline,1276.1126926050813
+"Northlake, IL",41.92,-87.9113,WorldPop baseline,6818.716580049343
+"Northlake, IL",41.92,-87.9113,Uniform + geopolitical constraint,1276.1126926050813
+"Northlake, IL",41.92,-87.9113,WorldPop + geopolitical constraint,711.6472525777036
+"Noviciado, Chile",-33.4167,-70.9333,Uniform baseline,7115.116887248748
+"Noviciado, Chile",-33.4167,-70.9333,WorldPop baseline,8351.587863745795
+"Noviciado, Chile",-33.4167,-70.9333,Uniform + geopolitical constraint,5397.437632441133
+"Noviciado, Chile",-33.4167,-70.9333,WorldPop + geopolitical constraint,2117.5706400597737
+"Otaru, Japan",43.1907,140.9945,Uniform baseline,4443.496527432166
+"Otaru, Japan",43.1907,140.9945,WorldPop baseline,1686.838684863711
+"Otaru, Japan",43.1907,140.9945,Uniform + geopolitical constraint,4504.971930786205
+"Otaru, Japan",43.1907,140.9945,WorldPop + geopolitical constraint,546.0549671616562
+"Oxford, AL",33.5936,-85.8768,Uniform baseline,1293.837608823448
+"Oxford, AL",33.5936,-85.8768,WorldPop baseline,7242.947171697102
+"Oxford, AL",33.5936,-85.8768,Uniform + geopolitical constraint,2202.1071243792103
+"Oxford, AL",33.5936,-85.8768,WorldPop + geopolitical constraint,1147.5678209401171
+"Panaca, NV",37.8,-114.39,Uniform baseline,1150.6170843701937
+"Panaca, NV",37.8,-114.39,WorldPop baseline,8698.090358721569
+"Panaca, NV",37.8,-114.39,Uniform + geopolitical constraint,1150.6170843701937
+"Panaca, NV",37.8,-114.39,WorldPop + geopolitical constraint,1150.6170843701937
+"Perry, FL",30.0616,-83.5805,Uniform baseline,1264.100194167152
+"Perry, FL",30.0616,-83.5805,WorldPop baseline,7238.531819054431
+"Perry, FL",30.0616,-83.5805,Uniform + geopolitical constraint,2643.9545298625594
+"Perry, FL",30.0616,-83.5805,WorldPop + geopolitical constraint,1578.0920980039605
+"Peñuelas, Mexico",21.8422,-102.3344,Uniform baseline,3033.5470909501346
+"Peñuelas, Mexico",21.8422,-102.3344,WorldPop baseline,9306.353474156118
+"Peñuelas, Mexico",21.8422,-102.3344,Uniform + geopolitical constraint,3033.5470909501346
+"Peñuelas, Mexico",21.8422,-102.3344,WorldPop + geopolitical constraint,688.9891100544423
+"Phoenix, AZ",33.6841,-112.0983,Uniform baseline,1591.8765638063576
+"Phoenix, AZ",33.6841,-112.0983,WorldPop baseline,8937.157940405517
+"Phoenix, AZ",33.6841,-112.0983,Uniform + geopolitical constraint,1591.8765638063576
+"Phoenix, AZ",33.6841,-112.0983,WorldPop + geopolitical constraint,1591.8765638063576
+"Pimba, Australia",-31.2833,136.8,Uniform baseline,1367.1870049100307
+"Pimba, Australia",-31.2833,136.8,WorldPop baseline,7097.48773330774
+"Pimba, Australia",-31.2833,136.8,Uniform + geopolitical constraint,313.22186213348044
+"Pimba, Australia",-31.2833,136.8,WorldPop + geopolitical constraint,5335.527057104856
+"Pine Valley, CA",32.7014,-116.3651,Uniform baseline,1740.128821208369
+"Pine Valley, CA",32.7014,-116.3651,WorldPop baseline,9261.357805231974
+"Pine Valley, CA",32.7014,-116.3651,Uniform + geopolitical constraint,1740.128821208369
+"Pine Valley, CA",32.7014,-116.3651,WorldPop + geopolitical constraint,1740.128821208369
+"Piscataway, NJ",40.5434,-74.498,Uniform baseline,550.1904595710058
+"Piscataway, NJ",40.5434,-74.498,WorldPop baseline,6008.240256599389
+"Piscataway, NJ",40.5434,-74.498,Uniform + geopolitical constraint,1764.8911860421244
+"Piscataway, NJ",40.5434,-74.498,WorldPop + geopolitical constraint,403.7158949999011
+"Piti, GU",13.4156,144.6879,Uniform baseline,3823.7594478758415
+"Piti, GU",13.4156,144.6879,WorldPop baseline,2675.448215346637
+"Piti, GU",13.4156,144.6879,Uniform + geopolitical constraint,4139.915890288452
+"Piti, GU",13.4156,144.6879,WorldPop + geopolitical constraint,2242.4855737832177
+"Ponce, PR",18.0111,-66.6141,Uniform baseline,1860.216044378529
+"Ponce, PR",18.0111,-66.6141,WorldPop baseline,6306.891457575489
+"Ponce, PR",18.0111,-66.6141,Uniform + geopolitical constraint,1860.216044378529
+"Ponce, PR",18.0111,-66.6141,WorldPop + geopolitical constraint,3020.2591772909673
+"Port St. Lucie, FL",27.2813,-80.4831,Uniform baseline,1257.6977024265504
+"Port St. Lucie, FL",27.2813,-80.4831,WorldPop baseline,7122.8131466214
+"Port St. Lucie, FL",27.2813,-80.4831,Uniform + geopolitical constraint,2800.4913401765166
+"Port St. Lucie, FL",27.2813,-80.4831,WorldPop + geopolitical constraint,1773.7108150814397
+"Porto Alegre, Brazil",-30.0346,-51.2177,Uniform baseline,6453.688135277725
+"Porto Alegre, Brazil",-30.0346,-51.2177,WorldPop baseline,6575.261525789781
+"Porto Alegre, Brazil",-30.0346,-51.2177,Uniform + geopolitical constraint,3538.306852643452
+"Porto Alegre, Brazil",-30.0346,-51.2177,WorldPop + geopolitical constraint,675.4696276061493
+"Presidente Prudente, Brazil",-22.1257,-51.3875,Uniform baseline,5574.111499281184
+"Presidente Prudente, Brazil",-22.1257,-51.3875,WorldPop baseline,6064.141842442069
+"Presidente Prudente, Brazil",-22.1257,-51.3875,Uniform + geopolitical constraint,3617.0549305947425
+"Presidente Prudente, Brazil",-22.1257,-51.3875,WorldPop + geopolitical constraint,217.62812431527095
+"Prosser, WA",46.2068,-119.7687,Uniform baseline,620.5540417848562
+"Prosser, WA",46.2068,-119.7687,WorldPop baseline,8205.887413535125
+"Prosser, WA",46.2068,-119.7687,Uniform + geopolitical constraint,620.5540417848562
+"Prosser, WA",46.2068,-119.7687,WorldPop + geopolitical constraint,620.5540417848562
+"Prudhoe Bay, AK",70.2466,-148.569,Uniform baseline,2283.484352615749
+"Prudhoe Bay, AK",70.2466,-148.569,WorldPop baseline,5972.359532905186
+"Prudhoe Bay, AK",70.2466,-148.569,Uniform + geopolitical constraint,2283.484352615749
+"Prudhoe Bay, AK",70.2466,-148.569,WorldPop + geopolitical constraint,3139.199768439988
+"Puerto Montt, Chile",-41.4689,-72.9411,Uniform baseline,8019.43744141939
+"Puerto Montt, Chile",-41.4689,-72.9411,WorldPop baseline,8899.230996342325
+"Puerto Montt, Chile",-41.4689,-72.9411,Uniform + geopolitical constraint,5559.974778558595
+"Puerto Montt, Chile",-41.4689,-72.9411,WorldPop + geopolitical constraint,2744.1158466524935
+"Puerto Saavedra, Chile",-38.7833,-73.3833,Uniform baseline,7751.001673939233
+"Puerto Saavedra, Chile",-38.7833,-73.3833,WorldPop baseline,8806.650733373743
+"Puerto Saavedra, Chile",-38.7833,-73.3833,Uniform + geopolitical constraint,5594.339866929568
+"Puerto Saavedra, Chile",-38.7833,-73.3833,WorldPop + geopolitical constraint,2600.00611191349
+"Punta Arenas, Chile",-53.1638,-70.9171,Uniform baseline,8462.518361784796
+"Punta Arenas, Chile",-53.1638,-70.9171,WorldPop baseline,9114.59136778346
+"Punta Arenas, Chile",-53.1638,-70.9171,Uniform + geopolitical constraint,5580.175750554683
+"Punta Arenas, Chile",-53.1638,-70.9171,WorldPop + geopolitical constraint,3610.788810042517
+"Punta Gorda, FL",26.9298,-82.0454,Uniform baseline,1385.7370355259095
+"Punta Gorda, FL",26.9298,-82.0454,WorldPop baseline,7276.831201483605
+"Punta Gorda, FL",26.9298,-82.0454,Uniform + geopolitical constraint,2959.2918169253453
+"Punta Gorda, FL",26.9298,-82.0454,WorldPop + geopolitical constraint,1616.865832971967
+"Puwera, NZ",-35.8,174.2333,Uniform baseline,2095.4132257703714
+"Puwera, NZ",-35.8,174.2333,WorldPop baseline,8946.319835678669
+"Puwera, NZ",-35.8,174.2333,Uniform + geopolitical constraint,2095.4132257703714
+"Puwera, NZ",-35.8,174.2333,WorldPop + geopolitical constraint,7814.442491309308
+"Redmond, WA",47.674,-122.1215,Uniform baseline,639.2131780733201
+"Redmond, WA",47.674,-122.1215,WorldPop baseline,8174.109127671865
+"Redmond, WA",47.674,-122.1215,Uniform + geopolitical constraint,639.2131780733201
+"Redmond, WA",47.674,-122.1215,WorldPop + geopolitical constraint,755.7804398736876
+"Rio Negro, Brazil",-26.105,-49.7978,Uniform baseline,6020.805663133152
+"Rio Negro, Brazil",-26.105,-49.7978,WorldPop baseline,6195.00422177336
+"Rio Negro, Brazil",-26.105,-49.7978,Uniform + geopolitical constraint,3403.213867350233
+"Rio Negro, Brazil",-26.105,-49.7978,WorldPop + geopolitical constraint,322.4708527211581
+"Riverside, GA",33.8151,-84.4601,Uniform baseline,1161.0147824749647
+"Riverside, GA",33.8151,-84.4601,WorldPop baseline,7115.480901701221
+"Riverside, GA",33.8151,-84.4601,Uniform + geopolitical constraint,2223.49313240007
+"Riverside, GA",33.8151,-84.4601,WorldPop + geopolitical constraint,1233.5647020040103
+"Robbins, CA",38.875,-121.70705555555556,Uniform baseline,1279.9649860661834
+"Robbins, CA",38.875,-121.70705555555556,WorldPop baseline,8968.425052592373
+"Robbins, CA",38.875,-121.70705555555556,Uniform + geopolitical constraint,1279.9649860661834
+"Robbins, CA",38.875,-121.70705555555556,WorldPop + geopolitical constraint,1279.9649860661834
+"Robertsdale, AL",30.55,-87.71,Uniform baseline,1578.7598809884169
+"Robertsdale, AL",30.55,-87.71,WorldPop baseline,7557.878135171044
+"Robertsdale, AL",30.55,-87.71,Uniform + geopolitical constraint,2479.8607216025734
+"Robertsdale, AL",30.55,-87.71,WorldPop + geopolitical constraint,1291.10537172278
+"Rolette County, ND",48.6604,-99.8105,Uniform baseline,459.2714882350882
+"Rolette County, ND",48.6604,-99.8105,WorldPop baseline,7016.258274303621
+"Rolette County, ND",48.6604,-99.8105,Uniform + geopolitical constraint,459.2714882350882
+"Rolette County, ND",48.6604,-99.8105,WorldPop + geopolitical constraint,903.1432710521836
+"Rolette, ND",48.6597,-99.8406,Uniform baseline,460.5944584876313
+"Rolette, ND",48.6597,-99.8406,WorldPop baseline,7017.92221371173
+"Rolette, ND",48.6597,-99.8406,Uniform + geopolitical constraint,460.5944584876313
+"Rolette, ND",48.6597,-99.8406,WorldPop + geopolitical constraint,900.9323951032447
+"Roll, AZ",32.8128,-113.9953,Uniform baseline,1697.011970834357
+"Roll, AZ",32.8128,-113.9953,WorldPop baseline,9120.820394861728
+"Roll, AZ",32.8128,-113.9953,Uniform + geopolitical constraint,1697.011970834357
+"Roll, AZ",32.8128,-113.9953,WorldPop + geopolitical constraint,1697.011970834357
+"Saguenay, QC",48.4279,-71.0548,Uniform baseline,968.3767621396456
+"Saguenay, QC",48.4279,-71.0548,WorldPop baseline,5325.861288512266
+"Saguenay, QC",48.4279,-71.0548,Uniform + geopolitical constraint,968.3767621396456
+"Saguenay, QC",48.4279,-71.0548,WorldPop + geopolitical constraint,621.9680133806493
+"Salem, OR",44.9453,-122.8886,Uniform baseline,869.7265410990423
+"Salem, OR",44.9453,-122.8886,WorldPop baseline,8458.847984219165
+"Salem, OR",44.9453,-122.8886,Uniform + geopolitical constraint,869.7265410990423
+"Salem, OR",44.9453,-122.8886,WorldPop + geopolitical constraint,899.3692378735277
+"Salt Lake City, UT",40.5861,-111.968,Uniform baseline,824.3919797231566
+"Salt Lake City, UT",40.5861,-111.968,WorldPop baseline,8325.387091156328
+"Salt Lake City, UT",40.5861,-111.968,Uniform + geopolitical constraint,824.3919797231566
+"Salt Lake City, UT",40.5861,-111.968,WorldPop + geopolitical constraint,824.3919797231566
+"Sambro Creek, NS",44.4833,-63.6,Uniform baseline,924.843718384095
+"Sambro Creek, NS",44.4833,-63.6,WorldPop baseline,5032.213112526707
+"Sambro Creek, NS",44.4833,-63.6,Uniform + geopolitical constraint,924.843718384095
+"Sambro Creek, NS",44.4833,-63.6,WorldPop + geopolitical constraint,988.3001413068348
+"San Clemente, Chile",-35.5333,-71.4833,Uniform baseline,7354.217551532955
+"San Clemente, Chile",-35.5333,-71.4833,WorldPop baseline,8499.202753899945
+"San Clemente, Chile",-35.5333,-71.4833,Uniform + geopolitical constraint,5435.162652381957
+"San Clemente, Chile",-35.5333,-71.4833,WorldPop + geopolitical constraint,2269.1560950495896
+"San Jose, CA",37.2422,-121.7844,Uniform baseline,1436.824458234566
+"San Jose, CA",37.2422,-121.7844,WorldPop baseline,9123.855853880212
+"San Jose, CA",37.2422,-121.7844,Uniform + geopolitical constraint,1436.824458234566
+"San Jose, CA",37.2422,-121.7844,WorldPop + geopolitical constraint,1436.824458234566
+"Sanderson, TX",30.1421,-102.3949,Uniform baseline,2147.85374578103
+"Sanderson, TX",30.1421,-102.3949,WorldPop baseline,8660.646940365306
+"Sanderson, TX",30.1421,-102.3949,Uniform + geopolitical constraint,2147.85374578103
+"Sanderson, TX",30.1421,-102.3949,WorldPop + geopolitical constraint,1240.180465679044
+"Sandston, VA",37.4901,-77.2461,Uniform baseline,495.8427435930739
+"Sandston, VA",37.4901,-77.2461,WorldPop baseline,6352.210723777254
+"Sandston, VA",37.4901,-77.2461,Uniform + geopolitical constraint,2068.465554698156
+"Sandston, VA",37.4901,-77.2461,WorldPop + geopolitical constraint,731.4138127452102
+"Santa Clara, CA",37.3992,-121.9803,Uniform baseline,1430.7712509582796
+"Santa Clara, CA",37.3992,-121.9803,WorldPop baseline,9118.729683516218
+"Santa Clara, CA",37.3992,-121.9803,Uniform + geopolitical constraint,1430.7712509582796
+"Santa Clara, CA",37.3992,-121.9803,WorldPop + geopolitical constraint,1430.7712509582796
+"Santa Elena, Chile",-36.8167,-72.0167,Uniform baseline,7504.737822647758
+"Santa Elena, Chile",-36.8167,-72.0167,WorldPop baseline,8604.325424275492
+"Santa Elena, Chile",-36.8167,-72.0167,Uniform + geopolitical constraint,5478.316160928202
+"Santa Elena, Chile",-36.8167,-72.0167,WorldPop + geopolitical constraint,2382.1806544619985
+"Santiago de los Caballeros, DR",19.4517,-70.697,Uniform baseline,1844.494126487963
+"Santiago de los Caballeros, DR",19.4517,-70.697,WorldPop baseline,6689.96632904
+"Santiago de los Caballeros, DR",19.4517,-70.697,Uniform + geopolitical constraint,2123.709662960718
+"Santiago de los Caballeros, DR",19.4517,-70.697,WorldPop + geopolitical constraint,2646.6547102348286
+"Seattle, WA",47.5832,-122.3251,Uniform baseline,637.6882341361221
+"Seattle, WA",47.5832,-122.3251,WorldPop baseline,8191.041087014835
+"Seattle, WA",47.5832,-122.3251,Uniform + geopolitical constraint,637.6882341361221
+"Seattle, WA",47.5832,-122.3251,WorldPop + geopolitical constraint,772.1371843026938
+"Secaucus, NJ",40.7855,-74.0686,Uniform baseline,561.7835835363162
+"Secaucus, NJ",40.7855,-74.0686,WorldPop baseline,5965.139895625748
+"Secaucus, NJ",40.7855,-74.0686,Uniform + geopolitical constraint,1745.957426530328
+"Secaucus, NJ",40.7855,-74.0686,WorldPop + geopolitical constraint,391.01614882961024
+"Shakopee, MN",44.7797,-93.4627,Uniform baseline,824.2938504378917
+"Shakopee, MN",44.7797,-93.4627,WorldPop baseline,6949.529812130318
+"Shakopee, MN",44.7797,-93.4627,Uniform + geopolitical constraint,824.2938504378917
+"Shakopee, MN",44.7797,-93.4627,WorldPop + geopolitical constraint,570.7881937659164
+"Slope County, ND",46.45,-103.95,Uniform baseline,631.5152654312859
+"Slope County, ND",46.45,-103.95,WorldPop baseline,7409.867459783253
+"Slope County, ND",46.45,-103.95,Uniform + geopolitical constraint,631.5152654312859
+"Slope County, ND",46.45,-103.95,WorldPop + geopolitical constraint,631.5152654312859
+"Springbrook Creek, Australia",-24.8333,152.1167,Uniform baseline,426.9702014919737
+"Springbrook Creek, Australia",-24.8333,152.1167,WorldPop baseline,6818.601592232433
+"Springbrook Creek, Australia",-24.8333,152.1167,Uniform + geopolitical constraint,426.9702014919737
+"Springbrook Creek, Australia",-24.8333,152.1167,WorldPop + geopolitical constraint,5468.72878690451
+"Springer, OK",34.2853,-97.1317,Uniform baseline,1961.5187605135263
+"Springer, OK",34.2853,-97.1317,WorldPop baseline,7986.811106085109
+"Springer, OK",34.2853,-97.1317,Uniform + geopolitical constraint,1961.5187605135263
+"Springer, OK",34.2853,-97.1317,WorldPop + geopolitical constraint,643.2966723826474
+"St James, MN",44.0515,-94.5346,Uniform baseline,890.4753928823335
+"St James, MN",44.0515,-94.5346,WorldPop baseline,7066.974631389159
+"St James, MN",44.0515,-94.5346,Uniform + geopolitical constraint,890.4753928823335
+"St James, MN",44.0515,-94.5346,WorldPop + geopolitical constraint,466.46101714187967
+"St. John's, NL",47.5615,-52.7126,Uniform baseline,399.8525297279833
+"St. John's, NL",47.5615,-52.7126,WorldPop baseline,4139.307778951706
+"St. John's, NL",47.5615,-52.7126,Uniform + geopolitical constraint,399.8525297279833
+"St. John's, NL",47.5615,-52.7126,WorldPop + geopolitical constraint,1841.3381895385664
+"Sterling, VA",38.985,-77.4239,Uniform baseline,582.1947633320142
+"Sterling, VA",38.985,-77.4239,WorldPop baseline,6303.466219881242
+"Sterling, VA",38.985,-77.4239,Uniform + geopolitical constraint,1901.5222112942304
+"Sterling, VA",38.985,-77.4239,WorldPop + geopolitical constraint,570.0876258018595
+"Sullivan, ME",44.5314,-68.2022,Uniform baseline,1001.5726974304702
+"Sullivan, ME",44.5314,-68.2022,WorldPop baseline,5355.881715285638
+"Sullivan, ME",44.5314,-68.2022,Uniform + geopolitical constraint,1289.3818244716376
+"Sullivan, ME",44.5314,-68.2022,WorldPop + geopolitical constraint,623.4863398206184
+"Sunnyvale, CA",37.4117,-122.0217,Uniform baseline,1431.493152239886
+"Sunnyvale, CA",37.4117,-122.0217,WorldPop baseline,9119.564734286876
+"Sunnyvale, CA",37.4117,-122.0217,Uniform + geopolitical constraint,1431.493152239886
+"Sunnyvale, CA",37.4117,-122.0217,WorldPop + geopolitical constraint,1431.493152239886
+"Sunset, TX",33.4486,-97.7767,Uniform baseline,2006.6272458371168
+"Sunset, TX",33.4486,-97.7767,WorldPop baseline,8095.2900309773795
+"Sunset, TX",33.4486,-97.7767,Uniform + geopolitical constraint,2006.6272458371168
+"Sunset, TX",33.4486,-97.7767,WorldPop + geopolitical constraint,745.4443502196469
+"Surrency, GA",31.6829,-82.2697,Uniform baseline,1062.2104849331129
+"Surrency, GA",31.6829,-82.2697,WorldPop baseline,7043.194177942079
+"Surrency, GA",31.6829,-82.2697,Uniform + geopolitical constraint,2519.5656788380297
+"Surrency, GA",31.6829,-82.2697,WorldPop + geopolitical constraint,1474.9602172354596
+"Surubim, Brazil",-7.8311,-35.7531,Uniform baseline,4041.32230382019
+"Surubim, Brazil",-7.8311,-35.7531,WorldPop baseline,3778.520667538598
+"Surubim, Brazil",-7.8311,-35.7531,Uniform + geopolitical constraint,2766.5255001048736
+"Surubim, Brazil",-7.8311,-35.7531,WorldPop + geopolitical constraint,656.6379760796744
+"Sussex, NJ",41.2018,-74.5263,Uniform baseline,618.5942520025718
+"Sussex, NJ",41.2018,-74.5263,WorldPop baseline,5986.226487800702
+"Sussex, NJ",41.2018,-74.5263,Uniform + geopolitical constraint,1692.6781855253555
+"Sussex, NJ",41.2018,-74.5263,WorldPop + geopolitical constraint,333.6921294361464
+"Suva, Fiji",-18.1416,178.4419,Uniform baseline,3218.3447626331154
+"Suva, Fiji",-18.1416,178.4419,WorldPop baseline,7741.415076734576
+"Suva, Fiji",-18.1416,178.4419,Uniform + geopolitical constraint,3218.3447626331154
+"Suva, Fiji",-18.1416,178.4419,WorldPop + geopolitical constraint,7066.637488677279
+"Tapachula, Mexico",14.9032,-92.2577,Uniform baseline,3090.753248168984
+"Tapachula, Mexico",14.9032,-92.2577,WorldPop baseline,8887.2316460578
+"Tapachula, Mexico",14.9032,-92.2577,Uniform + geopolitical constraint,4102.487702294744
+"Tapachula, Mexico",14.9032,-92.2577,WorldPop + geopolitical constraint,691.8369136179783
+"Te Hana, NZ",-36.2667,174.55,Uniform baseline,2092.1764132380267
+"Te Hana, NZ",-36.2667,174.55,WorldPop baseline,9004.664888001576
+"Te Hana, NZ",-36.2667,174.55,Uniform + geopolitical constraint,2092.1764132380267
+"Te Hana, NZ",-36.2667,174.55,WorldPop + geopolitical constraint,7868.926142637258
+"Tea Gardens, Australia",-32.6667,152.15,Uniform baseline,1045.5037061152177
+"Tea Gardens, Australia",-32.6667,152.15,WorldPop baseline,7624.389672182522
+"Tea Gardens, Australia",-32.6667,152.15,Uniform + geopolitical constraint,1045.5037061152177
+"Tea Gardens, Australia",-32.6667,152.15,WorldPop + geopolitical constraint,6184.3392379934285
+"Thomaston, GA",32.9471,-84.2618,Uniform baseline,1173.1870893055632
+"Thomaston, GA",32.9471,-84.2618,WorldPop baseline,7143.816176127569
+"Thomaston, GA",32.9471,-84.2618,Uniform + geopolitical constraint,2320.2442557983195
+"Thomaston, GA",32.9471,-84.2618,WorldPop + geopolitical constraint,1308.2851276323636
+"Tionesta, CA",41.1811,-122.8747,Uniform baseline,1145.3931635815047
+"Tionesta, CA",41.1811,-122.8747,WorldPop baseline,8808.346623516725
+"Tionesta, CA",41.1811,-122.8747,Uniform + geopolitical constraint,1145.3931635815047
+"Tionesta, CA",41.1811,-122.8747,WorldPop + geopolitical constraint,1145.3931635815047
+"Toa Baja, PR",18.4441,-66.2545,Uniform baseline,1800.392779135531
+"Toa Baja, PR",18.4441,-66.2545,WorldPop baseline,6266.796922294863
+"Toa Baja, PR",18.4441,-66.2545,Uniform + geopolitical constraint,1800.392779135531
+"Toa Baja, PR",18.4441,-66.2545,WorldPop + geopolitical constraint,2983.8129965906237
+"Toonpan, Australia",-19.2833,146.75,Uniform baseline,540.1385265969378
+"Toonpan, Australia",-19.2833,146.75,WorldPop baseline,6042.213747007199
+"Toonpan, Australia",-19.2833,146.75,Uniform + geopolitical constraint,540.1385265969378
+"Toonpan, Australia",-19.2833,146.75,WorldPop + geopolitical constraint,4645.649480890102
+"Torrumbarry, Australia",-36.0333,144.5833,Uniform baseline,1086.935421832648
+"Torrumbarry, Australia",-36.0333,144.5833,WorldPop baseline,7759.74706002516
+"Torrumbarry, Australia",-36.0333,144.5833,Uniform + geopolitical constraint,615.9362071866705
+"Torrumbarry, Australia",-36.0333,144.5833,WorldPop + geopolitical constraint,6177.710926950157
+"Tracy City, TN",35.2595,-85.7369,Uniform baseline,1243.2231085018464
+"Tracy City, TN",35.2595,-85.7369,WorldPop baseline,7145.601079460279
+"Tracy City, TN",35.2595,-85.7369,Uniform + geopolitical constraint,2031.8174456602096
+"Tracy City, TN",35.2595,-85.7369,WorldPop + geopolitical constraint,1045.2758905490264
+"Tromsø, Norway",69.6496,18.956,Uniform baseline,2728.0281892495677
+"Tromsø, Norway",69.6496,18.956,WorldPop baseline,1733.3708306612862
+"Tromsø, Norway",69.6496,18.956,Uniform + geopolitical constraint,3338.384187664713
+"Tromsø, Norway",69.6496,18.956,WorldPop + geopolitical constraint,2539.9828340301283
+"Tucson, AZ",32.1701,-110.9577,Uniform baseline,1762.392077835179
+"Tucson, AZ",32.1701,-110.9577,WorldPop baseline,9005.17813662615
+"Tucson, AZ",32.1701,-110.9577,Uniform + geopolitical constraint,1762.392077835179
+"Tucson, AZ",32.1701,-110.9577,WorldPop + geopolitical constraint,1598.0635737322807
+"Tukwila, WA",47.5089,-122.2994,Uniform baseline,645.424933234558
+"Tukwila, WA",47.5089,-122.2994,WorldPop baseline,8196.7921837049
+"Tukwila, WA",47.5089,-122.2994,Uniform + geopolitical constraint,645.424933234558
+"Tukwila, WA",47.5089,-122.2994,WorldPop + geopolitical constraint,771.3119956164026
+"Tulelake, CA",41.644,-121.3293,Uniform baseline,1018.8809131878844
+"Tulelake, CA",41.644,-121.3293,WorldPop baseline,8694.355029906788
+"Tulelake, CA",41.644,-121.3293,Uniform + geopolitical constraint,1018.8809131878844
+"Tulelake, CA",41.644,-121.3293,WorldPop + geopolitical constraint,1018.8809131878844
+"Uruguaiana, Brazil",-29.7547,-57.0883,Uniform baseline,6444.758898227765
+"Uruguaiana, Brazil",-29.7547,-57.0883,WorldPop baseline,7012.759001959948
+"Uruguaiana, Brazil",-29.7547,-57.0883,Uniform + geopolitical constraint,4103.806327051865
+"Uruguaiana, Brazil",-29.7547,-57.0883,WorldPop + geopolitical constraint,814.7060658483854
+"Vernon, UT",40.09,-112.43,Uniform baseline,880.2190170077878
+"Vernon, UT",40.09,-112.43,WorldPop baseline,8392.941488762257
+"Vernon, UT",40.09,-112.43,Uniform + geopolitical constraint,880.2190170077878
+"Vernon, UT",40.09,-112.43,WorldPop + geopolitical constraint,880.2190170077878
+"Villahermosa, Mexico",17.9893,-92.9472,Uniform baseline,2871.373310747464
+"Villahermosa, Mexico",17.9893,-92.9472,WorldPop baseline,8752.839516649736
+"Villahermosa, Mexico",17.9893,-92.9472,Uniform + geopolitical constraint,3757.434404688945
+"Villahermosa, Mexico",17.9893,-92.9472,WorldPop + geopolitical constraint,391.1445523966155
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,Uniform baseline,836.6612619048411
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,WorldPop baseline,467.7345440064654
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,Uniform + geopolitical constraint,836.6612619048411
+"Villarejo de Salvanes, Spain",40.1667,-3.2667,WorldPop + geopolitical constraint,467.7345440064654
+Villenave d’Ornon,44.7738,-0.5595,Uniform baseline,912.4014851513087
+Villenave d’Ornon,44.7738,-0.5595,WorldPop baseline,500.8202021553022
+Villenave d’Ornon,44.7738,-0.5595,Uniform + geopolitical constraint,912.4014851513087
+Villenave d’Ornon,44.7738,-0.5595,WorldPop + geopolitical constraint,500.8202021553022
+"Virginia Beach, VA",36.7838,-76.0093,Uniform baseline,369.26946592965794
+"Virginia Beach, VA",36.7838,-76.0093,WorldPop baseline,6281.3495930106965
+"Virginia Beach, VA",36.7838,-76.0093,Uniform + geopolitical constraint,2157.664965317887
+"Virginia Beach, VA",36.7838,-76.0093,WorldPop + geopolitical constraint,802.4052145753661
+"Wagin, Australia",-33.3167,117.35,Uniform baseline,1274.7878389129498
+"Wagin, Australia",-33.3167,117.35,WorldPop baseline,6889.079385397415
+"Wagin, Australia",-33.3167,117.35,Uniform + geopolitical constraint,1274.7878389129498
+"Wagin, Australia",-33.3167,117.35,WorldPop + geopolitical constraint,4699.316786836204
+"Wailuku, HI",20.9005,-156.5046,Uniform baseline,2239.7847278922845
+"Wailuku, HI",20.9005,-156.5046,WorldPop baseline,7472.605710892733
+"Wailuku, HI",20.9005,-156.5046,Uniform + geopolitical constraint,2239.7847278922845
+"Wailuku, HI",20.9005,-156.5046,WorldPop + geopolitical constraint,4969.197556357691
+"Warra, Australia",-26.9833,150.9333,Uniform baseline,443.49416110229816
+"Warra, Australia",-26.9833,150.9333,WorldPop baseline,6994.092805785134
+"Warra, Australia",-26.9833,150.9333,Uniform + geopolitical constraint,443.49416110229816
+"Warra, Australia",-26.9833,150.9333,WorldPop + geopolitical constraint,5594.171964340462
+"Warren, MO",38.7728,-91.1643,Uniform baseline,1517.6368342124192
+"Warren, MO",38.7728,-91.1643,WorldPop baseline,7257.115007737662
+"Warren, MO",38.7728,-91.1643,Uniform + geopolitical constraint,1517.6368342124192
+"Warren, MO",38.7728,-91.1643,WorldPop + geopolitical constraint,437.3438738208107
+"Watkins, CO",39.7582,-104.617,Uniform baseline,1089.7349039549244
+"Watkins, CO",39.7582,-104.617,WorldPop baseline,7992.330451192577
+"Watkins, CO",39.7582,-104.617,Uniform + geopolitical constraint,1089.7349039549244
+"Watkins, CO",39.7582,-104.617,WorldPop + geopolitical constraint,735.5009213541045
+"Weehawken, NJ",40.7616,-74.0253,Uniform baseline,558.0737911673366
+"Weehawken, NJ",40.7616,-74.0253,WorldPop baseline,5962.570557138692
+"Weehawken, NJ",40.7616,-74.0253,Uniform + geopolitical constraint,1749.334001249808
+"Weehawken, NJ",40.7616,-74.0253,WorldPop + geopolitical constraint,394.90462254871426
+"Wellington, UT",39.5401,-110.6928,Uniform baseline,946.49590159776
+"Wellington, UT",39.5401,-110.6928,WorldPop baseline,8348.115195413124
+"Wellington, UT",39.5401,-110.6928,Uniform + geopolitical constraint,946.49590159776
+"Wellington, UT",39.5401,-110.6928,WorldPop + geopolitical constraint,946.49590159776
+"West Jordan, UT",40.6198,-111.9863,Uniform baseline,820.64151774836
+"West Jordan, UT",40.6198,-111.9863,WorldPop baseline,8323.419067224588
+"West Jordan, UT",40.6198,-111.9863,Uniform + geopolitical constraint,820.64151774836
+"West Jordan, UT",40.6198,-111.9863,WorldPop + geopolitical constraint,820.64151774836
+"Westbury, NY",40.7559,-73.5579,Uniform baseline,545.9617201876988
+"Westbury, NY",40.7559,-73.5579,WorldPop baseline,5925.575760480902
+"Westbury, NY",40.7559,-73.5579,Uniform + geopolitical constraint,1758.709342046276
+"Westbury, NY",40.7559,-73.5579,WorldPop + geopolitical constraint,412.7023473913292
+"Westminster, CO",39.8845,-105.0802,Uniform baseline,1057.901882054958
+"Westminster, CO",39.8845,-105.0802,WorldPop baseline,8008.20200493007
+"Westminster, CO",39.8845,-105.0802,Uniform + geopolitical constraint,1057.901882054958
+"Westminster, CO",39.8845,-105.0802,WorldPop + geopolitical constraint,773.8793259109914
+"Willemstad, Curaçao",12.1696,-68.99,Uniform baseline,2493.143249321718
+"Willemstad, Curaçao",12.1696,-68.99,WorldPop baseline,6616.132157587568
+"Willemstad, Curaçao",12.1696,-68.99,Uniform + geopolitical constraint,2493.143249321718
+"Willemstad, Curaçao",12.1696,-68.99,WorldPop + geopolitical constraint,3009.5856419470083
+"Wise, VA",36.977333,-82.528,Uniform baseline,946.938238702982
+"Wise, VA",36.977333,-82.528,WorldPop baseline,6802.649990622179
+"Wise, VA",36.977333,-82.528,Uniform + geopolitical constraint,1975.9207167979807
+"Wise, VA",36.977333,-82.528,WorldPop + geopolitical constraint,955.6109358159672
+"Wola Krobowska, Poland",50.35,20.55,Uniform baseline,2453.4973589304486
+"Wola Krobowska, Poland",50.35,20.55,WorldPop baseline,707.3049235983411
+"Wola Krobowska, Poland",50.35,20.55,Uniform + geopolitical constraint,2536.859561357359
+"Wola Krobowska, Poland",50.35,20.55,WorldPop + geopolitical constraint,707.3049235983411
+"Yamaguchi, Japan",34.1861,131.4706,Uniform baseline,5005.17874693925
+"Yamaguchi, Japan",34.1861,131.4706,WorldPop baseline,404.4525442310553
+"Yamaguchi, Japan",34.1861,131.4706,Uniform + geopolitical constraint,5635.069342985512
+"Yamaguchi, Japan",34.1861,131.4706,WorldPop + geopolitical constraint,760.8661469767618
