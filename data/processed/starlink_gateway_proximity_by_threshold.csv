@@ -1,0 +1,17 @@
+portfolio,threshold_km,share_pct
+Uniform baseline,500,5.2
+Uniform baseline,1000,34.0
+Uniform baseline,2000,74.0
+Uniform baseline,5000,93.60000000000001
+WorldPop baseline,500,2.4
+WorldPop baseline,1000,7.6
+WorldPop baseline,2000,9.2
+WorldPop baseline,5000,11.600000000000001
+Uniform + geopolitical constraint,500,5.6000000000000005
+Uniform + geopolitical constraint,1000,26.400000000000002
+Uniform + geopolitical constraint,2000,62.8
+Uniform + geopolitical constraint,5000,96.39999999999999
+WorldPop + geopolitical constraint,500,15.2
+WorldPop + geopolitical constraint,1000,57.599999999999994
+WorldPop + geopolitical constraint,2000,81.2
+WorldPop + geopolitical constraint,5000,92.4
